@@ -13,8 +13,8 @@ st.write('Project name: ', 'RAFFLES KSA - MUR - TD & SD')
 
 #-------------------------------------------------------------------------------------PHẦN ĐỌC DATA----------------------------------------------------------------------------------------
 df_time_sheet = pd.DataFrame(pd.read_csv("Logs-DB.csv"))
-df_task = pd.DataFrame(pd.read_csv('tbTask.csv'))
-df_project = pd.DataFrame(pd.read_csv('tbProject.csv'))
+df_task = pd.DataFrame(pd.read_csv("tbTask.csv"))
+df_project = pd.DataFrame(pd.read_csv("tbProject.csv"))
 
 df_time_sheet = df_time_sheet[['ProjectId', 'TaskId', 'UserId', 'ProjectRule', 'TSDate', 'TSHour' ]]
 df_task = df_task[['ProjectId', 'TaskId', 'TaskType']]
@@ -46,7 +46,7 @@ project_selection = st.multiselect("Project: ",
                                     )
 
 project_role = df_time_task2['ProjectRule'].unique().tolist()
-project_role2 = project_role + ['Select all']
+project_role2 = project_role
 role_selection = st.multiselect("Project Role: ",
                                 project_role2,
                                 default=project_role[0:2])
