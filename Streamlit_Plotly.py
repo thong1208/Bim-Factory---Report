@@ -7,7 +7,6 @@ from  plotly.subplots  import  make_subplots
 #------------------------------------------------------------------------------------PHẦN TIÊU ĐỀ WEB-------------------------------------------------------------------------------------
 st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='Bim Factory - Report')
 st.title('BIM Fee for Raffles MUR TD & SD')
-st.write('Project name: ', 'RAFFLES KSA - MUR - TD & SD')
 
 #-------------------------------------------------------------------------------------PHẦN ĐỌC DATA----------------------------------------------------------------------------------------
 df_time_sheet = pd.DataFrame(pd.read_csv("Logs-DB.csv"))
