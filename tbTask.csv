@@ -1,0 +1,1152 @@
+TaskId,ProjectId,TaskCode,TaskDiscipline,TaskType,SubTask,Name,Detail,UserIds,StartDate,TargetDate,FinishedDate,Hours,Modified,AutoLoad
+3745,TBF-000-LEAVE,OTH-OTH-T,Other,Others,Others,TBF Activity,,,2022-01-01,2100-01-01,,0,,
+3748,TBF-000-LEAVE,OTH-OTH-A,Other,Other,Other,Annual Leave,,,2022-01-01,2100-01-01,,0,,
+3749,TBF-000-LEAVE,OTH-OTH-U,Other,Other,Other,Unpaid Leave,,,2022-01-01,2100-01-01,,0,,
+3750,TBF-000-LEAVE,OTH-OTH-S,Other,Other,Other,Sick Leave,,,2022-01-01,2100-01-01,,0,,
+3751,TBF-000-LEAVE,OTH-OTH-M,Other,Other,Other,Maternity Leave,,,2022-01-01,2100-01-01,,0,,
+3752,TBF-000-LEAVE,OTH-OTH-P,Other,Other,Other,Paternity Leave,,,2022-01-01,2100-01-01,,0,,
+3754,TBF-000-LEAVE,OTH-OTH-C,Other,Other,Other,Compassionate Leave,,,2022-01-01,2100-01-01,,0,,
+3755,TBF-000-LEAVE,OTH-OTH-O,Other,Other,Other,Other Leave,,,1/1/2022,1/1/2100,,0,,
+4603,PRO-138-KAP,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,0.1 Review & Setup project,,"(176),(231),(109)",########,########,########,0,,########
+4604,PRO-138-KAP,ARC-MOD-NEWM,Architecture,Modelling,New Model,02. Model 3D,,"(176),(231),(109),(240)",########,########,########,0,,########
+4605,PRO-138-KAP,ARC-MOD-NEWM,Architecture,Modelling,New Model,03. Document 2D,,"(176),(231),(109),(240)",########,########,########,0,,########
+4606,PRO-139-PRIMAL GYM,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. Review & Setup Project,,"(231),(258),(208),(274),(221),(191),(109),(247),(176),(232),(234),(240),(257)",########,########,,0,,########
+4607,PRO-139-PRIMAL GYM,ARC-MOD-NEWM,Architecture,Modelling,New Model,02. 3D Model,,"(231),(258),(208),(274),(221),(191),(109),(247),(176),(232),(234),(240),(257),(228),(225),(279),(283)",########,########,,0,,########
+4608,PRO-139-PRIMAL GYM,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,03. 2D Documentation,,"(231),(258),(208),(274),(221),(191),(109),(247),(176),(232),(234),(240),(257),(225),(228),(279),(283),(242)",########,########,,0,,########
+4609,PRO-139-PRIMAL GYM,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,04. Project Management & QA,,,4/1/2022,4/8/2022,,0,,########
+4610,PRO-137-ADT-001,RND-RDT-STDM-01,RnD,Tools For Revit,Standardize Model,Programming - Create a new Generate window,"call this new window class â€œGenerateModelOptionViewâ€.
+ 
+ use the existing â€œWallTypeOptionViewâ€ view, view model and model classes as a base for this task.",-194,########,########,2022-04-03,0,,########
+4611,PRO-137-ADT-001,RND-RDT-STDM-02,RnD,Tools For Revit,Standardize Model,Programming - modify Revit Dodge ribbon buttons,donâ€™t change â€œdebugâ€ panel,-194,########,########,2022-04-03,0,,########
+4612,PRO-137-ADT-001,RND-RDT-STDM-03,RnD,Tools For Revit,Standardize Model,reroute all existing ribbon button commands by using new UI window,reroute all existing ribbon button commands by using new UI window,-194,########,########,3/4/2022,0,,########
+4613,PRO-137-ADT-001,RND-RDT-STDM-04,RnD,Tools For Revit,Standardize Model,Screws Generator,,-194,3/4/2022,########,########,0,,########
+4614,PRO-137-ADT-001,RND-RDT-STDM-05,RnD,Tools For Revit,Standardize Model,Set Work Element Parameter,,-194,########,########,########,0,,########
+4615,PRO-137-ADT-001,RND-RDT-STDM-06,RnD,Tools For Revit,Standardize Model,Footing Etc,,-194,########,########,########,0,,########
+4616,PRO-137-ADT-001,RND-RDT-STDM-07,RnD,Tools For Revit,Standardize Model,Stem Wall,,-194,########,########,########,0,,########
+4617,PRO-137-ADT-001,RND-RDT-STDM-08,RnD,Tools For Revit,Standardize Model,Rebar Footing,DODMVP-229-Test,-194,########,2022-01-04,########,0,,########
+4618,PRO-137-ADT-001,RND-RDT-STDM-09,RnD,Tools For Revit,Standardize Model,Output csv file from stem wall panels,,-194,2022-05-04,2022-05-04,2022-05-04,5,,########
+4619,PRO-137-ADT-001,RND-RDT-STDM-10,RnD,Tools For Revit,Standardize Model,Fix brick in second row of stemWall,,-194,2022-06-04,4/6/2022,4/6/2022,5,,########
+4620,PRO-137-ADT-001,RND-RDT-STDM-11,RnD,Tools For Revit,Standardize Model,Create Rebar Footing,DODMVP-215,-194,4/7/2022,########,########,10,,########
+4621,PRO-137-ADT-001,RND-RDT-STDM-12,RnD,Tools For Revit,Standardize Model,Pilaster etc,DODMVP-264,-194,########,########,########,10,,########
+4622,PRO-137-ADT-001,RND-RDT-STDM-13,RnD,Tools For Revit,Standardize Model,Stem wall rebar and ties,"DODMVP-302
+ https://aditazz.atlassian.net/browse/DODMVP-302",-194,########,########,########,10,,########
+4623,PRO-137-ADT-001,RND-RDT-STDM-14,RnD,Tools For Revit,Standardize Model,Fotting formwork generator,"DODMVP-325
+ https://aditazz.atlassian.net/browse/DODMVP-325",-194,########,########,########,10,,########
+4624,PRO-137-ADT-001,RND-RDT-STDM-15,RnD,Tools For Revit,Standardize Model,horizontal grout incorrect for A-size building,"DODMVP-324
+ https://aditazz.atlassian.net/browse/DODMVP-324",-194,########,########,########,10,,########
+4625,PRO-137-ADT-001,RND-RDT-STDM-16,RnD,Tools For Revit,Standardize Model,stem wall rebar missing for A-size building,"DODMVP-334
+ https://aditazz.atlassian.net/browse/DODMVP-334",-194,########,########,########,10,,########
+4626,PRO-137-ADT-001,RND-RDT-STDM-17,RnD,Tools For Revit,Standardize Model,"make all rebar ""solid""","DODMVP-333
+ https://aditazz.atlassian.net/browse/DODMVP-333",-194,########,########,########,10,,########
+4627,PRO-137-ADT-001,RND-RDT-STDM-18,RnD,Tools For Revit,Standardize Model,generate the excavation element,"DODMVP-337
+ https://aditazz.atlassian.net/browse/DODMVP-337",-194,########,########,########,10,,########
+4628,PRO-137-ADT-001,RND-RDT-STDM-19,RnD,Tools For Revit,Standardize Model,"put footing formwork (plywood, stakes, nails, and group) in the FORMWORK workset","DODMVP-341
+ https://aditazz.atlassian.net/browse/DODMVP-341",-194,########,########,########,10,,########
+4629,PRO-137-ADT-001,RND-RDT-STDM-20,RnD,Tools For Revit,Standardize Model,stem wall horizontal rebar revisited,"DODMVP-342
+ https://aditazz.atlassian.net/browse/DODMVP-342",-194,########,########,########,10,,########
+4630,PRO-137-ADT-001,RND-RDT-STDM-21,RnD,Tools For Revit,Standardize Model,without pilasters (just the slab),"DODMVP-360
+ https://aditazz.atlassian.net/browse/DODMVP-360",-194,2022-04-05,5/4/2022,5/4/2022,10,,########
+4631,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,SPIKE: investigate how to automate creation of wire diagram in Revit,"DODMVP-321
+ https://aditazz.atlassian.net/browse/DODMVP-321",-194,2022-04-05,########,########,10,,########
+4632,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,1st stake needs to be deleted when corner is turned convexly,"DODMVP-365
+ https://aditazz.atlassian.net/browse/DODMVP-365",-194,2022-05-05,2022-05-05,2022-05-05,10,,########
+4633,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,RL bar length adjustments,"DODMVP-367
+ https://aditazz.atlassian.net/browse/DODMVP-367",-194,5/6/2022,5/6/2022,5/6/2022,10,,########
+4634,PRO-000-ADT-001,RND-RDS-STDM-01,RnD,Software Development,Standardize Model,Programming Test,,"(212),(213),(194)",########,########,########,0,,########
+4635,PRO-000-ADT-001,STR-AST-STDM-01,Structure,AssetData,Standardize Model,Revit Family Test,,"(212),(213),(194),(209)",########,########,2022-07-01,0,,########
+4636,PRO-132-ARSPAR-01,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. QC,,"(216),(221)",########,########,,0,,########
+4637,PRO-124-ATL-01,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,00_Management/QC,,"(88),(61),(169)",########,########,########,0,,########
+4638,PRO-124-ATL-01,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,01. Level 03 - Rooms,,"(169),(215),(219),(196),(206),(226),(151),(223),(205),(170),(207),(218),(229),(191),(225),(228)",########,########,########,0,,########
+4639,PRO-124-ATL-01,ARC-2DD-NEWM-02,Architecture,2D Documentation,New Model,02. Level 04 - Rooms,,"(151),(205),(170),(219),(223),(207),(218),(225),(229),(228),(196),(206),(226),(191),(169)",########,########,########,0,,########
+4640,PRO-124-ATL-01,ARC-2DD-NEWM-03,Architecture,2D Documentation,New Model,03. Level 05 - Rooms,,"(218),(229),(151),(205),(170),(196),(219),(207),(223),(228),(225),(206),(191)",########,########,########,0,,########
+4641,PRO-124-ATL-01,ARC-2DD-MGMT-01,Architecture,2D Documentation,Project Management,01.A Level 03 - QC,,"(169),(61),(205),(151)",########,########,########,0,,########
+4642,PRO-124-ATL-01,ARC-2DD-MGMT-02,Architecture,2D Documentation,Project Management,02.A Level 04 - QC,,"(169),(61),(205),(151)",########,########,########,0,,########
+4643,PRO-124-ATL-01,ARC-2DD-MGMT-03,Architecture,2D Documentation,Project Management,03.A Level 05 - QC,,"(169),(61),(205),(151)",########,########,########,0,,########
+4644,PRO-124-ATL-01,ARC-2DD-MGMT-04,Architecture,2D Documentation,Project Management,04.A Level 06 - QC,,"(169),(61),(205),(151)",########,########,########,0,,########
+4645,PRO-124-ATL-01,ARC-2DD-NEWM-04,Architecture,2D Documentation,New Model,04. Level 06 - Rooms,,"(218),(229),(205),(151),(219),(196),(170),(223),(228),(225),(207),(206),(191)",########,########,########,0,,########
+4646,PRO-124-ATL-01,ARC-2DD-NEWM-05,Architecture,2D Documentation,New Model,05. Level 07 - Rooms,,"(229),(218),(205),(151),(196),(170),(223),(228),(225),(207),(219),(206),(191)",########,2021-01-07,########,0,,########
+4647,PRO-124-ATL-01,ARC-2DD-NEWM-06,Architecture,2D Documentation,New Model,06. Level 08 - Rooms,,"(225),(207),(229),(228),(218),(219),(196),(170),(205),(223),(151),(206)",########,2021-02-07,########,0,,########
+4648,PRO-124-ATL-01,ARC-2DD-MGMT-05,Architecture,2D Documentation,Project Management,05.A Level 07 - QC,,"(169),(61),(205),(151)",########,2021-02-07,########,0,,########
+4649,PRO-124-ATL-01,ARC-2DD-NEWM-07,Architecture,2D Documentation,New Model,07. Level 09 - Rooms,,"(151),(196),(170),(205),(225),(207),(229),(223),(219),(218),(228)",2021-01-07,2021-04-07,########,0,,########
+4650,PRO-124-ATL-01,ARC-2DD-NEWM-08,Architecture,2D Documentation,New Model,08. Level 01 - Rooms,,"(151),(170),(196),(205),(207),(218),(219),(223),(225),(228),(229)",2021-05-07,2021-06-07,########,0,,########
+4651,PRO-124-ATL-01,ARC-2DD-NEWM-09,Architecture,2D Documentation,New Model,09. Level 02 - Rooms,,"(151),(170),(196),(205),(207),(218),(219),(223),(225),(228),(229)",7/5/2021,2021-06-07,########,0,,########
+4652,PRO-124-ATL-01,ARC-2DD-NEWM-10,Architecture,2D Documentation,New Model,06.A Level 08 - QC,,"(151),(205),(61),(169)",########,2021-01-07,########,20,,########
+4653,PRO-124-ATL-01,ARC-2DD-NEWM-11,Architecture,2D Documentation,New Model,07.A Level 09 - QC,,"(151),(205),(61),(169)",2021-01-07,2021-09-07,########,20,,########
+4654,PRO-124-ATL-01,ARC-2DD-NEWM-12,Architecture,2D Documentation,New Model,08.A Level 01 - QC,,"(151),(205),(61),(169)",2021-06-07,2021-09-07,########,20,,########
+4655,PRO-124-ATL-01,ARC-2DD-NEWM-13,Architecture,2D Documentation,New Model,09.A Level 02 - QC,,"(151),(205),(61),(169)",2021-06-07,2021-09-07,########,20,,########
+4656,PRO-124-ATL-01,ARC-2DD-STDM-01,Architecture,2D Documentation,Standardize Model,10. Revise Tag,,"(223),(207),(218),(219)",2021-09-07,7/9/2021,########,0,,########
+4657,PRO-124-ATL-01,RND-RDT-MGMT-01,RnD,Tools For Revit,Project Management,Develop Revit Tools for ATL | Flyndlers Univ,"1. Create View Sheets per room
+ 2. Auto extend elevation/ crop views","(212),(213)",6/7/2021,########,########,50,,########
+4658,PRO-125-ATX,STR-MOD-MDLU-01,Structure,Modelling,Model Upgrade,01. Disneyland project - Steel work - Upgrade 3D model and 2D documentation,,"(227),(237)",########,########,########,0,,########
+4659,PRO-125-ATX,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. Aicard Trulin project - Asbuilt modelling - Create 3D model from Point cloud,,-209,########,########,########,0,,########
+4660,PRO-126-BIMSYSTEMS-01,OTH-PJM-MGMT-01,Others,Project Management,Project Management,01. DOCUMENTATION - BIMSYSTEM,,"(188),(206),(73),(151),(170)",8/2/2021,8/5/2021,########,0,,########
+4661,PRO-143-CMV,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. 3D Model Update,,,########,########,,0,,########
+4662,PRO-143-CMV,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,01. Review & Setup Project,,"(169),(231),(242),(262),(0),(274),(279),(275)",########,########,,0,,########
+4663,PRO-143-CMV,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,02. 3D Model Update,,"(169),(231),(242),(262),(0),(274),(279),(275)",########,########,,0,,########
+4664,PRO-143-CMV,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,02. 2D Documentation,,,########,########,,0,,########
+4665,PRO-143-CMV,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,03. Project Management & QA,,,########,########,,0,,########
+4666,PRO-142-CUBE-01,OTH-QTO-STDM-01,Others,Quantity Take Off,Standardize Model,BOQ checking between Contractors for construction materials,BOQ checking between Contractors for construction materials,"(205),(73),(209),(170)",########,########,########,0,,########
+4667,PRO-142-CUBE-01,MEC-QTO-STDM-01,MEP,Quantity Take Off,Standardize Model,Package 03 - BOQ Review,,"(225),(170),(228)",4/4/2022,4/7/2022,########,0,,########
+4668,PRO-122-DK-01,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,02-Modelling external,,"(183),(191),(176),(109)",########,########,########,0,,########
+4669,PRO-122-DK-01,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,01-Concept Study,,"(176),(183),(191)",########,########,########,0,,########
+4670,PRO-122-DK-01,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,03-Modelling internal,,"(183),(191),(176)",########,########,########,0,,########
+4671,PRO-122-DK-01,MEP-MOD-NEWM-01,MEP,Modelling,New Model,MEP Modeling,,"(217),(176),(208),(151),(196),(170)",########,########,########,0,,########
+4672,PRO-122-DK-01,MEP-MOD-NEWM-02,MEP,Modelling,New Model,MEP QC,,"(217),(176),(208),(151),(196),(170)",########,########,########,0,,########
+4673,PRO-122-DK-01,ARC-3DV-NEWM-01,Architecture,3D Visualization,New Model,04-3D Views Rendering,,"(183),(191),(176)",########,########,########,0,,########
+4674,PRO-122-DK-01,ARC-3DV-NEWM-02,Architecture,3D Visualization,New Model,05-2D Master Plan,,"(183),(191),(176)",########,########,########,0,,########
+4675,PRO-122-DK-01,ARC-CRD-MGMT-01,Architecture,Coordination,Project Management,06-QA,,"(183),(191),(176),(224)",########,########,########,0,,########
+4676,PRO-122-DK-01,ARC-2DD-STDM-01,Architecture,2D Documentation,Standardize Model,2D Documentation for contruction,,"(217),(176),(208)",2021-06-07,########,########,0,,########
+4677,PRO-000-TBF,MEP-PJM-NEWM-01,MEP,Project Management,New Model,05. General MEP Task,,"(187),(149)",1/1/2021,########,,0,,########
+4678,PRO-000-TBF,MEP-OTH-STDM-01,MEP,Others,Standardize Model,05. General MEP Task,,"(151),(223),(219),(196),(207),(220),(170),(205),(218),(225),(228),(229),(270),(271)",########,########,,0,,########
+4679,PRO-000-TBF,MEP-OTH-STDM,MEP,Others,Standardize Model,06. PDM Standardization & Training,,"(151),(225),(228),(170),(149),(187),(212),(270),(271),(278),(277),(282)",########,########,,0,,########
+4680,133-PRO-HKIA POOL,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,01. Review,,"(183),(182),(231),(229),(218)",########,########,########,0,,########
+4681,133-PRO-HKIA POOL,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,02.Model Pool,,"(183),(182),(231),(232),(188),(235),(237),(205),(229),(218),(245)",########,########,########,0,,########
+4682,133-PRO-HKIA POOL,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,03.Electrical & Lighting,,"(183),(182),(231),(232),(188),(235),(237),(205),(229),(218),(245)",########,########,########,0,,########
+4683,133-PRO-HKIA POOL,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,04.Model ARC,,"(183),(182),(231),(232),(188),(235),(237),(205),(229),(218),(245)",########,########,########,0,,########
+4684,133-PRO-HKIA POOL,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,05.2D Documents,,"(183),(182),(231),(232),(188),(235),(237),(205),(229),(218),(221),(176),(210),(220),(191),(245),(242)",########,########,########,0,,########
+4685,PRO-118-TBF_A,ARC-OTH-MGMT-01,Architecture,Others,Project Management,Review input data and Generate RFIs,,-185,2021-05-03,3/5/2021,########,0,,########
+4686,PRO-118-TBF_A,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Families Creation,#NAME?,"(109),(176),(185)",2021-08-03,########,########,32,,########
+4687,PRO-118-TBF_A,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,Project Training,,"(109),(176),(185)",2021-08-03,########,########,0,,########
+4688,PRO-118-TBF_A,ARC-MOD-STDM-02,Architecture,Modelling,Standardize Model,QC Model,,-185,2021-08-03,########,########,0,,########
+4689,PRO-118-TBF_A,ARC-MOD-STDM-03,Architecture,Modelling,Standardize Model,Warehouse Modelling,#NAME?,"(185),(176),(109)",2021-08-03,########,########,0,,########
+4690,PRO-118-TBF_A,ARC-MOD-STDM-04,Architecture,Modelling,Standardize Model,Power Station Modelling,#NAME?,"(109),(185),(176)",2021-08-03,########,########,0,,########
+4691,PRO-118-TBF_A,ARC-MOD-STDM-05,Architecture,Modelling,Standardize Model,Infrastructure Modelling,#NAME?,"(185),(109),(176)",3/8/2021,########,########,0,,########
+4692,PRO-118-TBF_A,ARC-MTN-MGMT-01,Architecture,Meeting - Non Billable,Project Management,00-Internal Meeting,,-224,########,########,########,0,,########
+4693,PRO-118-TBF_A,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project Management,_ Schedule Project Timeline,"(185),(73)",2021-08-03,########,########,0,,########
+4694,PRO-118-TBF_A,ARC-PJM-MGMT-02,Architecture,Project Management,Project Management,00-Check Resoure/Worload/Management/Training for Leader/Review model,,-224,2021-01-03,########,########,0,,########
+4695,PRO-118-TBF_M,MEP-PJM-MGMT-01,MEP,Project Management,Project Management,Warehouse A6 Project Management,Warehouse A6 + Plantroom MEP LOD 300 Modelling,-187,3/8/2021,########,########,20,,########
+4696,PRO-118-TBF_M,MEP-MOD-NEWM-01,MEP,Modelling,New Model,Warehouse A6 MEP LOD 300 Modelling,Warehouse A6 MEP LOD 300 Modelling,"(151),(196),(198),(207)",########,########,########,288,,########
+4697,PRO-118-TBF_M,MEP-MOD-NEWM-02,MEP,Modelling,New Model,Warehouse A6 MEP Family Creation,Warehouse A6 MEP Family Creation,"(151),(196),(198),(207)",2021-08-03,########,########,64,,########
+4698,PRO-118-TBF_M,MEP-MOD-NEWM-03,MEP,Modelling,New Model,Warehouse A6 Infrastructure MEP Modelling,Warehouse A6 Infrastructure MEP Modelling,"(151),(196),(198)",3/9/2021,########,########,24,,########
+4699,PRO-118-TBF_M,MEP-MOD-NEWM-04,MEP,Modelling,New Model,Warehouse A6 Plantroom MEP LOD 300 Modelling,Warehouse A6 Plantroom MEP LOD 300 Modelling,"(219),(196),(151)",########,########,########,24,,########
+4700,PRO-118-TBF_S,STR-PJM-MGMT-01,Structure,Project Management,Project Management,QC and coordination project,QC and coordination project,"(140),(209)",2021-05-03,########,########,100,,########
+4701,PRO-118-TBF_S,STR-PJM-MGMT-02,Structure,Project Management,Project Management,Project management,Project management,"(214),(140)",3/8/2021,########,########,50,,########
+4702,PRO-118-TBF_S,STR-MOD-NEWM-01,Structure,Modelling,New Model,Infrastructure work (Create 3D Model Manhole),Infrastructure work (Create 3D Model Manhole),"(139),(184)",########,########,########,64,,########
+4703,PRO-118-TBF_S,STR-MOD-NEWM-02,Structure,Modelling,New Model,Families Creation,Families Creation,"(199),(209),(139)",2021-08-03,2021-08-03,########,24,,########
+4704,PRO-118-TBF_S,STR-MOD-NEWM-03,Structure,Modelling,New Model,Training Family,Training Family,"(206),(200)",2021-05-03,2021-05-03,3/8/2021,16,,########
+4705,PRO-118-TBF_S,STR-MOD-NEWM-04,Structure,Modelling,New Model,"STR Concrete work (Structure Floor, Colunm, Dock Leveler Slab and Stair)","STR Concrete work (Structure Floor, Colunm, Dock Leveler Slab and Stair)","(139),(184),(140)",2021-08-03,3/9/2021,########,32,,########
+4706,PRO-118-TBF_S,STR-MOD-NEWM-05,Structure,Modelling,New Model,STR Steel work (Create 3D Steel Framing),STR Steel work (Create 3D Steel Framing),"(209),(199),(140)",3/9/2021,########,########,69,,########
+4707,PRO-118-TBF_S,STR-MOD-NEWM-06,Structure,Modelling,New Model,STR Concrete work (Power Station),STR Concrete work (Power Station),-139,########,########,########,1,,########
+4708,PRO-118-TBF_S,STR-MOD-NEWM-07,Structure,Modelling,New Model,STR Steel work (Create 3D Wall Framing),STR Steel work (Create 3D Wall Framing),"(199),(184),(139),(209),(140)",########,########,########,32,,########
+4709,PRO-118-TBF_S,STR-MOD-NEWM-08,Structure,Modelling,New Model,Infrastructure work (Create 3D Model Road),Infrastructure work (Create 3D Model Road),-184,########,########,########,8,,########
+4710,PRO-118-TBF_S,STR-MOD-NEWM-09,Structure,Modelling,New Model,STR Steel work (Create 3D Roof Framing),STR Steel work (Create 3D Roof Framing),"(199),(139),(209)",########,########,########,20,,########
+4711,PRO-118-TBF_S,STR-MOD-NEWM-10,Structure,Modelling,New Model,STR Steel work (Create 3D Canopy),STR Steel work (Create 3D Canopy),"(139),(140)",########,########,########,2,,########
+4712,PRO-118-TBF_S,STR-AST-NEWM-01,Structure,AssetData,New Model,Review input data and Generate RFIs,Review input data and Generate RFIs,"(139),(140),(209),(184),(199)",3/4/2021,3/5/2021,3/8/2021,40,,########
+4713,PRO-135-IP-01-955,OTH-MOD-NEWM-01,Others,Modelling,New Model,01. Create ASMEPF model from Point cloud,,-112,########,########,########,0,,########
+4714,PRO-135-IP-01-955,OTH-PJM-MGMT-01,Others,Project Management,Project Management,02. Project management and QC,,-73,########,########,########,0,,########
+4715,PRO-116-IPP-02,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. 3D Model,,"(221),(257),(241),(176),(240),(258),(274)",2022-01-04,########,,0,,########
+4716,PRO-116-IPP-02,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,02. 2D Documentation,,"(221),(257),(231),(241),(176),(274),(258),(240)",2022-01-04,########,,0,,########
+4717,PRO-116-IPP-02,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,03. Project Management & QA,,,4/1/2022,4/8/2022,,0,,########
+4718,PRO-138-KAP-04,STR-MOD-NEWM-01,Structure,Modelling,New Model,01. Model 3D - STR,,"(206),(227),(260),(259)",########,########,########,0,,########
+4719,PRO-138-KAP-04,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,02. Model 3D - ARC,,"(206),(227),(260),(259)",########,########,########,0,,########
+4720,PRO-138-KAP-04,OTH-AUD-STDM-01,Others,Model Auditing,Standardize Model,03. QC and Management,,"(206),(227)",########,########,########,0,,########
+4721,PRO-111-IB-16_A,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,Create module breakdown color drawing for level 1 and level 2,,"(215),(192)",########,########,########,0,,########
+4722,PRO-111-IB-16_A,ARC-2DD-NEWM-02,Architecture,2D Documentation,New Model,2D Documentation - New iBuilt Model,,"(176),(208),(215),(169),(216),(210),(185),(192),(109),(190),(183),(182),(221)",########,########,########,0,,########
+4723,PRO-111-IB-16_A,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Create Families,,"(215),(182),(169),(183)",########,########,########,0,,########
+4724,PRO-111-IB-16_A,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,Update typical module,,"(109),(190),(169),(191),(210),(183),(185),(216)",2021-01-02,2021-01-02,2/1/2021,0,,########
+4725,PRO-111-IB-16_A,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Architecture Modeling,,"(191),(185),(215),(192),(109),(169),(190),(183),(210),(182),(216)",2021-03-02,2021-09-02,########,0,,########
+4726,PRO-111-IB-16_M,MEP-MOD-NEWM-01,MEP,Modelling,New Model,MEPF Modelling and Coordination,,"(151),(166),(196),(170),(219),(198),(207),(223)",2021-02-02,2021-05-02,########,336,,########
+4727,PRO-111-IB-16_M,MEP-2DD-NEWM-01,MEP,2D Documentation,New Model,MEPF 2D Documentation,,"(151),(166),(170),(196),(198),(219),(207),(223)",2021-02-02,2021-05-02,########,336,,########
+4728,PRO-111-IB-16_M,MEP-PJM-MGMT-01,MEP,Project Management,Project Management,Project Management,,"(187),(149)",2/2/2021,2/5/2021,########,28,,########
+4729,PRO-111-IB-16_S,STR-MOD-NEWM-01,Structure,Modelling,New Model,Develop new families,"Develop new families combine STR and ARC ( include wall, floor, ceiling)
+ 
+ Deadline 29/1/2021","(188),(206),(200),(140),(139),(203),(199),(209),(112),(184)",########,########,2021-04-02,200,,########
+4730,PRO-111-IB-16_S,STR-MOD-NEWM-02,Structure,Modelling,New Model,Develop new a prototype module,Develop new a prototype module,"(188),(203),(112),(139),(199),(184)",########,########,2/4/2021,20,,########
+4731,PRO-111-IB-16_S,STR-MOD-STDM-01,Structure,Modelling,Standardize Model,Update Family,Update Generic Structural Family,"(200),(209),(206)",2/4/2021,2/4/2021,########,40,,########
+4732,PRO-111-IB-16_S,STR-MOD-NEWM-08,Structure,Modelling,New Model,Create 3D Model Based on the New Arch Layout,Place Structure Family to create 3D structural Model,"(203),(139),(206)",########,########,########,80,,########
+4733,PRO-111-IB-16_S,STR-MOD-NEWM-09,Structure,Modelling,New Model,Create 3D Model Based on the New Arch Layout,Place Structure Family to create 3D structural Model,"(206),(203),(200),(209)",########,########,3/8/2021,160,,########
+4734,PRO-111-IB-16_S,STR-PJM-MGMT-01,Structure,Project Management,Project Management,Quality control of Lake Placid Project,Quality control of Lake Placid Project,-214,########,########,########,200,,########
+4735,PRO-111-IB-16_S,STR-PJM-MGMT-02,Structure,Project Management,Project Management,QC drawings,QC drawings,"(140),(188)",2021-02-02,########,2021-09-03,500,,########
+4736,PRO-111-IB-16_S,STR-2DD-NEWM-02,Structure,2D Documentation,New Model,Update new standard Stair,Update new standard detail,"(139),(112),(140)",2021-02-02,2/2/2021,2021-03-02,8,,########
+4737,PRO-111-IB-16_S,STR-2DD-NEWM-03,Structure,2D Documentation,New Model,2D Drawing Overall Plan,2D Drawing Overall Plan,"(139),(112),(184),(199),(203),(140),(200),(206)",2021-02-02,########,2021-09-03,200,,########
+4738,PRO-111-IB-16_S,STR-2DD-NEWM-04,Structure,2D Documentation,New Model,Create 2D Document,Create 2D Document reflect Sleeve,"(203),(112)",2/4/2021,########,2021-09-03,20,,########
+4739,PRO-111-IB-16_S,STR-OTH-NEWM-01,Structure,Others,New Model,Training,Training,"(139),(112),(199),(184),(206),(203),(209),(200)",########,########,2021-09-03,100,,########
+4740,PRO-110-ICM-01,MEC-2DD-STDM-01,MEP,2D Documentation,Standardize Model,2D Documentation - HVAC,2D Documentation HVAC- Construction Phase,"(155),(157),(196),(205),(197),(202),(212),(220),(207),(223),(180)",########,########,2021-03-05,593,,########
+4741,PRO-110-ICM-01,ELE-2DD-STDM-01,MEP,2D Documentation,Standardize Model,2D Documentation - Electrical,2D Documentation - Construction Level - Electrical,"(151),(166),(219),(218),(157),(205),(197),(202),(220),(212),(207),(223),(180),(155),(225),(198)",########,########,2021-03-05,1004,,########
+4742,PRO-110-ICM-01,PLU-2DD-STDM-01,MEP,2D Documentation,Standardize Model,2D Documentation - P&D,2D Documentation - Construction Level P&D,"(155),(157),(170),(198),(205),(197),(202),(220),(212),(207),(223),(180),(218),(166),(225)",########,########,5/3/2021,204,,########
+4743,PRO-110-ICM-01,MEP-2DD-NEWM-01,MEP,2D Documentation,New Model,Stage 2 - 2D Documentation,2D Documentation HVAC- Construction Phase,"(155),(157),(196),(205),(197),(202),(212),(220),(207),(223),(180),(229),(203),(218)",########,########,########,593,,########
+4744,PRO-110-ICM-01,MEP-OTH-MGMT-01,MEP,Others,Project Management,QC - QA MEP 2D Documentation,,"(149),(187),(212)",########,########,########,319,,########
+4745,PRO-110-ICM-01,MEP-OTH-STDM-01,MEP,Others,Standardize Model,Comparison Check between Old and new MEP PDFs,,"(202),(197),(220),(212)",########,########,2021-08-02,50,,########
+4746,PRO-110-ICM-01,MEP-OTH-NEWM-01,MEP,Others,New Model,Builder's Works Opening Model & Documentation - Zone 1,Zone 1 For now,"(202),(212),(220),(180),(197),(155),(205),(207),(218),(198),(166),(196),(170),(219),(151),(223)",2/8/2021,########,5/3/2021,0,,########
+4747,PRO-110-ICM-01,MEP-OTH-NEWM-02,MEP,Others,New Model,"General Notes, Schematics and Miscellaneous Details","General Notes, Schematics and Miscellaneous Details","(151),(219),(207),(198),(170),(196),(223)",########,########,########,240,,########
+4748,PRO-110-ICM-01,MEP-OTH-STDM-02,MEP,Others,Standardize Model,Cable Sizing Update,as per eric's requirement 2021.06.30 calculate & Verify cable,"(212),(220)",########,7/3/2021,########,0,,########
+4749,PRO-110-ICM-01,MEP-PJM-MTGS-01,MEP,Project Management,Meetings,Project Meetings,,"(187),(212),(155)",########,########,2021-03-05,0,,########
+4750,PRO-110-ICM-01,MEP-MTB-MTGS-01,MEP,Meeting - Billable,Meetings,LHA Project Meetings,,"(149),(187),(212),(155)",########,########,2021-03-05,0,,########
+4751,PRO-110-ICM-01,MEP-QTO-STDM-01,MEP,Quantity Take Off,Standardize Model,BOQ - Create & Standardize BOQ for MEP System,,"(212),(155),(205)",########,########,2021-03-05,0,,########
+4752,PRO-110-ICM-01,MEP-QTO-MGMT-01,MEP,Quantity Take Off,Project Management,Revision of QTO based on comments,,"(149),(187),(212),(155),(218)",########,5/1/2021,2021-03-05,32,,########
+4753,PRO-121-LW-02,ARC-OTH-NEWM-01,Architecture,Others,New Model,01. Review,,"(190),(231),(245),(274)",########,########,,0,,########
+4754,PRO-121-LW-02,ARC-OTH-NEWM,Architecture,Others,New Model,02. Millwork,,"(190),(231),(232),(191),(234),(221),(210),(109),(183),(216),(182),(169),(176)",########,########,########,0,,########
+4755,PRO-121-LW-02,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,03. Create Sheet,,"(190),(231),(232),(191)",########,########,,0,,########
+4756,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,04. Guestroom & Suite,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(183),(234),(169),(176),(245),(274)",########,########,########,0,,########
+4757,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,05. Corridor,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(245),(274)",########,########,########,0,,########
+4758,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,06. Vida 3_Z00,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(112),(139),(226),(236),(205),(247),(240),(245),(274),(258)",########,########,########,0,,########
+4759,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,07. Vida 3_Z01,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(112),(226),(139),(236),(205),(247),(245),(274)",########,########,########,0,,########
+4760,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,08. Vida 3_Z02,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(112),(226),(139),(236),(205),(247),(245),(274)",########,########,########,0,,########
+4761,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,09. Vida 3_Z03,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(226),(112),(139),(236),(205),(247),(245),(274)",########,########,########,0,,########
+4762,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,10. Vida 3_Z04,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(112),(139),(226),(236),(205),(247),(245),(241),(274)",########,########,########,0,,########
+4763,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,11. Vida 3_Z05,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(112),(139),(226),(236),(205),(247),(241),(245),(274)",########,########,########,0,,########
+4764,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,12. Vida 3_Z06,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(112),(139),(226),(236),(205),(247),(245),(274),(275),(242),(258)",########,########,########,0,,########
+4765,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,13. Vida 3_Z07,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(58),(80),(172),(112),(139),(236),(226),(205),(247),(245),(274),(275),(242),(164),(258)",########,########,########,0,,########
+4766,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,14. Vida 4_Z00,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(205),(170),(225),(220),(247)",########,########,########,0,,########
+4767,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,15. Vida 4_Z08,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(205),(247)",########,########,########,0,,########
+4768,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,16. Vida 4_Z09,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(205),(170),(225),(220),(229),(247),(240)",########,########,########,0,,########
+4769,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,17. Vida 4_Z10,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(205),(225),(170),(247),(240)",########,########,########,0,,########
+4770,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,18. Vida 3_Z16,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(205),(225),(170),(247),(245),(274),(275),(242),(256),(257),(266),(258)",########,########,########,0,,########
+4771,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,19. Vida 3_Z17,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(205),(225),(170),(247),(245),(274)",########,########,########,0,,########
+4772,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,20. Vida 3_Z18,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(205),(225),(170),(247),(58),(245),(274)",########,########,########,0,,########
+4773,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,21. Vida 4_Z20,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(205),(225),(170),(247),(240)",########,########,########,0,,########
+4774,PRO-121-LW-03,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. Review,,"(216),(221),(231),(176),(234),(183),(232),(169)",########,########,,0,,########
+4775,PRO-121-LW-03,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,02. Model Millwork,,"(232),(190),(191),(231),(216),(176),(221),(183),(234),(208)",########,########,,0,,########
+4776,PRO-121-LW-03,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,04. Model Door,,"(216),(221),(231),(176),(234),(183),(232),(169)",########,########,,0,,########
+4777,PRO-121-LW-03,ARC-2DD-STDM,Architecture,2D Documentation,Standardize Model,03. 2D Documentation,,"(232),(190),(191),(231),(216),(176),(221),(234),(183),(208),(182)",########,########,########,0,,########
+4778,PRO-121-LW-04,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. Setup project,,"(169),(221),(182),(183),(245)",2022-08-02,2022-07-03,,0,,########
+4779,PRO-121-LW-04,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,02.Create views & sheets,,"(169),(221),(207),(228),(231),(182),(183),(245)",2/8/2022,2022-07-03,,0,,########
+4780,PRO-121-LW-04,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,03.Model 3D,,"(169),(221),(207),(228),(231),(182),(183),(234),(208),(190),(232),(109),(191),(176),(245),(210)",########,3/7/2022,,0,,########
+4781,PRO-121-LW-04,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,04.Typical Details,,"(169),(221),(207),(228),(231),(182),(183),(234),(208),(190),(232),(109),(191),(176),(245),(210)",########,########,,0,,########
+4782,PRO-121-LW-04,ARC-MOD-NEWM-05,Architecture,Modelling,New Model,05.Plans & Elevations,,"(169),(221),(207),(228),(231),(182),(183),(234),(208),(190),(232),(109),(191),(176),(245),(210)",########,########,,0,,########
+4783,PRO-121-LW-06,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,05. 3D Model Update,,,########,########,,0,,########
+4784,PRO-121-LW-06,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,01. Review & Setup Project,,"(182),(176),(231),(191)",########,########,,0,,########
+4785,PRO-121-LW-06,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,02. Model 3D,,"(182),(176),(231),(191),(242)",########,########,,0,,########
+4786,PRO-121-LW-06,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,03. Document 2D-Plans & Elevations,,"(182),(176),(231),(191),(242)",########,########,,0,,########
+4787,PRO-121-LW-06,ARC-MOD-NEWM-05,Architecture,Modelling,New Model,04. General Details,,"(182),(176),(231),(191),(221),(242),(245),(190),(183)",########,########,,0,,########
+4788,PRO-121-LW-06,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,06. 2D Documentation,,,########,########,,0,,########
+4789,PRO-121-LW-06,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,07. Project Management & QA,,,########,########,,0,,########
+4790,PRO-121-LW-01,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01-Upper Ground Floor (UGF) Lobbies 3D View Angles,,"(185),(210),(208)",########,########,########,0,,########
+4791,PRO-121-LW-01,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,02-Clean up models-update Lose Funitrue Families,,"(185),(210),(208)",########,########,########,0,,########
+4792,PRO-121-LW-01,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,03-Adjust Door and Walls to Amenity areas,,"(185),(208),(210),(215),(216)",########,########,########,0,,########
+4793,PRO-121-LW-01,ARC-OTH-STDM-01,Architecture,Others,Standardize Model,00-Review/Check Model,,"(185),(215),(210),(208),(216),(182),(109)",########,########,########,0,,########
+4794,PRO-121-LW-01,ARC-OTH-NEWM-01,Architecture,Others,New Model,14-Document sheets-Gym-Furniture Plans-Z3&Z13&Z23,,,6/4/2021,6/7/2021,########,0,,########
+4795,PRO-121-LW-01,ARC-2DD-STDM-01,Architecture,2D Documentation,Standardize Model,04-Document sheets- Units-Elevations-Zone 12 & 22,,"(185),(215),(210),(208),(216)",########,########,########,0,,########
+4796,PRO-121-LW-01,ARC-2DD-STDM-02,Architecture,2D Documentation,Standardize Model,05-Document sheets-Corridors-Elevations-Zone 11 & 21,,"(185),(215),(210),(208),(216)",########,########,########,0,,########
+4797,PRO-121-LW-01,ARC-2DD-STDM-03,Architecture,2D Documentation,Standardize Model,06-Document sheets-Gym-Elevations-Zone 13 & 23,,"(185),(215),(208),(210),(216)",########,########,########,0,,########
+4798,PRO-121-LW-01,ARC-2DD-STDM-04,Architecture,2D Documentation,Standardize Model,07-Document sheets-Units-Urban-Plans-Zone 02,,"(215),(208),(210),(216),(182),(225),(228)",########,########,########,0,,########
+4799,PRO-121-LW-01,ARC-2DD-STDM-05,Architecture,2D Documentation,Standardize Model,08-Document sheets-Units-LifeStyle-Plans-Zone 12,,"(215),(208),(210),(216),(182)",########,########,########,0,,########
+4800,PRO-121-LW-01,ARC-2DD-STDM-06,Architecture,2D Documentation,Standardize Model,09-Document sheets-Units-UpperWest-Plans-Zone 22,,"(215),(185),(208),(210),(216),(182),(183)",########,########,########,0,,########
+4801,PRO-121-LW-01,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,10-Document sheet-Apt.Corridor-Urban-Elevations-Zone 01,,"(215),(182),(216),(208),(210)",########,########,########,0,,########
+4802,PRO-121-LW-01,ARC-2DD-NEWM-02,Architecture,2D Documentation,New Model,11-Document sheet-Apt.Corridor-LifeStyle-Elevations-Zone 01,,"(215),(182),(208),(210),(216)",########,########,########,0,,########
+4803,PRO-121-LW-01,ARC-2DD-NEWM-03,Architecture,2D Documentation,New Model,12-Document sheet-Apt.Corridor-UpperWest-Elevations-Zone 21,,"(215),(182),(208),(210),(216)",########,########,########,0,,########
+4804,PRO-121-LW-01,ARC-2DD-NEWM-04,Architecture,2D Documentation,New Model,13-Document on sheet-Pool Deck-Furniture Plans-Z3&Z13&Z23,,"(210),(182),(183),(216),(215),(225)",2021-02-06,2021-05-06,########,0,,########
+4805,PRO-121-LW-01,ARC-2DD-NEWM-05,Architecture,2D Documentation,New Model,14-Document sheets-Gym-Furniture Plans-Z3&Z13&Z23,,"(182),(190),(210),(183),(215),(216)",2021-04-06,6/7/2021,########,0,,########
+4806,PRO-121-LW-01,ARC-2DD-NEWM-06,Architecture,2D Documentation,New Model,15-Create New Sheets-Gym- Typical Washroom (Dubai Scope),,"(215),(182),(216),(210)",2021-08-06,########,########,0,,########
+4807,PRO-121-LW-01,ARC-2DD-STDM-07,Architecture,2D Documentation,Standardize Model,16-Update models/Family for being consistency & as requested.,,"(215),(182),(210),(216)",6/8/2021,########,########,0,,########
+4808,PRO-121-LW-01,ARC-2DD-NEWM-09,Architecture,2D Documentation,New Model,20-Pool Deck,,"(215),(182),(183),(109),(190),(210),(216),(208),(228)",########,########,########,0,,########
+4809,PRO-121-LW-01,ARC-2DD-STDM-08,Architecture,2D Documentation,Standardize Model,22-Gym plans & Elevations,,"(215),(190),(210),(208),(109),(216),(182)",########,########,########,0,,########
+4810,PRO-121-LW-01,ARC-3DV-NEWM-01,Architecture,3D Visualization,New Model,19-Apartment Unit-Urban,,,########,########,########,0,,########
+4811,PRO-121-LW-01_V01,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,17-Document on Sheet-Cooridor RCP Plans (VO-01),,"(215),(210),(216),(183),(182),(190),(228),(225)",2021-09-06,2021-02-07,########,0,,########
+4812,PRO-121-LW-01_V01,ARC-2DD-NEWM-02,Architecture,2D Documentation,New Model,18-Document on Sheet-Gym-Furniture Plan-Markup R2 (VO-01),,"(215),(210),(216),(183),(182),(190),(185),(221),(208),(109)",2021-09-06,2021-02-07,########,0,,########
+4813,PRO-121-LW-01_V01,ARC-2DD-NEWM-03,Architecture,2D Documentation,New Model,19-Apartment Unit-Urban (VO-01),,"(215),(210),(216),(183),(182),(190),(208),(228),(225),(109),(221)",6/9/2021,7/2/2021,########,0,,########
+4814,PRO-121-LW-01_V01,ARC-2DD-NEWM-04,Architecture,2D Documentation,New Model,20-Apartment Unit-LifeStyle&UpperWest,,"(215),(109),(190),(210),(221),(182),(208),(216)",########,########,########,0,,########
+4815,PRO-121-LW-01_V01,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,20 - Variant Models,,"(215),(182),(210),(208),(109),(185),(216)",########,2021-03-07,########,0,,########
+4816,PRO-121-LW-01_VO2,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,17-Document on Sheet-Cooridor RCP Plans (VO-02),,"(215),(210),(216),(183),(182),(190),(228),(225)",2021-09-06,2021-02-07,########,0,,########
+4817,PRO-121-LW-01_VO2,ARC-2DD-NEWM-02,Architecture,2D Documentation,New Model,18-Document on Sheet-Gym-Furniture Plan-Markup R2 (VO-02),,"(215),(210),(216),(183),(182),(190)",6/9/2021,2021-02-07,########,0,,########
+4818,PRO-121-LW-01_VO2,ARC-2DD-NEWM-03,Architecture,2D Documentation,New Model,21-Apartment Corridor (VO-02),,"(215),(210),(216),(183),(182),(190),(208),(109)",########,7/2/2021,########,0,,########
+4819,PRO-121-LW-01_VO2,ARC-2DD-NEWM-04,Architecture,2D Documentation,New Model,22-UGF Lobbies Elevations,,"(215),(182),(190),(210),(109),(208),(216),(221)",########,########,########,0,,########
+4820,PRO-121-LW-01_VO2,ARC-2DD-NEWM-05,Architecture,2D Documentation,New Model,23-LGF Lobbies Elevations,,"(215),(190),(208),(216),(210),(182),(109),(221)",########,########,########,0,,########
+4821,PRO-121-LW-01_VO2,ARC-2DD-NEWM-06,Architecture,2D Documentation,New Model,24-Apartment Corridor Lobbies Elevations,,"(215),(182),(190),(109),(208),(210),(221),(216),(185),(112)",########,########,########,0,,########
+4822,PRO-121-LW-01_VO2,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,25-Week 9,,"(208),(215),(182),(210),(216),(109)",2021-06-07,7/9/2021,########,0,,########
+4823,PRO-121-LW-05,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. 3D Model Update,,,2022-09-03,########,,0,,########
+4824,PRO-121-LW-05,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,01. Review Project,,"(231),(221),(232),(176),(245),(247)",2022-07-03,2022-09-05,,0,,########
+4825,PRO-121-LW-05,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,03. 1400 RCP Plans.,,"(231),(221),(232),(176),(245),(247),(242),(241),(191),(274)",2022-07-03,2022-09-05,,0,,########
+4826,PRO-121-LW-05,ARC-MOD-NEWM-05,Architecture,Modelling,New Model,04. 1500 Small Data Plans.,,"(231),(221),(232),(176),(245),(247),(191),(241),(242),(274)",3/7/2022,2022-09-05,,0,,########
+4827,PRO-121-LW-05,ARC-MOD-NEWM-06,Architecture,Modelling,New Model,05. 2000 Part Plan/Section/Elevation.,,"(232),(245),(241),(242),(191)",########,2022-09-05,,0,,########
+4828,PRO-121-LW-05,ARC-MOD-NEWM-07,Architecture,Modelling,New Model,06. 3000 Core Plan/Section/Elevation.,,"(232),(245),(241),(242)",########,2022-09-05,,0,,########
+4829,PRO-121-LW-05,ARC-MOD-NEWM-08,Architecture,Modelling,New Model,07. Model 3D,,"(232),(245)",########,2022-09-05,,0,,########
+4830,PRO-121-LW-05,ARC-MOD-NEWM-09,Architecture,Modelling,New Model,09. 1100 Setting Out Floor Plans.,,"(232),(245),(183),(241),(242)",########,2022-09-05,,0,,########
+4831,PRO-121-LW-05,ARC-MOD-NEWM-22,Architecture,Modelling,New Model,10. 4000-Building Enclosure & External Details.,,"(242),(232),(245),(241),(191)",########,2022-06-06,,0,,########
+4832,PRO-121-LW-05,ARC-MOD-NEWM-23,Architecture,Modelling,New Model,11. 5000-Internal Details & Assemblies.,,"(242),(232),(241),(245)",########,2022-06-06,,0,,########
+4833,PRO-121-LW-05,ARC-MOD-NEWM-24,Architecture,Modelling,New Model,12. 1900 Slab Setting Out Plans,,"(232),(242),(241),(245)",########,2022-06-06,,0,,########
+4834,PRO-121-LW-05,ARC-MOD-NEWM-12,Architecture,Modelling,New Model,13. 1600 Fixed Finishes Floor Plan,,"(232),(245),(241),(191)",5/2/2022,2022-06-06,,0,,########
+4835,PRO-121-LW-05,ARC-MOD-NEWM-13,Architecture,Modelling,New Model,14. 1000 General Arrangement Floor Plan,,"(232),(245),(241)",########,6/6/2022,,0,,########
+4836,PRO-121-LW-05,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,02. 2D Documentation,,,3/9/2022,########,,0,,########
+4837,PRO-121-LW-05,ARC-2DD-NEWM-02,Architecture,2D Documentation,New Model,08. 6000 Door&Window Schedule.,,"(232),(245),(241),(242)",########,5/9/2022,,0,,########
+4838,PRO-121-LW-05,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,03. Project Management & QA,,,3/9/2022,########,,0,,########
+4839,PRO-121-LW-07,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. 3D Model Update,,,########,########,,0,,########
+4840,PRO-121-LW-07,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,02.Check and synchronized Model link,,"(109),(234),(240),(176),(247),(208),(225),(229),(170),(196),(191)",########,########,,0,,########
+4841,PRO-121-LW-07,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,02. 2D Documentation,,,########,########,,0,,########
+4842,PRO-121-LW-07,ARC-2DD-NEWM-02,Architecture,2D Documentation,New Model,"01.Create Sheet View, and Dim tag",,"(109),(208),(176),(231),(234),(247),(240),(225),(170),(196),(229),(191),(232),(241),(245),(258),(274),(221)",########,########,,0,,########
+4843,PRO-121-LW-07,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,03. Project Management & QA,,,########,########,,0,,########
+4844,PRO-121-LW-08,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. 3D Model,,"(188),(209),(226),(139)",########,2022-03-06,########,0,,########
+4845,PRO-121-LW-08,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,02. 2D Documentation,,"(188),(209),(226),(139)",########,6/3/2022,########,0,,########
+4846,PRO-128-HBA-01,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01-Reviewing - Setup Project,,"(224),(182),(208),(215),(216),(185),(139),(210),(176),(109)",########,########,########,0,,########
+4847,PRO-128-HBA-01,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,02-Review BEP,,"(224),(182),(208),(215),(216)",########,########,########,0,,########
+4848,PRO-128-HBA-01,ARC-MOD-CMTU-01,Architecture,Modelling,Comments Update,03-Prepare/Clean up file,,"(224),(182),(208),(215),(216),(176)",########,########,########,0,,########
+4849,PRO-128-HBA-01,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,04-Create Families,,"(224),(182),(208),(215),(216),(176)",########,########,########,0,,########
+4850,PRO-128-HBA-01,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,05-Lobby Lounge,,"(224),(182),(208),(215),(216),(185),(139),(210),(176),(109),(230),(231)",########,########,########,0,,########
+4851,PRO-128-HBA-01,ARC-MOD-NEWM-05,Architecture,Modelling,New Model,06-Residential Lounge,,"(224),(182),(208),(215),(216),(185),(139),(210),(176),(109)",########,########,########,0,,########
+4852,PRO-128-HBA-01,ARC-MOD-NEWM-06,Architecture,Modelling,New Model,07-Public Rest Room,,"(224),(182),(208),(215),(216),(185),(139),(210),(176),(109)",########,########,########,0,,########
+4853,PRO-128-HBA-01,ARC-MOD-NEWM-07,Architecture,Modelling,New Model,08-Gym,,"(224),(182),(208),(215),(216),(185),(139),(210),(176),(109)",########,########,########,0,,########
+4854,PRO-128-HBA-01,ARC-MOD-NEWM-08,Architecture,Modelling,New Model,09-Prayer Room,,"(224),(182),(208),(215),(216),(185),(139),(210),(176),(109),(230),(231)",########,########,########,0,,########
+4855,PRO-128-HBA-01,ARC-MOD-NEWM-10,Architecture,Modelling,New Model,11-Millwork,,"(224),(182),(208),(215),(216),(185),(139),(210),(176),(109),(190),(230),(231),(232),(169),(221)",2021-06-09,2021-09-09,########,0,,########
+4856,PRO-128-HBA-01,ARC-MOD-NEWM-11,Architecture,Modelling,New Model,12-Typical Detail,,"(224),(182),(208),(215),(216),(185),(139),(210),(176),(109),(190),(221),(230),(231),(232),(169)",9/6/2021,9/9/2021,########,0,,########
+4857,PRO-128-HBA-01,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,"10-QC, Markup and Management",,"(224),(182),(215),(208),(216),(176),(109),(139),(230),(221),(169),(210),(231),(232),(183)",########,########,########,0,,########
+4858,PRO-120-MD+-01_M,MEP-MOD-NEWM-01,MEP,Modelling,New Model,01.Modelng and Documentation,,"(151),(196),(207),(219),(228),(220)",2021-06-09,2021-09-09,########,0,,########
+4859,PRO-120-MD+-01_M,MEP-MOD-NEWM-02,MEP,Modelling,New Model,02.QC,,"(151),(196),(207),(219),(228),(220)",2021-06-09,2021-09-09,########,0,,########
+4860,PRO-120-MD+-01_M,MEP-MOD-NEWM-03,MEP,Modelling,New Model,03. Project management,,-187,9/6/2021,9/9/2021,########,0,,########
+4861,PRO-120-MD+-01_M,MEP-MOD-NEWM-04,MEP,Modelling,New Model,Fabrication Set - 01.Modeling and Documentation,,"(151),(196),(207),(219),(228),(220),(170)",########,########,########,0,,########
+4862,PRO-120-MD+-01_M,MEP-MOD-NEWM-05,MEP,Modelling,New Model,Fabrication Set - 02.QC,,"(151),(196),(207),(219),(228),(220)",########,########,########,0,,########
+4863,PRO-120-MD+-01_M,MEP-QTO-NEWM-01,MEP,Quantity Take Off,New Model,06. Quantity Take-Off,,"(151),(219),(196),(207),(220)",########,########,########,0,,########
+4864,PRO-120-MD+-01_AS,MEP-MOD-NEWM-01,MEP,Modelling,New Model,01.Modeling and Documentation,,"(73),(112),(139),(188),(206),(209),(227),(226),(185),(232),(183),(230),(176),(210),(182),(169),(190),(109),(191),(235),(237),(236)",2021-06-09,2021-09-09,########,0,,########
+4865,PRO-120-MD+-01_AS,MEP-MOD-NEWM-02,MEP,Modelling,New Model,02.QC,,"(73),(112),(139),(188),(206),(209),(227),(226),(185)",2021-06-09,2021-09-09,########,0,,########
+4866,PRO-120-MD+-01_AS,OTH-PJM-MGMT-01,Others,Project Management,Project Management,03.Project Management,,-73,2021-01-06,4/1/2022,########,0,,########
+4867,PRO-120-MD+-02_AS,OTH-OTH-NEWM-01,Others,Others,New Model,ARC & STR_Modelling and Documentation_Fabrication Stage,,"(188),(209),(227),(206),(226),(185),(191),(169)",2021-03-06,########,########,0,,########
+4868,PRO-120-MD+-02_AS,OTH-AUD-NEWM-01,Others,Model Auditing,New Model,ARC & STR_QC_Modelling and Documentation_Fabrication Stage,,"(188),(206),(185),(169),(73),(224)",2021-03-06,########,########,0,,########
+4869,PRO-120-MD+-02_AS,OTH-PJM-NEWM-01,Others,Project Management,New Model,ARC & STR_Project Management,,"(224),(73)",2021-03-06,########,########,0,,########
+4870,PRO-120-MD+-02_AS,STR-2DD-MDLU-01,Structure,2D Documentation,Model Upgrade,UPDATE MODEL,UPDATE MODEL,-206,2021-02-07,7/5/2021,########,0,,########
+4871,PRO-120-MD+-02_M,MEP-OTH-NEWM-02,MEP,Others,New Model,Bathroom Pod_Modelling and Documentation_Fabrication Stage,,"(151),(223),(225),(228),(170),(207)",2021-03-06,########,########,192,,########
+4872,PRO-120-MD+-02_M,MEP-OTH-MGMT-01,MEP,Others,Project Management,03. Project Management,,"(187),(149)",6/3/2021,########,########,20,,########
+4873,PRO-120-MD+-02_R,RND-RDT-NEWM-01,RnD,Tools For Revit,New Model,Lighting Analysis Study - Lux Output via Revit,Study how to use Lighting Analysis inside Revit,"(213),(194),(212)",########,########,8/2/2021,0,,########
+4874,PRO-120-MD+-02_R,RND-RDT-NEWM-02,RnD,Tools For Revit,New Model,Project MD+ conversion | Convert previous iBuilt Tools to MD+ Tools,Convert previous iBuilt Tools to MD+ Tools,"(213),(194),(212)",########,########,########,0,,########
+4875,PRO-120-MD+-03_M,MEP-MOD-NEWM-01,MEP,Modelling,New Model,01.Modeling and Documentation,,"(151),(170),(196),(205),(207),(218),(219),(223),(225),(228),(229)",2021-06-09,2021-09-09,########,0,,########
+4876,PRO-120-MD+-03_M,MEP-MOD-NEWM-02,MEP,Modelling,New Model,02.QC,,"(151),(170),(196),(205),(207),(218),(219),(223),(225),(228),(229)",2021-06-09,9/9/2021,########,0,,########
+4877,PRO-120-MD+-03_M,MEP-MOD-NEWM-03,MEP,Modelling,New Model,03. Project management,,"(187),(212),(149)",9/6/2021,########,########,0,,########
+4878,PRO-120-MD+-03_M,MEP-MOD-NEWM-04,MEP,Modelling,New Model,Fabrication Set - 03. Project management,,"(187),(212),(149)",########,########,########,0,,########
+4879,PRO-120-MD+-03_M,MEP-MOD-NEWM-05,MEP,Modelling,New Model,Fabrication Set - 01.Modeling and Documentation,,"(151),(170),(196),(205),(207),(218),(219),(223),(225),(228),(229)",########,########,########,0,,########
+4880,PRO-120-MD+-03_M,MEP-MOD-NEWM-06,MEP,Modelling,New Model,Fabrication Set - 02.QC,,"(151),(170),(196),(205),(207),(218),(219),(223),(225),(228),(229)",########,########,########,0,,########
+4881,PRO-120-MD+-03_AS,MEP-MOD-NEWM-01,MEP,Modelling,New Model,01.Modeling and Documentation,,"(73),(112),(139),(188),(206),(209),(227),(226),(185),(182),(232),(183),(230),(176),(210),(169),(190),(191),(109),(235),(237),(236)",2021-06-09,2021-09-09,########,0,,########
+4882,PRO-120-MD+-03_AS,MEP-MOD-NEWM-02,MEP,Modelling,New Model,02.QC,,"(73),(112),(139),(188),(206),(209),(227),(226),(185)",2021-06-09,2021-09-09,########,0,,########
+4883,PRO-120-MD+-03_AS,MEP-MOD-NEWM-03,MEP,Modelling,New Model,03.Project Management,,"(73),(224)",9/6/2021,2021-09-09,########,0,,########
+4884,PRO-119-MTV-01,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,01-TBF Site modeling,,-176,########,2021-03-04,,0,,########
+4885,PRO-119-MTV-01,ARC-MOD-STDM-02,Architecture,Modelling,Standardize Model,01-TBF Architecture Modeling,,"(176),(191)",########,2021-03-04,,0,,########
+4886,PRO-119-MTV-01,ARC-MOD-STDM-03,Architecture,Modelling,Standardize Model,01-TBF Fitture and Fitting Model,,-176,########,2021-03-04,,0,,########
+4887,PRO-119-MTV-01,ARC-2DD-STDM-01,Architecture,2D Documentation,Standardize Model,02-TBF Concept Documentation,,-176,########,2021-03-04,,0,,########
+4888,PRO-119-MTV-01,ARC-3DV-STDM-01,Architecture,3D Visualization,Standardize Model,03-TBF 3D External,,-176,########,2021-03-04,,0,,########
+4889,PRO-119-MTV-01,ARC-3DV-NEWM-01,Architecture,3D Visualization,New Model,03-TBF 3D Interior,,-176,########,2021-03-04,,0,,########
+4890,PRO-119-MTV-01,ARC-PJM-STDM-01,Architecture,Project Management,Standardize Model,00-TBF Check/Workload/Resource /Management,,-224,########,4/3/2021,,0,,########
+4891,PRO-115-CEC_NB,MEP-AUD-STDM-01,MEP,Model Auditing,Standardize Model,Check all families on LOD200 or lower,,"(205),(180)",########,########,########,0,,########
+4892,PRO-115-CEC-01,MEP-CRD-STDM-01,MEP,Coordination,Standardize Model,"Bloc 0,1,2,3,4 | MEP vs MEP Clash Detection Round 3","Bloc 0,1,2,3,4 | MEP vs MEP Clash Detection Round 3","(220),(205),(212)",1/4/2021,1/7/2021,########,80,,########
+4893,PRO-115-CEC-01,STR-CRD-STDM-01,Structure,Coordination,Standardize Model,"Bloc 0,1,2,3,4 | Review and Input data Round 4","Bloc 0,1,2,3,4 | Review and Input data Round 4","(140),(184)",########,########,########,16,,########
+4894,PRO-115-CEC-01,STR-CRD-STDM-02,Structure,Coordination,Standardize Model,Bloc 0 | STR vs ARC Clash Detection Round 4,Bloc 0 | STR vs ARC Clash Detection Round 4,-140,########,########,########,8,,########
+4895,PRO-115-CEC-01,STR-CRD-STDM-03,Structure,Coordination,Standardize Model,"Bloc 1, 2, 3, 4 | STR vs ARC Clash Detection Round 4","Bloc 1, 2, 3, 4 | STR vs ARC Clash Detection Round 4",-140,########,########,########,8,,########
+4896,PRO-115-CEC-01,STR-CRD-STDM-04,Structure,Coordination,Standardize Model,"Bloc 0, 1, 2, 3, 4 | STR ARC vs MEP Clash Detection Round 4","Bloc 0, 1, 2, 3, 4 | STR ARC vs MEP Clash Detection Round 4",-140,########,########,########,40,,########
+4897,PRO-115-CEC-01,STR-CRD-STDM-05,Structure,Coordination,Standardize Model,"Bloc 0,1,2,3,4 | MEP vs MEP Clash Detection Round 4","Bloc 0,1,2,3,4 | MEP vs MEP Clash Detection Round 4",-184,########,########,########,40,,########
+4898,PRO-115-CEC-01,STR-CRD-STDM-06,Structure,Coordination,Standardize Model,QC and Create Report,QC and Create Report,"(140),(184)",########,4/1/2021,########,8,,########
+4899,PRO-115-CEC-01,MEP-OTH-STDM-01,MEP,Others,Standardize Model,BOQ translate & quantities,,"(205),(180),(220),(197),(202)",2021-07-01,########,########,48,,########
+4900,PRO-115-CEC-01,OTH-OTH-STDM-01,Others,Others,Standardize Model,Arch and Struc: BOQ translate & quantities,"BOQ translate, standardize model than export quantity","(140),(184),(199),(189),(203),(214)",1/8/2021,########,########,120,,########
+4901,PRO-136-PDM-01-AHS_AS,STR-2DD-STDM,Structure,2D Documentation,Standardize Model,Create 2D Fabrication Drawing Set,Create 2D Fabrication Drawing Set for 3 Pod,"(139),(226),(209),(188),(269)",########,########,########,0,,########
+4902,PRO-136-PDM-01-AHS_AS,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,Create Arc Model,,"(188),(226),(209),(227)",3/1/2022,2022-03-04,########,0,,########
+4903,PRO-136-PDM-01-AHS_AS,STR-MOD-STDM,Structure,Modelling,Standardize Model,Create Str Model & 2D Document,,"(188),(226),(209)",########,2022-03-04,########,0,,########
+4904,PRO-136-PDM-01-AHS_AS,ARC-3DV-STDM,Architecture,3D Visualization,Standardize Model,Render Video & Pic,,"(226),(209),(188)",2022-01-03,4/3/2022,########,0,,########
+4905,PRO-136-PDM-01-AHS_M,MEP-MOD-MDLU-01,MEP,Modelling,Model Upgrade,A.01. ACWD - 3D Model Update,upgrade exissting model to produce BOM & tag & no clashes,"(151),(225),(223),(219),(196),(207),(228)",2022-09-02,########,,0,,########
+4906,PRO-136-PDM-01-AHS_M,MEP-MOD-MDLU-02,MEP,Modelling,Model Upgrade,B.01. Bathroom - 3D Model Update,upgrade exissting model to produce BOM & tag & no clashes,"(151),(225),(223),(228),(196),(207),(219),(270),(271)",2022-09-02,########,,0,,########
+4907,PRO-136-PDM-01-AHS_M,MEP-MOD-MDLU-03,MEP,Modelling,Model Upgrade,C.01. Kitchen - 3D Model Update,upgrade exissting model to produce BOM & tag & no clashes,"(151),(225),(223),(170),(196),(219),(207),(228)",2/9/2022,########,,0,,########
+4908,PRO-136-PDM-01-AHS_M,MEP-MOD-NEWM-01,MEP,Modelling,New Model,01. 3D Model Creation,,"(207),(219),(220),(170),(196),(223),(225),(228),(229)",########,4/4/2022,,1000,,########
+4909,PRO-136-PDM-01-AHS_M,MEP-2DD-MDLU,MEP,2D Documentation,Model Upgrade,A.02. ACWD 2D Documentation,upgrade exissting model to produce BOM & tag & no clashes,"(151),(225),(170),(228),(270),(277),(278),(282),(271)",2022-09-02,########,,0,,########
+4910,PRO-136-PDM-01-AHS_M,MEP-2DD-MDLU,MEP,2D Documentation,Model Upgrade,B.02. Bathroom 2D Documentation,upgrade existing model to produce BOM & tag & no clashes,"(151),(225),(170),(228),(270),(271),(277),(278),(282)",2022-09-02,########,,0,,########
+4911,PRO-136-PDM-01-AHS_M,MEP-2DD-MDLU,MEP,2D Documentation,Model Upgrade,C.02. Kitchen 2D Documentation,upgrade existing model to produce BOM & tag & no clashes,"(151),(225),(170),(228),(270),(277),(278),(282),(271)",2/9/2022,########,,0,,########
+4912,PRO-136-PDM-01-AHS_M,MEP-PJM-MGMT-01,MEP,Project Management,Project Management,03. Project Management & QA,upgrade exissting model to produce BOM & tag & no clashes,"(151),(225),(212),(187)",########,########,,0,,########
+4913,PRO-136-02-BHH_AS,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,Create Arc Model,,"(188),(226),(209)",########,2022-03-04,########,0,,########
+4914,PRO-136-02-BHH_AS,STR-MOD-STDM,Structure,Modelling,Standardize Model,Create Str Model & 2D Document,,"(188),(226),(209)",########,2022-03-04,########,0,,########
+4915,PRO-136-02-BHH_AS,ARC-3DV-STDM,Architecture,3D Visualization,Standardize Model,Render Video & Pic,,"(226),(209),(188)",########,4/3/2022,########,0,,########
+4916,PRO-136-02-BHH_M,MEP-MOD-MDLU,MEP,Modelling,Model Upgrade,C.01. Kitchen - 3D Model Update,upgrade exissting model to produce BOM & tag & no clashes,"(151),(225),(223),(170),(196),(219),(207),(228)",########,########,########,0,,########
+4917,PRO-136-02-BHH_M,MEP-MOD-MDLU,MEP,Modelling,Model Upgrade,B.01. Bathroom - 3D Model Update,upgrade exissting model to produce BOM & tag & no clashes,"(151),(225),(223),(228),(196),(207),(219)",########,########,########,0,,########
+4918,PRO-136-02-BHH_M,MEP-2DD-MDLU,MEP,2D Documentation,Model Upgrade,C.02. Kitchen 2D Documentation,upgrade existing model to produce BOM & tag & no clashes,"(151),(225),(223),(170),(196),(219),(207),(228)",########,########,########,0,,########
+4919,PRO-136-02-BHH_M,MEP-2DD-MDLU,MEP,2D Documentation,Model Upgrade,B.02. Bathroom 2D Documentation,upgrade existing model to produce BOM & tag & no clashes,"(151),(225),(223),(196),(219),(170),(228),(207)",########,########,########,0,,########
+4920,PRO-136-02-BHH_M,MEP-PJM-MGMT,MEP,Project Management,Project Management,03. Project Management & QA,upgrade exissting model to produce BOM & tag & no clashes,"(151),(225),(212),(187)",########,########,########,0,,########
+4921,PRO-136-PDM-03-MP_AS,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,Create Arc Model,,"(188),(226),(209)",2022-01-03,2022-03-04,########,0,,########
+4922,PRO-136-PDM-03-MP_AS,STR-MOD-STDM,Structure,Modelling,Standardize Model,Create Str Model & 2D Document,,"(188),(226),(209)",2022-01-03,2022-03-04,########,0,,########
+4923,PRO-136-PDM-03-MP_AS,ARC-3DV-STDM,Architecture,3D Visualization,Standardize Model,Render Video & Pic,,"(226),(209),(188),(151)",2022-01-03,4/3/2022,########,0,,########
+4924,PRO-136-PDM-03-MP_M,MEP-MOD-NEWM-01,MEP,Modelling,New Model,01. 3D Model Update,,"(225),(151),(219),(170),(196),(207),(228),(223),(229),(220)",2022-08-03,########,,0,,########
+4925,PRO-136-PDM-03-MP_M,MEP-2DD-NEWM-01,MEP,2D Documentation,New Model,02. 2D Documentation,,"(219),(151),(225),(229),(228),(207),(196),(223),(170),(220)",2022-08-03,########,,0,,########
+4926,PRO-136-PDM-03-MP_M,MEP-PJM-NEWM-01,MEP,Project Management,New Model,03. Project Management & QA,,"(151),(225),(187),(212)",2022-08-03,########,,0,,########
+4927,PRO-136-PDM-04-PST_AS,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,Create Arc Model,,"(188),(226),(209),(112)",2022-01-03,2022-03-04,########,0,,########
+4928,PRO-136-PDM-04-PST_AS,STR-MOD-STDM,Structure,Modelling,Standardize Model,Create Str Model & 2D Document,,"(188),(226),(209)",2022-01-03,4/3/2022,########,0,,########
+4929,PRO-136-PDM-04-PST_M,MEP-MOD-NEWM,MEP,Modelling,New Model,01. 3D Model Update,,"(151),(196),(219),(223),(225),(170),(228),(207),(229)",2022-08-03,########,########,0,,########
+4930,PRO-136-PDM-04-PST_M,MEP-2DD-NEWM,MEP,2D Documentation,New Model,02. 2D Documentation,,"(151),(225),(228),(207),(229),(220),(219),(223),(196)",2022-08-03,########,########,0,,########
+4931,PRO-136-PDM-04-PST_M,MEP-PJM-NEWM,MEP,Project Management,New Model,03. Project Management & QA,,"(212),(187),(225),(151)",3/8/2022,########,########,0,,########
+4932,PRO-136-PDM-05-MN_AS,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,Create Arc Model,,"(188),(226),(209)",########,2022-03-04,########,0,,########
+4933,PRO-136-PDM-05-MN_AS,STR-MOD-STDM,Structure,Modelling,Standardize Model,Create Str Model & 2D Document,,"(188),(226),(209),(227)",########,2022-03-04,########,0,,########
+4934,PRO-136-PDM-05-MN_AS,ARC-3DV-STDM,Architecture,3D Visualization,Standardize Model,Render Video & Pic,,"(226),(209),(188),(151)",########,2022-03-04,########,0,,########
+4935,PRO-136-PDM-05-MN_M,MEP-MOD-NEWM-01,MEP,Modelling,New Model,01. 3D Model Creation,,"(151),(170),(196),(207),(219),(220),(223),(225),(228),(229)",########,2022-04-04,,0,,########
+4936,PRO-136-PDM-05-MN_M,MEP-2DD-NEWM-01,MEP,2D Documentation,New Model,02. 2D Documentation,,"(151),(170),(196),(207),(219),(220),(223),(225),(228),(229)",########,2022-04-04,,1000,,########
+4937,PRO-136-PDM-05-MN_M,MEP-OTH-NEWM-01,MEP,Others,New Model,03. QA/QC and Coordination,,"(187),(151),(149),(212)",########,2022-04-04,,1000,,########
+4938,PRO-136-PDM-05-MN_M,MEP-PJM-MGMT-01,MEP,Project Management,Project Management,04. Project Management,,"(187),(212),(149)",########,4/4/2022,,1000,,########
+4939,PRO-136-PDM-07-AOS_M,MEP-OTH-NEWM-01,MEP,Others,New Model,01. 3D Modelling and 2D Documentation,,-196,########,########,,0,,########
+4940,PRO-136-PDM-07-AOS_M,MEP-OTH-NEWM-02,MEP,Others,New Model,02. QA/QC and Coordination,,-151,########,########,,0,,########
+4941,PRO-136-PDM-07-AOS_M,MEP-PJM-MGMT-01,MEP,Project Management,Project Management,03. QA/QC and Project Management,,-187,########,########,,0,,########
+4942,PRO-136-PDM-08-FSH_M,MEP-OTH-NEWM-01,MEP,Others,New Model,02. QA/QC and Coordination,,-151,2022-05-05,########,,0,,########
+4943,PRO-136-PDM-08-FSH_M,MEP-OTH-NEWM-02,MEP,Others,New Model,01. 3D Modelling and 2D Documentation,,"(170),(196)",2022-05-05,########,,0,,########
+4944,PRO-136-PDM-08-FSH_M,MEP-OTH-MGMT-01,MEP,Others,Project Management,03. QA/QC and Project Management,,-187,2022-05-05,########,,0,,########
+4945,PRO-136-PDM-09-HRC_M,MEP-OTH-NEWM-01,MEP,Others,New Model,02. QA/QC and Coordination,,-151,2022-05-05,########,,0,,########
+4946,PRO-136-PDM-09-HRC_M,MEP-OTH-NEWM-02,MEP,Others,New Model,01. 3D Modelling and 2D Documentation,,"(196),(223)",2022-05-05,########,,0,,########
+4947,PRO-136-PDM-09-HRC_M,MEP-OTH-MGMT-01,MEP,Others,Project Management,03. QA/QC and Project Management,,-187,5/5/2022,########,,0,,########
+4948,PRO-136-PDM-10-UPM_M,MEP-MOD-NEWM-01,MEP,Modelling,New Model,01. 3D Modelling,,"(170),(228),(229)",########,2022-03-06,,100,,########
+4949,PRO-136-PDM-10-UPM_M,MEP-MOD-NEWM-02,MEP,Modelling,New Model,02. QA/QC and Coordination,,-151,########,2022-03-06,,0,,########
+4950,PRO-136-PDM-10-UPM_M,MEP-PJM-NEWM-01,MEP,Project Management,New Model,03. QA/QC and Project Management,,-187,########,6/3/2022,,0,,########
+4951,PRO-136-PDM-11,STR-MOD-NEWM-01,Structure,Modelling,New Model,01. 3D Model Creation,,"(196),(206),(227),(260),(259),(112),(139),(269),(272),(273),(188),(229),(170),(151),(228),(225)",########,########,,1000,,########
+4952,PRO-136-PDM-11,STR-2DD-NEWM,Structure,2D Documentation,New Model,02. Develop 2D Documentation,,"(196),(206),(227),(260),(259),(112),(139),(269),(272),(273),(188),(229),(170),(228),(151),(223),(225),(276),(182),(191),(226)",########,########,,1000,,########
+4953,PRO-136-PDM-RND,RND-RDS-NEWM-01,RnD,Software Development,New Model,FrameCAD research and how to use with revit,Research on how to integrate FrameCAD in the workflow from revit plug-in,"(213),(209),(212)",2/9/2022,########,########,0,,########
+4954,PRO-136-PDM-RND,RND-RDT-STDM-01,RnD,Tools For Revit,Standardize Model,Research For Kitchen slidable cabinet module.- Bunker Hill set-up,,"(212),(188),(73)",########,########,########,0,,########
+4955,PRO-136-PDM-RND,RND-RDT-STDM-02,RnD,Tools For Revit,Standardize Model,Research For Pod caster system (built-in),develop for a permanent system that is built-in the box with wheels?,"(212),(188),(73)",########,3/4/2022,2022-04-03,0,,########
+4956,PRO-136-PDM-RND,RND-RDT-STDM-03,RnD,Tools For Revit,Standardize Model,Study MWF software,Study Struc Soft MWF software for next project of PDM,"(188),(212)",2022-09-03,########,4/6/2022,0,,########
+4957,PRO-136-PDM-RND,RND-RDT-STDM-04,RnD,Tools For Revit,Standardize Model,Study - Price comparison for PDF exporters of Revin,"Study features, 3D exporting capabilities and cost","(194),(212),(213)",4/6/2022,4/9/2022,########,0,,########
+4958,PRO-136-PDM-RND,RND-TRV-NEWM,RnD,Tools For Revit,New Model,Research - .FIM Exporter from MWF and FrameCAD RevLink,.FIM Exporter from MWF and FrameCAD RevLink,"(212),(188),(209)",########,########,,0,,########
+4959,PRO-136-PDM-RND,RND-TRV-MDLU,RnD,Tools For Revit,Model Upgrade,PDM Tools Updates,"Put steps / help on the Stand-alone tool
+ 
+ 1. Select your version
+ 
+ 2. Pick path folder of revit file
+ 
+ 3. Select Revit files to export
+ 
+ Exporting Comments
+  1. Should detect empty schedule - grayout / Do not show empty Schedules
+  2. Button to automatically close it - create checkbox to close when export (default checked
+  3. Create 'Home Tab' to hyper link to other created tabs 
+ See xlsm for the vba that allows to convert in inches - make this the default template for exporting and keep the 'Start' tab (rename to 'Function' Tab)","(194),(213),(212)",2022-01-06,########,########,0,,########
+4960,PRO-136-PDM-RND,RND-TRV-NEWM,RnD,Tools For Revit,New Model,Research - Create Schedule in CellBIM follow AHS Schedules,Create Schedule in CellBIM follow AHS Schedules.,"(212),(188),(73),(227)",6/7/2022,########,########,0,,########
+4961,PRO-136-PDM-RND,RND-MOD-MDLU-01,RnD,Modelling,Model Upgrade,RND - Checking of Model for Miles for Revit 2022 Loading,,"(225),(212)",########,########,6/7/2022,0,,########
+4962,PRO-136-PDM-RND,RND-OTH-NEWM,RnD,Others,New Model,RND - BimCell Review,"Meetings, Review and Checking of the New BIM Cell Excel Plug-in","(212),(73),(188)",2022-03-06,6/6/2022,########,0,,########
+4963,PRO-136-PDM-RND,RND-3DV-NEWM,RnD,3D Visualization,New Model,Create Exploded view sample - AHS ACWD Pod,Create Exploded view sample - AHS ACWD Pod,"(212),(188),(269)",6/7/2022,########,########,0,,########
+4964,PRO-111-IB-15_A,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Create floor plan layout drawing,,"(73),(185),(191),(183),(216)",########,########,########,6,,########
+4965,PRO-111-IB-15_A,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,QC,QC 2D Drawings & 3D Model,"(185),(73)",########,########,2/8/2021,8,,########
+4966,PRO-111-IB-15_A,ARC-MOD-CMTU-01,Architecture,Modelling,Comments Update,Update Kitchen sets and layout Elevations,Update 4 sets of Kitchen following Client's Markups and layout their Elevations into sheets.,-183,########,########,########,7,,########
+4967,PRO-111-IB-15_A,ARC-MOD-CMTU-02,Architecture,Modelling,Comments Update,Update Bathroom Fixtures and Layout,Update Bathroom Layout following Client's Markups and change the fixtures to adapt with the Markup,-169,########,########,########,7,,########
+4968,PRO-111-IB-15_A,ARC-MOD-CMTU-03,Architecture,Modelling,Comments Update,Fix First Floor Plan Markups,,-191,########,########,########,5,,########
+4969,PRO-111-IB-15_A,ARC-MOD-CMTU-04,Architecture,Modelling,Comments Update,Fix Sencond Floor Plan Markups,,-216,########,########,########,5,,########
+4970,PRO-111-IB-15_A,ARC-MOD-CMTU-05,Architecture,Modelling,Comments Update,Update Layout Second Floor Plan,,-216,########,########,########,8,,########
+4971,PRO-111-IB-15_A,ARC-MOD-CMTU-06,Architecture,Modelling,Comments Update,Update Layout First Floor Plan,,-191,########,########,########,8,,########
+4972,PRO-111-IB-15_A,ARC-MOD-CMTU-07,Architecture,Modelling,Comments Update,Update Layout 4 Bathrooms & Callout Bathrooms,,-169,########,########,########,8,,########
+4973,PRO-111-IB-15_A,ARC-MOD-CMTU-08,Architecture,Modelling,Comments Update,Update Kitchen Layout & Elevations,,-183,########,########,########,8,,########
+4974,PRO-111-IB-15_A,ARC-MOD-CMTU-09,Architecture,Modelling,Comments Update,Update General Notes & 2nd Floor Markup,,-216,########,########,########,8,,########
+4975,PRO-111-IB-15_A,ARC-MOD-CMTU-10,Architecture,Modelling,Comments Update,Update Typical Details & 1st Floor Markup,,-191,########,########,########,8,,########
+4976,PRO-111-IB-15_A,ARC-MOD-CMTU-11,Architecture,Modelling,Comments Update,"Update General Notes, Bathroom Elevations & Markups",,-183,########,########,########,8,,########
+4977,PRO-111-IB-15_A,ARC-MOD-CMTU-12,Architecture,Modelling,Comments Update,Create Bathroom Elevations and sheets,,-169,########,########,########,8,,########
+4978,PRO-111-IB-15_A,ARC-MOD-CMTU-13,Architecture,Modelling,Comments Update,Update 3D model followed Client Markup,,-216,########,########,2021-08-02,0,,########
+4979,PRO-111-IB-15_A,ARC-MOD-MDLU-01,Architecture,Modelling,Model Upgrade,Update and Manage 3D Model Information,"Update and Manage 3D Model Information includes:
+  - Manage Changes of Model: Dimensions, Gridline, Level, Bathroom, Kitchen, Bedroom, Closet
+  - Update BOM for Walls, Floor, Ceiling, Door, Window, Closet Shelves, Modules Break Color, etc.","(183),(109)",########,########,2/8/2021,0,,########
+4980,PRO-111-IB-15_A,ARC-MOD-CMTU-14,Architecture,Modelling,Comments Update,Update Floor plans followed Markup,,-182,########,########,########,0,,########
+4981,PRO-111-IB-15_A,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,Prepare model for Rendering,#NAME?,-190,########,########,2021-08-02,0,,########
+4982,PRO-111-IB-15_A,ARC-MOD-STDM-02,Architecture,Modelling,Standardize Model,Prepare and Render model,#NAME?,-192,########,########,2021-08-02,0,,########
+4983,PRO-111-IB-15_A,ARC-MOD-CMTU-15,Architecture,Modelling,Comments Update,Update model and 2D drawings followed Markup,,-210,########,########,2021-08-02,0,,########
+4984,PRO-111-IB-15_A,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,"iBUILT project workflow, guideline",,"(185),(73)",########,########,2021-08-02,0,,########
+4985,PRO-111-IB-15_A,ARC-2DD-STDM-01,Architecture,2D Documentation,Standardize Model,Update and Manage 2D Drawings,"Update and Manage 2D Drawings of:
+  - General Notes
+  - Master sets (Floor Plan, Elevations, Sections)
+  - Typical Details & BOM
+  - Individual Modules Sets (6 modules)",-169,########,########,2021-08-02,0,,########
+4986,PRO-111-IB-15_A,ARC-2DD-STDM-02,Architecture,2D Documentation,Standardize Model,Update 2D Drawings,,-191,########,########,2/8/2021,0,,########
+4987,PRO-111-IB-15_M,MEP-OTH-MDLU-01,MEP,Others,Model Upgrade,MEPF Fabrication 2D Drawing Set,Creation of 2D documentation,"(196),(151),(157),(198),(155),(170),(166),(219),(207),(218)",########,########,########,160,,########
+4988,PRO-111-IB-15_M,MEP-OTH-MGMT-01,MEP,Others,Project Management,PROJECT MANAGEMENT,"1. Coordination with team
+ 2. Meetings
+ 3. QA","(187),(149)",########,########,########,40,,########
+4989,PRO-111-IB-15_M,MEP-3DV-NEWM-01,MEP,Modelling,New Model,MEPF Fabrication 3D Modelling,"- Creation of MEPF 3D model
+ - Full Coordination","(157),(151),(198),(166),(196),(170),(155),(219),(207),(218)",########,########,########,160,,########
+4990,PRO-111-IB-15_R,RND-OTH-STDM-01,RnD,Others,Standardize Model,Check & download families from NBS Library,NBS library vs used families in the past projects,"(194),(213),(180)",1/8/2021,########,########,0,,########
+4991,PRO-111-IB-15_R,RND-RDT-NEWM-01,RnD,Tools For Revit,New Model,Project IB-BSL 74,iBuilt Tool for checking electrical requirements of room,"(212),(213),(194)",########,########,########,0,,########
+4992,PRO-111-IB-15_R,RND-AUD-STDM-01,RnD,Model Auditing,Standardize Model,Checking new Families from iBuilt,"Check Families with ""iB_"" added to the model from iBuilt team and see how is it compared to model . 
+ Check BOM tool exporting as well","(194),(213),(180)",########,########,########,0,,########
+4993,PRO-111-IB-15_R,RND-MOD-STDM-01,RnD,Modelling,Standardize Model,Combining works for Standard Module,,-212,########,2/4/2021,########,0,,########
+4994,PRO-111-IB-15_S,STR-MOD-NEWM-01,Structure,Modelling,New Model,Create 4 sample modules for the structure.,"Create 4 sample modules for the structure include floor, ceiling, and external walls only.
+ 
+ Deadline at 16h 11/01/2021.","(189),(209)",########,########,########,10,,########
+4995,PRO-111-IB-15_S,STR-MOD-NEWM-02,Structure,Modelling,New Model,Create a stair and show the clash,"Put the stair in the model and create the section to show the clash between the stair and wall.
+ 
+ 
+ Deadline at 16h 12/01/2021.","(189),(209)",########,########,########,15,,########
+4996,PRO-111-IB-15_S,STR-MOD-NEWM-03,Structure,Modelling,New Model,Create service shaft core,Create service shaft core. Follow the shaft in prototype,-184,########,########,########,4,,########
+4997,PRO-111-IB-15_S,STR-MOD-NEWM-04,Structure,Modelling,New Model,Create internal walls of module 02,"Create internal walls of module 02, modify floor and wall follow the ARC model.",-112,########,########,########,4,,########
+4998,PRO-111-IB-15_S,STR-MOD-NEWM-05,Structure,Modelling,New Model,Create internal walls of module 04,"Create internal walls of module 04, modify floor and wall follow the ARC model.",-199,########,########,########,4,,########
+4999,PRO-111-IB-15_S,STR-MOD-NEWM-06,Structure,Modelling,New Model,Create new stair and relocated.,"Change the stair follow new dimensions, relocated location
+ 
+ Deadline 16h 13/01/2021",-209,########,########,########,10,,########
+5000,PRO-111-IB-15_S,STR-MOD-NEWM-07,Structure,Modelling,New Model,Create walls follow the new location of the stair,Create walls follow the new location of the stair. The walls belong the module type 03,-184,########,########,########,6,,########
+5001,PRO-111-IB-15_S,STR-MOD-NEWM-08,Structure,Modelling,New Model,Relocated location the skylight.,"Relocated location the skylight. Change floor, ceiling.
+ 
+ Deadline 16h 13/01/2021",-189,########,########,########,6,,########
+5002,PRO-111-IB-15_S,STR-MOD-NEWM-09,Structure,Modelling,New Model,Change a stair to follow the new layout.,"Update the size of the stair. 
+ 
+ Deadline 16h 14/01/2021","(209),(140)",########,########,########,6,,########
+5003,PRO-111-IB-15_S,STR-MOD-NEWM-10,Structure,Modelling,New Model,Change the shaft.,"Delete the old shaft, create 3 new shafts in a new location.
+ 
+ Deadline 16h 14/01/2021",-184,########,########,########,6,,########
+5004,PRO-111-IB-15_S,STR-MOD-NEWM-11,Structure,Modelling,New Model,"Update new layout, create 4 elevations.","Create 4 elevations, 2-floor plans, and 2 ceiling plans.
+ 
+ Deadline 16h 14/01/2021.","(140),(203)",########,########,########,6,,########
+5005,PRO-111-IB-15_S,STR-MOD-NEWM-12,Structure,Modelling,New Model,Create new standard detail for the Phoenix Project.,Create new standard detail for the Phoenix Project.,"(189),(112)",########,########,########,15,,########
+5006,PRO-111-IB-15_S,STR-MOD-NEWM-13,Structure,Modelling,New Model,Create internal walls of module B1,"Create internal walls of module B1 ( not include create drawing)
+ 
+ Deadline 15h 18/01/2021",-203,########,########,########,20,,########
+5007,PRO-111-IB-15_S,STR-MOD-NEWM-14,Structure,Modelling,New Model,Create internal walls of module A2,"Create internal walls of module A2 ( not include create drawing)
+ 
+ Deadline 15h 18/01/2021","(199),(112)",########,########,########,20,,########
+5008,PRO-111-IB-15_S,STR-MOD-NEWM-15,Structure,Modelling,New Model,Create internal walls of module B1,"Create internal walls of module B1( not include create drawing)
+ 
+ Deadline 15h 18/01/2021",-140,########,########,########,20,,########
+5009,PRO-111-IB-15_S,STR-MOD-NEWM-16,Structure,Modelling,New Model,Create internal walls of module B2,"Create internal walls of module B2 ( not include create drawing)
+ 
+ Deadline 15h 18/01/2021",-184,########,########,########,20,,########
+5010,PRO-111-IB-15_S,STR-MOD-NEWM-17,Structure,Modelling,New Model,Fix new stair,"Fix stair follow new design.
+ 
+ Deadline 15h 15/01/2021",-209,########,########,########,6,,########
+5011,PRO-111-IB-15_S,STR-MOD-NEWM-18,Structure,Modelling,New Model,Create overall layput and combine STR & ARC,"Create overall layouts and combine STR & ARC
+ 
+ Deadline 15h 18/01/2021",-189,########,########,########,6,,########
+5012,PRO-111-IB-15_S,STR-MOD-NEWM-19,Structure,Modelling,New Model,Standard detail,Standard detail,-112,########,########,########,6,,########
+5013,PRO-111-IB-15_S,STR-MOD-NEWM-20,Structure,Modelling,New Model,Create new roof,"Create new roof 
+ 
+ Deadline 13h 16/01/2021.",-209,########,########,########,4,,########
+5014,PRO-111-IB-15_S,STR-MOD-NEWM-21,Structure,Modelling,New Model,Create module A1.,"Create new module A1
+ 
+ Deadline 15h 18/01/2021",-140,########,########,########,8,,########
+5015,PRO-111-IB-15_S,STR-MOD-NEWM-22,Structure,Modelling,New Model,Create module B1.,"Create new module B1
+ 
+ Deadline 15h 18/01/2021",-184,########,########,########,8,,########
+5016,PRO-111-IB-15_S,STR-MOD-NEWM-23,Structure,Modelling,New Model,Modify stair follow the new design,"Modify stair follow the new design
+ 
+ Deadline 15h 18/01/2021",-209,########,########,########,8,,########
+5017,PRO-111-IB-15_S,STR-MOD-NEWM-24,Structure,Modelling,New Model,Create module C2.,"Create new module C2
+ 
+ Deadline 15h 18/01/2021",-199,########,########,########,4,,########
+5018,PRO-111-IB-15_S,STR-MOD-NEWM-25,Structure,Modelling,New Model,Create module C1.,"Create new module C1
+ 
+ Deadline 16h 18/01/2021",-112,########,########,########,4,,########
+5019,PRO-111-IB-15_S,STR-MOD-NEWM-26,Structure,Modelling,New Model,Update walls of module A1.,Update walls of module A1.,-140,########,########,########,20,,########
+5020,PRO-111-IB-15_S,STR-MOD-NEWM-27,Structure,Modelling,New Model,Update walls of module B1.,Update walls of module B1.,"(203),(140),(189)",########,########,########,20,,########
+5021,PRO-111-IB-15_S,STR-MOD-NEWM-28,Structure,Modelling,New Model,Modify wall of module C1.,Modify wall of module C1.,-112,########,########,########,20,,########
+5022,PRO-111-IB-15_S,STR-MOD-NEWM-29,Structure,Modelling,New Model,Modify wall of module A2,Modify wall of module A2.,-209,########,########,########,20,,########
+5023,PRO-111-IB-15_S,STR-MOD-NEWM-30,Structure,Modelling,New Model,Update walls of module B2,Update walls of module B2,-139,########,########,########,20,,########
+5024,PRO-111-IB-15_S,STR-MOD-NEWM-31,Structure,Modelling,New Model,Modify walls of module C2,Update walls of module C2,-199,########,########,########,20,,########
+5025,PRO-111-IB-15_S,STR-MOD-NEWM-32,Structure,Modelling,New Model,Modify roofs follow the new design,Modify roofs follow the new design,-189,########,########,########,4,,########
+5026,PRO-111-IB-15_S,STR-MOD-NEWM-33,Structure,Modelling,New Model,Update stair of Phoenix Project,Update stair follow new design,"(209),(140)",########,########,########,20,,########
+5027,PRO-111-IB-15_S,STR-MOD-NEWM-34,Structure,Modelling,New Model,Update a stair of prototype,Update a stair of prototype follow new design,"(184),(189)",########,########,########,20,,########
+5028,PRO-111-IB-15_S,STR-MOD-NEWM-35,Structure,Modelling,New Model,Update new layout for individual modules,Update new layout for individual modules,"(199),(203),(112)",########,########,2021-01-02,50,,########
+5029,PRO-111-IB-15_S,STR-MOD-NEWM-36,Structure,Modelling,New Model,Update the roof follow new design,Update the roof follow new design,-209,########,########,2/1/2021,10,,########
+5030,PRO-111-IB-15_S,STR-2DD-NEWM-01,Structure,2D Documentation,New Model,Create overall layouts.,"Create overall layouts.
+ 
+ Deadline 15h 18/01/2021",-189,########,########,########,8,,########
+5031,PRO-111-IB-15_S,STR-2DD-NEWM-02,Structure,2D Documentation,New Model,Create overall layouts.,Create overall layouts.,-184,########,########,########,20,,########
+5032,PRO-111-IB-15_S,STR-2DD-NEWM-03,Structure,2D Documentation,New Model,Create 2D fabrication drawings of module C2.,Create 2D fabrication drawings of module C2.,-199,########,########,2021-01-02,40,,########
+5033,PRO-111-IB-15_S,STR-2DD-NEWM-04,Structure,2D Documentation,New Model,Create 2D fabrication drawings of module B1.,Create 2D fabrication drawings of module B1.,-203,########,########,2021-01-02,40,,########
+5034,PRO-111-IB-15_S,STR-2DD-NEWM-05,Structure,2D Documentation,New Model,Create 2D fabrication drawings of module C1.,Create 2D fabrication drawings of module C1.,-112,########,########,2021-01-02,40,,########
+5035,PRO-111-IB-15_S,STR-2DD-NEWM-06,Structure,2D Documentation,New Model,Create 2D fabrication drawings of module A2.,Create 2D fabrication drawings of module A2.,-209,########,########,2021-01-02,40,,########
+5036,PRO-111-IB-15_S,STR-2DD-NEWM-07,Structure,2D Documentation,New Model,Create 2D fabrication drawings of module B2.,Create 2D fabrication drawings of module B2.,-139,########,########,2021-01-02,40,,########
+5037,PRO-111-IB-15_S,STR-2DD-NEWM-08,Structure,2D Documentation,New Model,Create 2D fabrication drawings of module A1.,Create 2D fabrication drawings of module A1.,"(140),(206),(200)",########,########,2021-01-02,50,,########
+5038,PRO-111-IB-15_S,STR-2DD-NEWM-09,Structure,2D Documentation,New Model,Create 2D fabrication drawings of Phoenix Stair,Create 2D fabrication drawings of Phoenix Stair,-140,########,########,2021-01-02,50,,########
+5039,PRO-111-IB-15_S,STR-2DD-NEWM-10,Structure,2D Documentation,New Model,Create 2D fabrication drawings of Prototype Stair,Create 2D fabrication drawings of Prototype Stair,-184,########,########,2021-01-02,50,,########
+5040,PRO-111-IB-15_S,STR-2DD-NEWM-11,Structure,2D Documentation,New Model,Develop full set of new stairs.,Develop full set of new stairs.,"(140),(184),(139),(206),(200)",########,########,2021-01-02,80,,########
+5041,PRO-111-IB-15_S,STR-2DD-NEWM-12,Structure,2D Documentation,New Model,Update overall plans,Update overall plans,-188,########,########,2/1/2021,10,,########
+5042,PRO-111-IB-15_S,STR-PJM-MGMT-01,Structure,Project Management,Project Management,Quality control of Phoenix Project,Quality control of Phoenix Project,-214,########,2/5/2021,########,150,,########
+5043,PRO-130-TBF-01,ARC-MOD-NEWM,Architecture,Modelling,New Model,00.Review annd Setup,,"(176),(224),(257),(242),(245),(232),(280),(275)",########,########,,0,,########
+5044,PRO-130-TBF-01,ARC-MOD-NEWM,Architecture,Modelling,New Model,01.Model and layout,,"(176),(224),(234),(242),(245),(275),(232),(280),(262)",########,########,,0,,########
+5045,PRO-130-TBF-01,ARC-MOD-NEWM,Architecture,Modelling,New Model,02. Render,,"(176),(224),(234),(242),(245),(232),(280),(275)",########,########,,0,,########
+5046,PRO-130-TBF-01,ARC-MOD-NEWM,Architecture,Modelling,New Model,03. Documentation,,"(176),(224),(234),(245),(242),(232),(280),(275)",########,########,,0,,########
+5047,PRO-130-TBF-01,ARC-MOD-NEWM,Architecture,Modelling,New Model,04. Landscape,,"(176),(224),(234),(242),(245),(232),(280),(275)",########,########,,0,,########
+5048,PRO-140-AXO,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. 3D Model Update,,,########,########,,0,,########
+5049,PRO-140-AXO,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,01. Review & Setup Project,,"(234),(169),(231),(241)",########,########,,0,,########
+5050,PRO-140-AXO,ARC-MOD-STDM-02,Architecture,Modelling,Standardize Model,02. Model 3D,,"(234),(169),(231),(241)",########,########,,0,,########
+5051,PRO-140-AXO,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,02. 2D Documentation,,,########,########,,0,,########
+5052,PRO-140-AXO,ARC-2DD-STDM-01,Architecture,2D Documentation,Standardize Model,03. 2D Documentation,,"(234),(169),(231)",########,########,,0,,########
+5053,PRO-140-AXO,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,03. Project Management & QA,,,########,########,,0,,########
+5054,PRO-000-BD,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,01-Regent HK Hotel,,"(224),(216)",########,########,,0,,########
+5055,PRO-000-BD,ARC-PJM-NEWM-02,Architecture,Project Management,New Model,02-NQH BaSon,,"(224),(216)",########,########,,0,,########
+5056,PRO-000-BD,ARC-OTH-MGMT-01,Architecture,Others,Project Management,03-KEO Qiddiya,,"(216),(224)",########,########,,0,,########
+5057,PRO-000-BD,ARC-OTH-MGMT-02,Architecture,Others,Project Management,04-VNC_Bowlero Project_Timeline Estimate,,"(224),(73)",########,5/2/2021,2022-06-04,0,,########
+5058,PRO-000-BD,ARC-OTH-NEWM-01,Architecture,Others,New Model,05-LW Project,,"(224),(216)",2021-07-05,########,,0,,########
+5059,PRO-000-BD,ARC-OTH-NEWM-02,Architecture,Others,New Model,06-MASS,,-224,6/4/2021,6/7/2021,,0,,########
+5060,PRO-000-BD,OTH-OTH-MGMT-01,Others,Others,Project Management,07_LGA Delta Airport_Timeline Estimate,,"(73),(188)",########,########,2022-06-04,0,,########
+5061,PRO-000-BD,OTH-OTH-MGMT-02,Others,Others,Project Management,08_BIM System_Timeline Estimate,,"(73),(209)",########,########,4/6/2022,0,,########
+5062,PRO-134-PRXS-01,STR-MOD-NEWM-01,Structure,Modelling,New Model,Create the concept module - 3 Types,,"(206),(209),(188)",########,2022-04-01,########,0,,########
+5063,PRO-141-RESI-01,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01-Create 3D model and 2D asbuilt drawing,,"(206),(235),(112),(139)",########,4/2/2022,########,0,,########
+5064,PRO-000-RND,RND-RDT-MDLU-01,RnD,Tools For Revit,Model Upgrade,BSL-72 | Plugin that Checks OmniClass 23 and 21,,-213,########,########,########,100,,########
+5065,PRO-000-RND,RND-RDT-MDLU-02,RnD,Tools For Revit,Model Upgrade,BSL-73 | Plugin for Marking Door Swing direction,,-194,########,########,########,100,,########
+5066,PRO-000-RND,RND-TRV-NEWM,RnD,Tools For Revit,New Model,Other RnD Tasks,,"(194),(212),(213)",########,########,,0,,########
+5067,PRO-000-RND,RND-RDT-MDLU-03,RnD,Tools For Revit,Model Upgrade,Project Cassiopeia | Copy element set from linked Revit,See rnd-tool-4 request From Hieu Ho (MEP),-194,########,########,########,0,,########
+5068,PRO-000-RND,RND-RDT-NEWM-02,RnD,Tools For Revit,New Model,Project Cygnus | IT Diary Log,IT Diary Log for all activities,"(212),(213)",########,########,2021-04-03,0,,########
+5069,PRO-000-RND,RND-RDT-NEWM-03,RnD,Tools For Revit,New Model,Project Corvus | Hanger support for MEP,Auto place Hanger support for MEP pipes & Ducts,"(212),(194)",########,########,2021-05-04,0,,########
+5070,PRO-000-RND,RND-RDT-NEWM-04,RnD,Tools For Revit,New Model,Project Circinus | Sheet Manager,Create Sheet Manager for checking all sheet details in one sheet and not needing to create sheet list,"(212),(213)",########,########,2021-04-03,0,,########
+5071,PRO-000-RND,RND-RDT-NEWM-05,RnD,Tools For Revit,New Model,Project Antlia | TitleBlock Manager,This tool will show a table listing the following TitleBlock parameters and users can edit in form.,"(213),(212)",3/8/2021,########,2021-05-04,40,,########
+5072,PRO-000-RND,RND-RDT-NEWM-06,RnD,Tools For Revit,New Model,Project Apus | Rename Sheets,"Filter Sheets by Name or Number and rename (replace, re-numbering, add suffix, prefix... ) with rules","(212),(194)",########,########,2021-05-04,40,,########
+5073,PRO-000-RND,RND-RDT-NEWM-07,RnD,Tools For Revit,New Model,Project Ara | Rename Shared Parameter,Rename Shared parameter,"(212),(194)",2021-08-03,########,4/5/2021,40,,########
+5074,PRO-000-RND,RND-RDT-NEWM-08,RnD,Tools For Revit,New Model,Project Dorado | Rename Views,,"(212),(194)",2021-07-04,########,########,40,,########
+5075,PRO-000-RND,RND-RDT-NEWM-09,RnD,Tools For Revit,New Model,Project Carina | Create Sheet From Excel,,"(194),(212)",4/9/2021,########,########,56,,########
+5076,PRO-000-RND,RND-RDT-NEWM-10,RnD,Tools For Revit,New Model,Cut Dimension,"The tool can control, edit the distance between models and Dimension.
+ 
+ this tool cannot be done at current APIs of Revit","(212),(194)",########,########,########,16,,########
+5077,PRO-000-RND,RND-RDT-NEWM-11,RnD,Tools For Revit,New Model,Delete Legends In Sheets,,-194,########,########,########,16,,########
+5078,PRO-000-RND,RND-RDT-NEWM-12,RnD,Tools For Revit,New Model,Project Hydra | GHCxVNC Conduit Tools,Tools to be used for conduit data transfer and renaming,"(212),(194),(213)",########,########,6/8/2021,0,,########
+5079,PRO-000-RND,RND-RDT-NEWM-13,RnD,Tools For Revit,New Model,Auto Section,,"(213),(194)",6/1/2021,########,########,0,,########
+5080,PRO-000-RND,RND-RDT-NEWM-14,RnD,Tools For Revit,New Model,Project Octans | Create tool For checking total pipe lengths and conduits,"Create a tool that extracts lengths from pipe fittings and pipes for scheduling purposes and checking total pipe length.
+ 
+ MD+ project","(194),(213),(212)",########,########,########,0,,########
+5081,PRO-000-RND,RND-RDT-NEWM-15,RnD,Tools For Revit,New Model,Project Orion,"Create a tool which will transferfer Views and Sheets from one project to another, this will help working on projects which are yet to be turned over to have a head start on working the project","(212),(194),(213)",########,7/6/2021,########,0,,########
+5082,PRO-000-RND,RND-RDT-NEWM-16,RnD,Tools For Revit,New Model,Project Pavo v1,"Create Tool for Checking parameters from spread sheet against parameters in the family - This tool is for workpath project, will be later updated to be flexible to other projects","(212),(194),(213)",########,########,########,0,,########
+5083,PRO-000-RND,RND-OTH-STDM,RnD,Others,Standardize Model,Polaris Updates,Any updates in Polaris falls here,"(213),(194),(285)",1/1/2021,########,,0,,########
+5084,PRO-000-RND,RND-OTH-NEWM-01,RnD,Others,New Model,Encryption Tool,Create a tool to Encrypt dll file before publish on website,"(213),(194),(212)",########,########,########,0,,########
+5085,PRO-000-RND,RND-OTH-NEWM-02,RnD,Others,New Model,"Project Mensa | Technology Room - Design, model & quantify",Technology room preparation,"(212),(224),(213),(221)",6/1/2021,########,########,0,,########
+5086,PRO-000-RND,RND-OTH-NEWM-03,RnD,Others,New Model,Project Saigon 3D | Create 3D print of Ho Chi Minh City,"Create 3D print of Ho Chi Minh City
+ 
+ changed to hold","(194),(212),(213)",########,########,########,0,,########
+5087,PRO-000-RND,RND-OTH-NEWM-04,RnD,Others,New Model,TP 2021 May - July,Prepare tools Presentation from May - July,"(194),(212),(213)",########,########,########,0,,########
+5088,PRO-000-RND,RND-OTH-NEWM-05,RnD,Others,New Model,Project Pegasus | Live Progress Bars of Projects,Study and create a working Live Progress update of projects (progress bars),"(194),(212),(213)",########,########,########,0,,########
+5089,PRO-000-RND,RND-OTH-STDM-02,RnD,Others,Standardize Model,S3 Project - Support in Forge & Revit API development,,"(212),(213),(194)",########,1/7/2022,########,0,,########
+5090,PRO-000-RND,RND-RDS-NEWM-01,RnD,Software Development,New Model,Project Bootes | Videos Training Protecter,Solution to protect videos from illegal copying,"(213),(212)",########,########,4/5/2021,0,,########
+5091,PRO-000-RND,RND-RDS-MDLU-01,RnD,Software Development,Model Upgrade,Project Cygnus | IT Diary Log (Version 2),Manage resources and device usage history,"(213),(212)",4/1/2021,4/8/2021,########,0,,########
+5092,PRO-000-RND,RND-RDS-NEWM-02,RnD,Software Development,New Model,Rename Files,Rename Files In Folder,"(213),(212)",########,########,########,6,,########
+5093,PRO-000-RND,RND-RDS-NEWM-03,RnD,Software Development,New Model,Daily export of Polaris data,"As requested by Nhut: 
+ Data base need to export everyday by Polaris :
+ 
+ Human
+ Project
+ Task
+ TimeSheet
+ TimeSheetMonth
+ TimeSheetStaff
+ TimeSheetTask
+ 
+ Please help me make an automatic tool to export a JSON file everyday, at non-working time (ie before 7am)
+ in a same folder on our server","(194),(212),(213)",5/5/2021,5/7/2021,5/7/2021,0,,########
+5094,PRO-000-RND,RND-RDS-STDM-01,RnD,Software Development,Standardize Model,Project Indus V2,,"(213),(212),(194)",########,########,########,0,,########
+5095,PRO-000-RND,RND-RDS-NEWM-04,RnD,Software Development,New Model,Project Scan To BIM | Novorender Updates,,"(194),(212),(213)",########,########,########,0,,########
+5096,PRO-000-RND,RND-RDS-NEWM-05,RnD,Software Development,New Model,TBF Estimate Tool,Tool for stream lining Estimation process for ASMEP systems,"(213),(194),(212)",########,########,########,0,,########
+5097,PRO-000-RND,RND-SDV-NEWM,RnD,Software Development,New Model,Indesys - Concept Stage,,"(213),(194),(212)",########,########,2022-01-06,0,,########
+5098,PRO-000-RND,RND-SDV-NEWM,RnD,Software Development,New Model,bin. System concept,create concept workflows and interface,"(213),(212),(194)",3/7/2022,########,6/1/2022,0,,########
+5099,PRO-000-RND,RND-MOD-NEWM-01,RnD,Modelling,New Model,Atkins Sample Families,,"(212),(213),(194),(229)",########,########,########,0,,########
+5100,PRO-000-RND,RND-AST-STDM-01,RnD,AssetData,Standardize Model,VinHomes,,"(212),(213),(194)",########,########,########,0,,########
+5101,PRO-000-RND,RND-3DV-MDLU-01,RnD,3D Visualization,Model Upgrade,Office Model Create Virtual Walkthrough,in Twin Motion and+ Google Map,-212,########,########,########,0,,########
+5102,PRO-129-LIZD-01,OTH-MOD-NEWM-01,Others,Modelling,New Model,01.Review input drawing,,"(169),(151),(227),(226),(225),(228),(207),(223)",########,########,########,0,,########
+5103,PRO-129-LIZD-01,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,02.Arch Modeling,,"(169),(151),(227),(226),(225),(228),(207),(223),(215)",########,########,########,0,,########
+5104,PRO-129-LIZD-01,MEP-MOD-NEWM-01,MEP,Modelling,New Model,04.MEP Modeling,,"(169),(151),(227),(226),(225),(228),(207),(223),(215),(170),(219),(196)",########,########,########,0,,########
+5105,PRO-129-LIZD-01,STR-MOD-NEWM-01,Structure,Modelling,New Model,03.Structure Modeling,,"(169),(151),(227),(226),(225),(228),(207),(223),(215)",########,########,########,0,,########
+5106,PRO-129-LIZD-01,OTH-MOD-NEWM-02,Others,Modelling,New Model,05.QC,,"(169),(151),(227),(226),(225),(228),(207),(223),(215)",########,########,########,0,,########
+5107,PRO-000-TBF_DETAILS,ARC-OTH-STDM-01,Architecture,Others,Standardize Model,Standard - ARC Detail Items,,"(205),(218),(220),(223),(225),(229)",########,########,,0,,########
+5108,PRO-000-TBF-STR,ARC-PJM-MGMT,Architecture,Project Management,Project Management,01. VNC Project Management,,-73,2022-01-01,########,########,0,,########
+5109,PRO-000-TBF-STR,ARC-PJM-MGMT-02,Architecture,Project Management,Project Management,02. PDM Project Management,,-73,1/1/2022,########,,0,,########
+5110,PRO-000-TBF-STR,ARC-PJM-MGMT,Architecture,Project Management,Project Management,03. Scan to BIM Project Management,,-73,########,4/9/2022,,0,,########
+5111,PRO-000-TBF-STR,ARC-PJM-MGMT,Architecture,Project Management,Project Management,04. IP Project Management,,-73,2/1/2022,########,########,0,,########
+5112,PRO-123-SYN-01_ST2,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01.Type E,,"(231),(208),(190),(216),(221),(230),(234)",########,########,,0,,########
+5113,PRO-123-SYN-01_ST2,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,02.Type L3,,"(231),(208),(190),(216),(221),(230),(234)",########,########,,0,,########
+5114,PRO-123-SYN-01_ST2,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,03.Type L4,,"(231),(208),(190),(216),(221),(230),(234)",########,########,,0,,########
+5115,PRO-123-SYN-01_ST2,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,04.Type C8,,"(231),(208),(190),(216),(221),(230),(234)",########,########,,0,,########
+5116,PRO-123-SYN-01_ST2,ARC-MOD-NEWM-05,Architecture,Modelling,New Model,05.Type C9,,"(231),(208),(190),(216),(221),(230),(234)",########,########,,0,,########
+5117,PRO-123-SYN-01_ST2,ARC-MOD-NEWM-06,Architecture,Modelling,New Model,06.Type J3,,"(231),(208),(190),(216),(221),(230),(234)",########,########,,0,,########
+5118,PRO-123-SYN-01_ST2,ARC-MOD-NEWM-07,Architecture,Modelling,New Model,07.Type J4,,"(231),(208),(190),(216),(221),(230),(234)",########,########,,0,,########
+5119,PRO-123-SYN-01_ST2,ARC-MOD-NEWM-08,Architecture,Modelling,New Model,08.Type J5,,"(231),(208),(190),(216),(221),(230),(234)",########,########,,0,,########
+5120,PRO-123-SYN-01_ST2,ARC-MOD-NEWM-09,Architecture,Modelling,New Model,09.Type K2,,"(231),(208),(190),(216),(221),(230),(234)",########,########,,0,,########
+5121,PRO-123-SYN-01_ST2,ARC-MOD-NEWM-10,Architecture,Modelling,New Model,10.Type K3,,"(231),(208),(190),(216),(221),(230),(234)",########,########,,0,,########
+5122,PRO-123-SYN-01_ST2,ARC-MOD-NEWM-11,Architecture,Modelling,New Model,11.Type K4,,"(231),(208),(190),(216),(221),(230),(234)",########,########,,0,,########
+5123,PRO-123-SYN-01,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,03-MOD-Room Type-C1-C2,,"(183),(215),(208),(190),(210),(109),(176),(191),(221),(216),(224)",########,########,,0,,########
+5124,PRO-123-SYN-01,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,05-Room Type -C5-C7,,"(183),(190),(176),(221),(185),(191)",2021-06-07,2021-09-07,,0,,########
+5125,PRO-123-SYN-01,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,06-Room Type -C6,,"(183),(190),(176),(221),(191),(185),(139)",7/6/2021,7/9/2021,,0,,########
+5126,PRO-123-SYN-01,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,07-MOD-Room Type-D,,"(183),(190),(215),(182),(210),(109),(216),(191)",########,########,,0,,########
+5127,PRO-123-SYN-01,ARC-MOD-STDM-02,Architecture,Modelling,Standardize Model,08-MOD-Room -Millwork,,"(182),(169),(183),(215),(109),(210),(216)",########,########,,0,,########
+5128,PRO-123-SYN-01,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,09-MOD-Room Type-L,,"(183),(190),(215),(182),(210),(109),(216),(169),(221)",########,########,,0,,########
+5129,PRO-123-SYN-01,ARC-MOD-NEWM-05,Architecture,Modelling,New Model,10-MOD-Room Type-M,,"(183),(190),(215),(182),(210),(109),(216),(169),(221),(208)",########,########,,0,,########
+5130,PRO-123-SYN-01,ARC-MOD-NEWM-06,Architecture,Modelling,New Model,11-MOD-Room Type-K,,"(183),(190),(215),(182),(210),(109),(216),(169),(221),(208)",########,########,,0,,########
+5131,PRO-123-SYN-01,ARC-MOD-NEWM-07,Architecture,Modelling,New Model,12-MOD-Room Type-A,,"(183),(190),(215),(182),(210),(109),(216),(169),(221)",########,########,,0,,########
+5132,PRO-123-SYN-01,ARC-MOD-NEWM-08,Architecture,Modelling,New Model,13-MOD-Room Type-E,,"(183),(190),(215),(182),(210),(109),(216),(169),(208),(221)",########,########,,0,,########
+5133,PRO-123-SYN-01,ARC-MOD-NEWM-09,Architecture,Modelling,New Model,14-MOD-Room Type-F,,"(183),(190),(215),(182),(210),(109),(216),(169),(221)",########,########,,0,,########
+5134,PRO-123-SYN-01,ARC-MOD-NEWM-10,Architecture,Modelling,New Model,15-MOD-Room Type-G,,"(183),(190),(215),(182),(210),(109),(216),(169),(221)",########,########,,0,,########
+5135,PRO-123-SYN-01,ARC-MOD-NEWM-11,Architecture,Modelling,New Model,16-MOD-Room Type-H,,"(183),(190),(215),(182),(210),(109),(216),(208),(221)",########,########,,0,,########
+5136,PRO-123-SYN-01,ARC-MOD-NEWM-12,Architecture,Modelling,New Model,17-MOD-Room Type-J,,"(183),(190),(215),(182),(210),(109),(216),(169),(208),(221)",########,########,,0,,########
+5137,PRO-123-SYN-01,ARC-MOD-NEWM-13,Architecture,Modelling,New Model,18-MOD-Setup Room and QC,,"(183),(190),(215),(182),(210),(216),(169),(139),(221)",########,8/2/2021,,0,,########
+5138,PRO-123-SYN-01,ARC-OTH-STDM-01,Architecture,Others,Standardize Model,00-Review Model/Check/Management,,"(183),(176),(190),(224),(215)",########,########,,0,,########
+5139,PRO-123-SYN-01,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,04-Room Type-C3-C4,,"(183),(210),(190),(221),(185),(112)",########,########,########,0,,########
+5140,PRO-123-SYN-01,ARC-2DD-NEWM-02,Architecture,2D Documentation,New Model,01-2D-Podium L1,,"(190),(183),(176),(191),(221),(185),(216),(139),(182)",2021-06-07,2021-09-07,,0,,########
+5141,PRO-123-SYN-01,ARC-2DD-NEWM-03,Architecture,2D Documentation,New Model,02-2D-Podium L2,,"(183),(190),(176),(191),(185),(221)",2021-06-07,2021-09-07,,0,,########
+5142,PRO-123-SYN-01,ARC-2DD-NEWM-04,Architecture,2D Documentation,New Model,Week 9,,,2021-06-07,7/9/2021,,0,,########
+5143,PRO-000-TBF_TRAINING,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,01-TBF Revit Template_Arc,,"(73),(224)",2021-09-03,########,########,0,,########
+5144,PRO-000-TBF_TRAINING,STR-MOD-STDM-01,Structure,Modelling,Standardize Model,02-TBF Revit Template_Struc,,"(200),(188),(203),(112),(206)",2021-09-03,########,########,200,,########
+5145,PRO-000-TBF_TRAINING,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,03-TBF Project Template,,"(169),(183),(191),(216),(208),(109)",2021-09-03,########,,0,,########
+5146,PRO-000-TBF_TRAINING,STR-MOD-STDM-02,Structure,Modelling,Standardize Model,04-TBF- Create Revit Families_Modular Plus (MD+),Create revit families_Modular,"(203),(112),(200),(199),(140),(206),(209),(227),(226),(185),(109),(191),(183),(169),(188)",3/8/2021,########,,200,,########
+5147,PRO-000-TBF_TRAINING,STR-MOD-STDM-03,Structure,Modelling,Standardize Model,05-TBF Revit Families Steel framing.,Create Revit Families Steel framing.,"(139),(140),(184),(188),(199),(203),(200),(206),(209),(112),(214)",########,########,########,200,,########
+5148,PRO-000-TBF_TRAINING,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,11-TBF STR SIMULATION FOR COORDINATION/CHECK STR,,"(183),(185)",########,########,,0,,########
+5149,PRO-000-TBF_TRAINING,MEP-MOD-NEWM-01,MEP,Modelling,New Model,17. MEP Training - Plumbing layout and modelling,,"(212),(218),(220),(205),(151),(223),(207),(219),(170),(196),(225),(228)",########,########,########,0,,########
+5150,PRO-000-TBF_TRAINING,MEP-MOD-STDM-01,MEP,Modelling,Standardize Model,04-TBF Revit MEP Families_Modular Plus (MD+),Create Revit MEP Families_Modular,"(196),(219)",########,########,,0,,########
+5151,PRO-000-TBF_TRAINING,MEP-MOD-NEWM-02,MEP,Modelling,New Model,21. MEP Training - PDFS - 3D Model,,"(212),(218),(220),(205),(151),(223),(207),(219),(170),(196),(225)",########,########,########,0,,########
+5152,PRO-000-TBF_TRAINING,MEP-MOD-NEWM-03,MEP,Modelling,New Model,23. MEP Training - Elect - 3D Model,,"(212),(218),(220),(205),(151),(223),(207),(219),(170),(196),(225),(228)",########,########,########,0,,########
+5153,PRO-000-TBF_TRAINING,MEP-MOD-NEWM-04,MEP,Modelling,New Model,22. MEP Training - HVAC - 3D Model,,"(212),(218),(220),(205),(151),(223),(207),(219),(170),(196),(225),(228)",########,########,########,0,,########
+5154,PRO-000-TBF_TRAINING,MEP-MOD-NEWM-05,MEP,Modelling,New Model,Unios Family Creation for Lighting Fixtures,,"(218),(229),(205),(212),(170),(207)",6/7/2021,########,########,0,,########
+5155,PRO-000-TBF_TRAINING,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,27- Arch Training for Regent Hotel and MAA2,,"(212),(218),(220),(205),(151),(223),(207),(219),(170),(196),(225),(228),(169),(221)",########,2021-02-08,########,0,,########
+5156,PRO-000-TBF_TRAINING,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,28- Unios training,,"(212),(218),(220),(205),(151),(223),(207),(219),(170),(196),(225),(228),(169),(221)",8/2/2021,8/5/2021,########,0,,########
+5157,PRO-000-TBF_TRAINING,ARC-MOD-NEWM-05,Architecture,Modelling,New Model,29- WWJP training,,"(212),(218),(220),(205),(151),(223),(207),(219),(170),(196),(225),(228),(169),(221)",########,########,########,0,,########
+5158,PRO-000-TBF_TRAINING,ARC-MOD-NEWM-06,Architecture,Modelling,New Model,30. MD+ Traning,,"(212),(218),(220),(205),(151),(223),(207),(219),(170),(196),(225),(228),(169),(221),(229)",########,########,########,0,,########
+5159,PRO-000-TBF_TRAINING,STR-MOD-NEWM-01,Structure,Modelling,New Model,31. VNC Traing,,"(212),(218),(220),(205),(151),(223),(207),(219),(170),(196),(225),(228),(169),(221),(229),(206)",########,########,########,0,,########
+5160,PRO-000-TBF_TRAINING,MEP-MOD-NEWM,MEP,Modelling,New Model,32. MEP Training - MD+- LP Fabset,,"(212),(218),(205),(223),(170),(225),(229)",########,########,########,0,,########
+5161,PRO-000-TBF_TRAINING,ARC-2DD-STDM-01,Architecture,2D Documentation,Standardize Model,06-TBF Training/Template for Whisky,,"(215),(169),(191),(185),(109),(208)",3/9/2021,########,,0,,########
+5162,PRO-000-TBF_TRAINING,MEP-2DD-NEWM-01,MEP,2D Documentation,New Model,13-TBF ICM Training for 2D Documentation,,"(155),(197),(205),(218),(220),(151),(223),(170),(196),(207),(212)",########,########,########,0,,########
+5163,PRO-000-TBF_TRAINING,MEP-2DD-NEWM-02,MEP,2D Documentation,New Model,18. MEP Training - PDFS - 2D Documentation General,,"(212),(218),(220),(205),(151),(223),(207),(219),(170),(196),(225)",########,########,########,0,,########
+5164,PRO-000-TBF_TRAINING,MEP-2DD-NEWM-03,MEP,2D Documentation,New Model,19. MEP Training - HVAC - 2D Documentation General,,"(212),(218),(220),(205),(151),(223),(207),(219),(170),(196),(225),(228)",########,########,########,0,,########
+5165,PRO-000-TBF_TRAINING,MEP-2DD-NEWM-04,MEP,2D Documentation,New Model,20. MEP Training - Elect - 2D Documentation,,"(212),(218),(220),(205),(151),(223),(207),(219),(170),(196),(225),(228)",########,########,########,0,,########
+5166,PRO-000-TBF_TRAINING,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,25. Regent Review,,,6/8/2021,########,,0,,########
+5167,PRO-000-TBF_TRAINING,STR-2DD-NEWM-01,Structure,2D Documentation,New Model,LW Traning,,"(215),(225),(228)",########,########,,0,,########
+5168,PRO-000-TBF_TRAINING,ARC-2DD-NEWM-02,Architecture,2D Documentation,New Model,24-Apartment Unit Elevations,,"(215),(182),(208),(190),(210),(109),(216),(221)",########,########,,0,,########
+5169,PRO-000-TBF_TRAINING,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,25-Gym 2H-L01- Elevations,,"(215),(208),(190),(210),(182),(216),(221),(109)",########,########,########,0,,########
+5170,PRO-000-TBF_TRAINING,STR-OTH-STDM-01,Structure,Others,Standardize Model,07-TBF Naviswork_Struc,Learn about clash detection in naviswork,"(112),(139),(199),(140)",########,########,########,200,,########
+5171,PRO-000-TBF_TRAINING,ARC-OTH-NEWM-01,Architecture,Others,New Model,08-TBF Training-Review VNC Project (Drawing) and Create Checklist,,"(190),(210),(182),(215),(73),(112),(200),(139),(188)",########,########,########,0,,########
+5172,PRO-000-TBF_TRAINING,STR-OTH-STDM-02,Structure,Others,Standardize Model,09-TBF Dynamo_Struc,Learn about create tool by Dynamo,"(206),(184)",########,########,########,200,,########
+5173,PRO-000-TBF_TRAINING,ARC-OTH-MGMT-01,Architecture,Others,Project Management,12-TBF ID Project Report,,"(221),(192)",########,########,,0,,########
+5174,PRO-000-TBF_TRAINING,MEP-OTH-MDLU-01,MEP,Others,Model Upgrade,14-VNC MEP Model Familiarization and Improvement,,"(151),(225),(219),(196),(223),(198),(187),(155),(218),(205),(220),(197),(207),(170)",########,########,7/6/2021,144,,########
+5175,PRO-000-TBF_TRAINING,OTH-OTH-NEWM-01,Others,Others,New Model,15-TBF Training 4D and 5D Process,Research and Develop workflow for 4D and 5D,"(203),(199),(140),(206),(209)",########,########,########,200,,########
+5176,PRO-000-TBF_TRAINING,ARC-OTH-NEWM-02,Architecture,Others,New Model,VNC Training,,,########,########,,0,,########
+5177,PRO-000-TBF_TRAINING,ARC-OTH-STDM-01,Architecture,Others,Standardize Model,02-TBF VNC Traning,,"(73),(224),(215),(169),(183),(185),(109),(191),(176),(208)",########,########,########,0,,########
+5178,PRO-000-TBF_TRAINING,ARC-OTH-NEWM-03,Architecture,Others,New Model,00-TBF BASON REVIEW,,"(183),(215),(218),(176),(109),(224),(208),(191),(185),(169)",########,2021-01-05,,0,,########
+5179,PRO-000-TBF_TRAINING,OTH-OTH-NEWM-02,Others,Others,New Model,16-TBF training - Create company standard,,"(206),(209),(188),(73),(226)",5/3/2021,5/7/2021,########,0,,########
+5180,PRO-000-TBF_TRAINING,ARC-OTH-NEWM,Architecture,Others,New Model,03-LW Review,,"(185),(210),(208),(224),(182),(109)",########,########,########,0,,########
+5181,PRO-000-TBF_TRAINING,OTH-OTH-NEWM-03,Others,Others,New Model,24. TBF - MD+ - Review input data and estimate timeline,,"(224),(169),(185),(73),(188),(221)",########,########,########,0,,########
+5182,PRO-000-TBF_TRAINING,ARC-OTH-NEWM,Architecture,Others,New Model,11-Regent HK Review,,"(176),(183),(190),(182),(210),(208)",########,2021-03-06,########,0,,########
+5183,PRO-000-TBF_TRAINING,ARC-OTH-STDM-02,Architecture,Others,Standardize Model,STR Team - VNC Project training,,"(259),(260)",2022-04-04,4/8/2022,,0,,########
+5184,PRO-000-TBF_TRAINING,ARC-OTH-STDM-03,Architecture,Others,Standardize Model,MEP Team - VNC Project Practice,,"(151),(225),(228),(170),(229),(207),(223)",4/8/2022,########,,0,,########
+5185,PRO-000-TBF_TRAINING,ARC-RDT-MTGS-01,Architecture,Tools For Revit,Meetings,10-TBF-R&D Presentation,,"(73),(185),(216),(183),(169),(191),(210),(182),(109),(192),(221),(208),(176),(217),(190)",########,########,########,0,,########
+5186,PRO-116-IPP-01,ARC-2DD-STDM-01,Architecture,2D Documentation,Standardize Model,LIQUOUR SHOP,,"(192),(221),(176),(191),(185),(190)",########,########,,0,,########
+5187,PRO-116-IPP-01,ARC-2DD-MGMT-01,Architecture,2D Documentation,Project Management,ID Project Report,,"(221),(192)",########,########,,0,,########
+5188,PRO-116-IPP-01,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,02-HIM & HER SHOP,,"(221),(192)",########,########,,0,,########
+5189,PRO-116-IPP-01,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,LIQUOUR SHOP,,"(192),(221),(217),(190),(208)",########,########,,0,,########
+5190,PRO-116-IPP-01,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01- HIM & HER SHOP,,"(221),(192),(190)",########,########,,0,,########
+5191,PRO-116-IPP-01,ARC-MTB-MTGS-01,Architecture,Meeting - Billable,Meetings,00-Official Meeting,,-224,########,########,,0,,########
+5192,PRO-116-IPP-01,ARC-MTB-MTGS-02,Architecture,Meeting - Billable,Meetings,00-Internal Meeting,,-224,########,########,,0,,########
+5193,PRO-116-IPP-01,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,00-Check Resource/ Workload/Mangement,,-224,########,########,,0,,########
+5194,PRO-127-UNIOS-01,MEP-MOD-NEWM-01,MEP,Modelling,New Model,01.Modeling and Documentation,,"(205),(218),(219),(151),(223),(196),(170)",2021-02-08,2021-05-08,########,0,,########
+5195,PRO-127-UNIOS-01,MEP-MOD-NEWM-02,MEP,Modelling,New Model,02.QC,,"(205),(218),(219),(151),(223),(196),(170)",8/2/2021,8/5/2021,########,0,,########
+5196,PRO-127-UNI-03,MEP-MOD-STDM,MEP,Modelling,Standardize Model,Parametric Lighting Family Creation,,"(219),(229),(223)",########,########,2021-01-04,0,,########
+5197,PRO-127-UNI-03,MEP-MOD-MGMT,MEP,Modelling,Project Management,03. Project Management & QA,,-212,########,########,4/1/2021,0,,########
+5198,PRO-000-UAI,ALL-OTH-STDM,Others,Others,Standardize Model,Unreal Engine Training,Log-in Hours spent here for both self learning and Live training,"(73),(188),(229),(213),(212)",########,########,########,0,,########
+5199,PRO-113-VNC-01,ELE-MOD-MDLU-01,MEP,Modelling,Model Upgrade,SOW-06 | LIGHTING CONTROLS & FIXTURES CIRCUIT 3D MODEL & PARAMETERS TAG,"Scope Inclusions/Assumptions:
+ 
+ 01.Modelling of the Lighting circuit in accordance to plan drawings provided in the document DFW TERMINAL F-PHASE 1 - WS Submittal REV 1 received 2020.10.19.(with the assumption that in addition to DFW TERMINAL F-PHASE 1 - WS Submittal REV 1 more information will be received for the execution of this scope)
+ 
+ 02.Data Inputs on the Parameters based on the available information in the document: DFW TERMINAL F-PHASE 1 - WS Submittal REV 1
+ 
+ 03.Raise issues in cases on inconsistent information
+ 
+ 04.Naviswork Export 2 time weekly to monitor changes, progress and possible ommission of information by others
+ 
+ 05.It is assumed that there will be no major changes to the Lighting design and arc / str model which will greatly affect the coordination works. hence, additional hours may incur to accommodate the said changes
+ 
+ 06.Clash Detection / coordination with other services/ BIM Contractors
+ 
+ 07.The document DFW TERMINAL F-PHASE 1 - WS Submittal REV 1 do not include Level 4 drawings for this scope during the MHE preparation, it is assumed that the light layout on rooms is similar with Level 4 in SOW-03 with minimal differences. The proposed hours is subject to change once latest information is received
+ 
+ 08.Separation of hours for Horizontal conduits, Vertical Circuits and asset data has been done in accordance to Meeting on October 21,2020","(197),(205),(220),(149),(202)",########,########,########,500,,########
+5200,PRO-113-VNC-01,ELE-MOD-STDM-01,MEP,Modelling,Standardize Model,"SOW-08 : DCN 3 & 5, LIGHTING CONTROLS CONDUIT and FIRE ALARM MODEL UPDATE",,-205,########,########,3/5/2021,0,,########
+5201,PRO-113-VNC-01,ELE-OTH-MDLU-01,MEP,Others,Model Upgrade,SOW-07 | AUDITING MODELS SCOPE (ELECTRICAL SERVICE),"Model Audit exercise includes: 
+ - Review of Electrical services i.e, Fire Alarm, Controls, Lighting and Device Conduits 
+ - Model Review is for (state the model file name) only 
+ - Review of Completeness of Asset Data","(197),(205),(212),(149),(202),(180)",########,2021-06-01,########,500,,########
+5202,PRO-113-VNC-01,OTH-OTH-MGMT-01,Others,Others,Project Management,Man-hr Estimation task,,-212,2/1/2021,2021-01-04,3/5/2021,0,,########
+5203,PRO-113-VNC-01,ELE-2DD-STDM-02,MEP,2D Documentation,Standardize Model,SOW-01B | FIRE ALARM DOCUMENTATION,,"(205),(212),(149),(202),(180),(197),(220)",########,1/6/2021,########,181,,########
+5204,PRO-113-VNC-01,MEP-CRD-MDLU-01,MEP,Coordination,Model Upgrade,SOW-06 Lighting circuit modelling and coordination,,"(205),(220),(197),(202),(212)",########,########,2/8/2021,800,,########
+5205,PRO-113-VNC-04,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Create 3D Model and 2D Documentation,,"(210),(215),(191),(182),(190),(73)",3/2/2021,########,########,0,,########
+5206,PRO-113-VNC-04,ARC-2DD-MGMT-01,Architecture,2D Documentation,Project Management,QC and Management,,"(215),(73)",########,########,########,0,,########
+5207,PRO-113-VNC-05,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(182),(210),(190)",2021-01-04,2021-01-04,########,0,,########
+5208,PRO-113-VNC-05,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,-73,2021-01-04,4/1/2021,########,0,,########
+5209,PRO-113-VNC-05,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(182),(139),(200),(210)",2021-08-04,########,########,0,,########
+5210,PRO-113-VNC-05,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,Stage 2 - QC- Propose architecture design model and documentation,,"(182),(73)",2021-08-04,########,########,0,,########
+5211,PRO-113-VNC-05,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,"(73),(224)",2021-01-04,########,########,0,,########
+5212,PRO-113-VNC-05,ARC-OTH-NEWM-01,Architecture,Others,New Model,Review sample Revit file and 2D documentation (Prototype and Houston),,"(182),(210),(190),(73)",4/2/2021,4/6/2021,4/6/2021,0,,########
+5213,PRO-113-VNC-06_VO1,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 2 - Update design model and documentation follow layout plan change,,"(188),(112),(73)",########,########,########,0,,########
+5214,PRO-113-VNC-06,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(210),(190),(188),(112)",########,########,########,0,,########
+5215,PRO-113-VNC-06,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 2 - QC- Propose architecture design model and documentation,,"(73),(190),(188)",########,########,########,0,,########
+5216,PRO-113-VNC-06,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5217,PRO-113-VNC-07,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(182),(210),(190)",2021-01-04,2021-01-04,########,0,,########
+5218,PRO-113-VNC-07,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,-73,2021-01-04,4/1/2021,4/1/2021,0,,########
+5219,PRO-113-VNC-07,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(112),(190),(188)",2021-08-04,########,########,0,,########
+5220,PRO-113-VNC-07,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,Stage 2 - QC- Propose architecture design model and documentation,,"(73),(190)",2021-08-04,########,########,0,,########
+5221,PRO-113-VNC-07,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,"(73),(224)",2021-01-04,########,########,0,,########
+5222,PRO-113-VNC-08,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(182),(210),(190)",2021-02-04,2021-02-04,2021-01-04,0,,########
+5223,PRO-113-VNC-08,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,-73,2021-02-04,4/2/2021,4/2/2021,0,,########
+5224,PRO-113-VNC-08,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(112),(190),(188)",2021-08-04,########,########,0,,########
+5225,PRO-113-VNC-08,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,Stage 2 - QC- Propose architecture design model and documentation,,"(73),(190)",2021-08-04,########,########,0,,########
+5226,PRO-113-VNC-08,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,"(73),(224)",2021-01-04,########,########,0,,########
+5227,PRO-113-VNC-10,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(182),(210),(190),(188)",2021-05-04,2021-08-04,4/9/2021,0,,########
+5228,PRO-113-VNC-10,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,"(73),(224)",4/5/2021,4/8/2021,########,0,,########
+5229,PRO-113-VNC-12,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(182),(210),(190)",########,########,########,0,,########
+5230,PRO-113-VNC-12,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,"(73),(182)",########,########,########,0,,########
+5231,PRO-113-VNC-12,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(182),(139),(200),(210),(215),(176),(208),(109),(140),(203),(199)",########,########,########,0,,########
+5232,PRO-113-VNC-12,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,Stage 2 - QC- Propose architecture design model and documentation,,"(182),(73)",########,########,########,0,,########
+5233,PRO-113-VNC-12,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5234,PRO-113-VNC-13,MEP-OTH-MDLU-01,MEP,Others,Model Upgrade,Model Upgrade and 2D Documentation,,"(151),(225),(196),(219)",########,########,########,54,,########
+5235,PRO-113-VNC-13,MEP-OTH-MDLU-02,MEP,Others,Model Upgrade,Model Review and QA/QC,,"(151),(149),(187)",########,########,2021-06-05,20,,########
+5236,PRO-113-VNC-13,MEP-PJM-MGMT-01,MEP,Project Management,Project Management,Project Management,,"(149),(187)",########,########,5/6/2021,10,,########
+5237,PRO-113-VNC-13,MEP-CRD-MDLU-01,MEP,Coordination,Model Upgrade,Clash Resolution and Coordination,,"(151),(219)",########,########,########,16,,########
+5238,PRO-113-VNC-14,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(182),(210),(200),(139),(112)",########,########,########,0,,########
+5239,PRO-113-VNC-14,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,"(73),(182)",########,########,########,0,,########
+5240,PRO-113-VNC-14,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(190),(210),(139),(112),(182)",########,########,########,0,,########
+5241,PRO-113-VNC-14,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,Stage 2 - QC- Propose architecture design model and documentation,,"(73),(182)",########,########,########,0,,########
+5242,PRO-113-VNC-14,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5243,PRO-113-VNC-15,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,"(73),(190)",########,########,########,0,,########
+5244,PRO-113-VNC-15,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(210),(190),(112)",########,########,########,0,,########
+5245,PRO-113-VNC-15,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(109),(169),(182)",########,########,########,0,,########
+5246,PRO-113-VNC-15,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,Stage 2 - QC- Propose architecture design model and documentation,,"(73),(182),(169)",########,########,########,0,,########
+5247,PRO-113-VNC-15,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5248,PRO-113-VNC-16,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(182),(200),(139)",########,########,########,0,,########
+5249,PRO-113-VNC-16,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,"(73),(182)",########,########,########,0,,########
+5250,PRO-113-VNC-16,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(190),(210)",########,########,########,0,,########
+5251,PRO-113-VNC-16,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,Stage 2 - QC- Propose architecture design model and documentation,,"(73),(190)",########,########,########,0,,########
+5252,PRO-113-VNC-16,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5253,PRO-113-VNC-17,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(188),(206),(209)",########,########,########,0,,########
+5254,PRO-113-VNC-17,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,"(73),(188)",########,########,########,0,,########
+5255,PRO-113-VNC-17,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5256,PRO-113-VNC-18,MEP-OTH-MDLU-01,MEP,Others,Model Upgrade,Model Upgrade and 2D Documentation,,"(151),(196),(207),(225),(223)",########,########,########,54,,########
+5257,PRO-113-VNC-18,MEP-OTH-MDLU-02,MEP,Others,Model Upgrade,Model Review and QA/QC,,"(187),(149),(151)",########,########,5/6/2021,20,,########
+5258,PRO-113-VNC-18,MEP-OTH-MDLU-03,MEP,Others,Model Upgrade,Clash Resolution and Coordination,,"(187),(151),(196)",########,########,########,16,,########
+5259,PRO-113-VNC-19_A,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(210),(190),(112),(182),(139)",2021-04-05,2021-06-05,2021-06-05,0,,########
+5260,PRO-113-VNC-19_A,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,"(73),(182),(190)",2021-04-05,5/6/2021,5/6/2021,0,,########
+5261,PRO-113-VNC-19_A,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(139),(112),(169)",2021-09-06,########,########,0,,########
+5262,PRO-113-VNC-19_A,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,2021-04-05,2021-06-05,########,0,,########
+5263,PRO-113-VNC-19_M,MEP-OTH-NEWM-01,MEP,Others,New Model,As-Built Modelling and Documentation,,"(151),(219),(170)",2021-05-05,2021-06-05,########,16,,########
+5264,PRO-113-VNC-19_M,MEP-OTH-MGMT-01,MEP,Others,Project Management,QA/QC and Project Management,,"(149),(187)",5/5/2021,5/6/2021,########,4,,########
+5265,PRO-113-VNC-20_M,MEP-OTH-MDLU-01,MEP,Others,Model Upgrade,3D Modelling Update and 2D Documentation,,"(151),(225),(219)",########,########,########,24,,########
+5266,PRO-113-VNC-20_M,MEP-OTH-MGMT-01,MEP,Others,Project Management,QA/QC & Project Management,,"(187),(149)",########,########,########,6,,########
+5267,PRO-113-VNC-20_A,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(182),(139),(112),(190),(169)",########,########,########,0,,########
+5268,PRO-113-VNC-20_A,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 2 - QC- Propose architecture design model and documentation,,"(73),(182)",########,########,########,0,,########
+5269,PRO-113-VNC-20_A,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5270,PRO-113-VNC-21,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(190),(169)",########,########,########,0,,########
+5271,PRO-113-VNC-21,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,"(73),(190)",########,########,########,0,,########
+5272,PRO-113-VNC-21,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(139),(112),(169),(185),(227)",########,########,########,0,,########
+5273,PRO-113-VNC-21,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5274,PRO-113-VNC-22,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(139),(112),(169)",########,########,########,0,,########
+5275,PRO-113-VNC-22,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 2 - QC- Propose architecture design model and documentation,,"(73),(169)",########,########,########,0,,########
+5276,PRO-113-VNC-22,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5277,PRO-113-VNC-23,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(112),(139),(169)",########,2021-02-06,2021-02-06,0,,########
+5278,PRO-113-VNC-23,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,"(73),(169)",########,6/2/2021,6/2/2021,0,,########
+5279,PRO-113-VNC-23,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(112),(226)",########,########,########,0,,########
+5280,PRO-113-VNC-23,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,2021-02-06,6/2/2021,0,,########
+5281,PRO-113-VNC-23,OTH-PJM-MGMT-01,Others,Project Management,Project Management,01. BIM MANAGEMENT - DOCUMENTATION FOR BIM SYSTEM,,,2021-02-08,2021-05-08,########,0,,########
+5282,PRO-113-VNC-24,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(112),(139),(169)",2021-02-06,2021-04-06,########,0,,########
+5283,PRO-113-VNC-24,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,"(73),(169)",2021-02-06,2021-04-06,########,0,,########
+5284,PRO-113-VNC-24,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(112),(227)",2021-05-07,2021-07-07,########,0,,########
+5285,PRO-113-VNC-24,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,Stage 2 - QC- Propose architecture design model and documentation,,-73,2021-05-07,2021-08-07,########,0,,########
+5286,PRO-113-VNC-24,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,6/2/2021,6/4/2021,########,0,,########
+5287,PRO-113-VNC-25,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(112),(139),(169)",########,########,########,0,,########
+5288,PRO-113-VNC-25,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,"(73),(169)",########,########,########,0,,########
+5289,PRO-113-VNC-25,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5290,PRO-113-VNC-26,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(112),(139),(185)",########,########,########,0,,########
+5291,PRO-113-VNC-26,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,"(73),(185)",########,########,########,0,,########
+5292,PRO-113-VNC-26,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(139),(112),(185),(226),(227)",########,########,########,0,,########
+5293,PRO-113-VNC-26,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,Stage 2 - QC- Propose architecture design model and documentation,,"(73),(185)",########,########,########,0,,########
+5294,PRO-113-VNC-26,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5295,PRO-113-VNC-27,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(185),(112),(139)",########,########,########,0,,########
+5296,PRO-113-VNC-27,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 1 - QC as-built model and documentation,,"(73),(185)",########,########,########,0,,########
+5297,PRO-113-VNC-27,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(139),(112)",7/9/2021,########,########,0,,########
+5298,PRO-113-VNC-27,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5299,PRO-113-VNC-34,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Stage 2 - Propose architecture design model and documentation,,"(139),(235),(112),(206)",########,########,########,0,,########
+5300,PRO-113-VNC-35,ARC-MOD-MDLU-01,Architecture,Modelling,Model Upgrade,Stage 2 - Create propose architecture design model and documentation,,"(112),(139)",########,########,########,0,,########
+5301,PRO-113-VNC-36,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 2 - Create propose architecture design model and documentation,,"(112),(206)",########,########,########,0,,########
+5302,PRO-113-VNC-39,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01.Modeling and Documentation,,"(139),(73),(112),(227),(206)",########,########,########,0,,########
+5303,PRO-113-VNC-39,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,02.QC,,"(139),(73),(112),(227),(206)",########,########,########,0,,########
+5304,PRO-113-VNC-39,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,03.Project management,,-73,########,########,########,0,,########
+5305,PRO-113-VNC-40_A,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01.Modeling and Documentation,,"(139),(73),(112),(227),(206)",########,########,########,0,,########
+5306,PRO-113-VNC-40_A,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,02.QC,,"(139),(73),(112),(227),(206)",########,########,########,0,,########
+5307,PRO-113-VNC-40_A,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,03.Project management,,"(139),(73),(112),(227),(206)",########,########,########,0,,########
+5308,PRO-113-VNC-40_M,MEP-OTH-NEWM-01,MEP,Others,New Model,03. Project Management,,"(149),(187)",########,########,########,0,,########
+5309,PRO-113-VNC-40_M,MEP-OTH-NEWM-02,MEP,Others,New Model,02. QA/QC and Coordination,,-151,########,########,########,0,,########
+5310,PRO-113-VNC-40_M,MEP-OTH-NEWM-03,MEP,Others,New Model,02. 2D Modelling and Documentation,,"(170),(196),(223)",########,########,########,0,,########
+5311,PRO-113-VNC-41,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01.Modeling and Documentation,,"(139),(73),(112),(227),(206)",########,########,########,0,,########
+5312,PRO-113-VNC-41,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,02.QC,,"(139),(73),(112),(227),(206)",########,########,########,0,,########
+5313,PRO-113-VNC-41,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,03.Project management,,-73,########,########,########,0,,########
+5314,PRO-113-VNC-42,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01.Modeling and Documentation,,"(139),(73),(112),(227),(206)",########,########,########,0,,########
+5315,PRO-113-VNC-42,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,02.QC,,"(139),(73),(112),(227),(206)",########,########,########,0,,########
+5316,PRO-113-VNC-42,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,03.Project management,,-73,########,########,########,0,,########
+5317,PRO-113-VNC-43,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01.Modeling and Documentation,,"(139),(73),(112),(227),(206)",########,########,########,0,,########
+5318,PRO-113-VNC-43,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,02.QC,,"(139),(73),(112),(227),(206)",########,########,########,0,,########
+5319,PRO-113-VNC-44,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,-112,########,########,########,0,,########
+5320,PRO-113-VNC-45,MEP-PJM-NEWM-01,MEP,Project Management,New Model,03. Project Management,,"(187),(149),(73)",########,########,########,0,,########
+5321,PRO-113-VNC-45,MEP-MOD-NEWM-01,MEP,Modelling,New Model,01. Point Cloud to 3D Modelling,,"(196),(112)",########,########,########,0,,########
+5322,PRO-113-VNC-46_M,MEP-OTH-NEWM-01,MEP,Others,New Model,01. 3D Model Creation,,"(170),(196),(223)",########,########,########,0,,########
+5323,PRO-113-VNC-46_M,MEP-OTH-NEWM-02,MEP,Others,New Model,02. 2D Documentation,,"(170),(196),(223)",########,########,########,0,,########
+5324,PRO-113-VNC-46_M,MEP-OTH-NEWM-03,MEP,Others,New Model,03. Coordination + Quality Check,,-151,########,########,########,0,,########
+5325,PRO-113-VNC-46_M,MEP-PJM-NEWM-01,MEP,Project Management,New Model,04. Project Management + Quality Check,,"(187),(149)",########,########,########,0,,########
+5326,PRO-113-VNC-46_A,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 2 - Propose architecture design model and documentation,,-112,########,########,########,0,,########
+5327,PRO-113-VNC-47_A,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5328,PRO-113-VNC-47_A,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 2 - Propose architecture design model and documentation,,"(139),(235),(112),(206)",########,########,########,0,,########
+5329,PRO-113-VNC-48_A,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 2 - Propose architecture design model and documentation,,"(139),(235),(206)",########,########,########,0,,########
+5330,PRO-113-VNC-48_A,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5331,PRO-113-VNC-48_M,MEP-MOD-NEWM-01,MEP,Modelling,New Model,01. MEP Modelling,,"(151),(170),(196),(223),(207)",########,########,########,100,,########
+5332,PRO-113-VNC-48_M,MEP-2DD-NEWM-01,MEP,2D Documentation,New Model,02. 2D Documentation,,"(151),(170),(196),(223),(207)",########,########,########,100,,########
+5333,PRO-113-VNC-48_M,MEP-PJM-NEWM-01,MEP,Project Management,New Model,03. Project Management,,"(187),(149)",########,########,########,0,,########
+5334,PRO-113-VNC-49,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(206),(139),(235),(112)",########,########,########,0,,########
+5335,PRO-113-VNC-49,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5336,PRO-113-VNC-50,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Stage 1 - Create As-built model and documentation,,"(112),(206)",########,########,########,0,,########
+5337,PRO-113-VNC-50,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5338,PRO-113-VNC-51,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5339,PRO-113-VNC-51,ARC-PJM-MGMT-02,Architecture,Project Management,Project Management,Project and team management,,-73,########,########,########,0,,########
+5340,PRO-113-VNC-53,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. Create asbuilt model as per PC data,,"(206),(139),(112)",4/6/2022,4/9/2022,########,0,,########
+5341,PRO-113-VNC-53_A,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. 3D Modelling,3D Modelling scan-to-bim,"(188),(73)",########,########,########,0,,########
+5342,PRO-113-VNC-53_A,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,02. 2D Documentation,2D drawing Production,"(73),(188)",########,########,########,0,,########
+5343,PRO-113-VNC-53_M,MEP-MOD-NEWM-01,MEP,Modelling,New Model,01. 3D Modelling,3D Modelling scan-to-bim,"(218),(229),(205),(220),(212)",########,########,########,0,,########
+5344,PRO-113-VNC-53_M,MEP-2DD-NEWM-01,MEP,2D Documentation,New Model,02. 2D Documentation,2D drawing Production,"(218),(229),(205),(220),(212)",########,########,########,0,,########
+5345,PRO-113-VNC-53_M,MEP-PJM-MGMT-01,MEP,Project Management,Project Management,03. Project Management & QA,Project Management & QA,"(212),(187),(205)",########,########,########,0,,########
+5346,PRO-113-VNC-55,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,02. Create CD model and drawing,,"(182),(228)",########,########,########,0,,########
+5347,PRO-113-VNC-58,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,01. Create existing condition model and drawing,,"(182),(206),(139),(112),(260),(259)",2022-06-04,2022-09-04,########,0,,########
+5348,PRO-113-VNC-58,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,00. QC,,"(182),(206)",2022-06-04,2022-09-04,########,0,,########
+5349,PRO-113-VNC-59,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,01. Create existing condition model and drawing,,"(182),(206),(139),(112),(260),(259)",2022-06-04,2022-09-04,########,0,,########
+5350,PRO-113-VNC-59,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,00. QC,,"(182),(206)",2022-06-04,2022-09-04,########,0,,########
+5351,PRO-113-VNC-60,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,01. Create existing condition model and drawing,,"(182),(206),(139),(112),(260),(259)",2022-06-04,2022-09-04,########,0,,########
+5352,PRO-113-VNC-60,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,00. QC,,"(182),(206)",2022-06-04,2022-09-04,########,0,,########
+5353,PRO-113-VNC-61,ARC-2DD-NEWM-02,Architecture,2D Documentation,New Model,02. Create CD model and drawing,,"(182),(206),(139),(112),(260),(259)",2022-06-04,2022-09-04,########,0,,########
+5354,PRO-113-VNC-61,ARC-2DD-NEWM-03,Architecture,2D Documentation,New Model,03. CAD extraction,,"(182),(206),(139),(112),(260),(259)",2022-06-04,2022-09-04,########,0,,########
+5355,PRO-113-VNC-61,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,00. QC,,"(182),(206)",2022-06-04,2022-09-04,########,0,,########
+5356,PRO-113-VNC-62,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,01. Create existing condition model and drawing,,"(182),(206),(139),(112),(260),(259)",2022-06-04,2022-09-04,########,0,,########
+5357,PRO-113-VNC-62,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,00. QC,,"(182),(206)",2022-06-04,2022-09-04,########,0,,########
+5358,PRO-113-VNC-63,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,01. Create existing condition model and drawing,,"(182),(206),(139),(112),(260),(259)",2022-06-04,2022-09-04,########,0,,########
+5359,PRO-113-VNC-63,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,00. QC,,"(182),(206)",2022-06-04,2022-09-04,########,0,,########
+5360,PRO-113-VNC-64,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,02. Create CD model and drawing,,"(182),(206),(139),(112),(260),(259)",2022-06-04,2022-09-04,########,0,,########
+5361,PRO-113-VNC-64,ARC-2DD-NEWM-02,Architecture,2D Documentation,New Model,03. CAD extraction,,"(182),(206),(139),(112),(260),(259)",2022-06-04,2022-09-04,########,0,,########
+5362,PRO-113-VNC-64,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,00. QC,,"(182),(206)",2022-06-04,2022-09-04,########,0,,########
+5363,PRO-113-VNC-65,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,02. Create CD model and drawing,,"(182),(206),(139),(112),(260),(259)",2022-06-04,2022-09-04,########,0,,########
+5364,PRO-113-VNC-65,ARC-2DD-NEWM-02,Architecture,2D Documentation,New Model,03. CAD extraction,,"(182),(206),(139),(112),(260),(259)",2022-06-04,2022-09-04,########,0,,########
+5365,PRO-113-VNC-65,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,00. QC,,"(182),(206)",2022-06-04,2022-09-04,########,0,,########
+5366,PRO-113-VNC-66,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,01. Create existing condition model and drawing,,"(182),(206),(139),(112),(260),(259)",2022-06-04,2022-09-04,########,0,,########
+5367,PRO-113-VNC-66,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,00. QC,,"(182),(206)",2022-06-04,2022-09-04,########,0,,########
+5368,PRO-113-VNC-67,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,02. Create CD model and drawing,,"(182),(206),(139),(112),(228),(207),(223)",2022-06-04,2022-09-04,########,0,,########
+5369,PRO-113-VNC-67,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,00. QC,,"(182),(206)",4/6/2022,4/9/2022,########,0,,########
+5370,PRO-113-VNC-68,ARC-2DD-STDM-01,Architecture,2D Documentation,Standardize Model,01. Update CD model and drawing,,"(182),(112),(223),(207),(228)",########,########,########,0,,########
+5371,PRO-113-VNC-69,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. Create asbuilt model and drawing,,"(182),(112),(228),(273),(272)",########,########,########,0,,########
+5372,PRO-113-VNC-69,STR-MOD-STDM-01,Structure,Modelling,Standardize Model,02. Traning stage 01,,,########,########,########,0,,########
+5373,PRO-113-VNC-69,STR-MOD-STDM-02,Structure,Modelling,Standardize Model,02. Traning stage 01,,-273,6/7/2022,6/9/2022,########,0,,########
+5374,PRO-113-VNC-69,STR-MOD-STDM-03,Structure,Modelling,Standardize Model,03. Traning stage 02,,-273,########,########,########,0,,########
+5375,PRO-113-VNC-69,ARC-2DD-STDM-01,Architecture,2D Documentation,Standardize Model,01. Create model and drawing,,-139,6/2/2022,6/8/2022,########,8,,########
+5376,PRO-113-VNC-70,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,01. Create CD model and drawing,,"(182),(112),(228),(207),(223)",########,########,########,0,,########
+5377,PRO-113-VNC-72,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. Create CD model and drawing,,"(182),(112),(228)",########,########,########,0,,########
+5378,PRO-113-VNC-72,ARC-2DD-STDM-01,Architecture,2D Documentation,Standardize Model,01.Create model and drawing,,"(139),(273)",2022-02-06,2022-08-06,########,8,,########
+5379,PRO-113-VNC-27_M,MEP-OTH-NEWM-01,MEP,Others,New Model,01.3D Model Creation and 2D Documentation,,"(151),(155),(219),(170),(196),(225),(207),(223),(218)",2021-03-05,2021-07-05,########,300,,########
+5380,PRO-113-VNC-27_M,MEP-OTH-MGMT-01,MEP,Others,Project Management,Project Management,,"(149),(187),(212)",2021-03-05,2021-07-05,########,10,,########
+5381,PRO-113-VNC-27_M,MEP-OTH-NEWM-02,MEP,Others,New Model,Model Review and QA/QC,,-151,2021-03-05,2021-07-05,########,15,,########
+5382,PRO-113-VNC-27_M,MEP-OTH-NEWM-03,MEP,Others,New Model,02.QC,,"(151),(155),(219),(170),(196),(225),(207),(223),(218)",2021-02-08,2021-05-08,########,300,,########
+5383,PRO-113-VNC-27_M,MEP-CRD-NEWM-01,MEP,Coordination,New Model,Clash Resolution and Coordination,,-151,2021-03-05,2021-07-05,########,10,,########
+5384,PRO-113-VNC-28,STR-2DD-STDM-01,Structure,2D Documentation,Standardize Model,01.Documentation,,"(185),(139),(112),(73),(151),(196),(170),(223),(207),(188),(227),(226),(206)",2021-02-08,2021-05-08,########,0,,########
+5385,PRO-113-VNC-28,STR-CRD-STDM-01,Structure,Coordination,Standardize Model,02.QC,,"(185),(139),(112),(73)",8/2/2021,8/5/2021,########,0,,########
+5386,PRO-113-VNC-33,MEP-PJM-MGMT-01,MEP,Project Management,Project Management,03. Project management,,"(187),(149)",########,########,########,0,,########
+5387,PRO-113-VNC-33,MEP-2DD-MDLU-01,MEP,2D Documentation,Model Upgrade,3D Modelling and Documentation,,,########,########,########,0,,########
+5388,PRO-113-VNC-33,MEP-2DD-NEWM-01,MEP,2D Documentation,New Model,01. 3D Modelling and Documentation,,"(170),(196),(207),(223)",########,########,########,0,,########
+5389,PRO-113-VNC-33,MEP-2DD-NEWM-02,MEP,2D Documentation,New Model,QA/QC and Coordination,,-151,########,########,########,0,,########
+5390,PRO-113-VNC-34_M,MEP-OTH-NEWM-01,MEP,Others,New Model,02. QA/QC and Coordination,,-151,########,########,########,0,,########
+5391,PRO-113-VNC-34_M,MEP-OTH-NEWM-02,MEP,Others,New Model,01. 3D Modelling and Documentation,,"(170),(196),(207),(223)",########,########,########,0,,########
+5392,PRO-113-VNC-34_M,MEP-OTH-NEWM-03,MEP,Others,New Model,03. Project Management,,"(187),(149)",########,########,########,0,,########
+5393,PRO-131-WWJP-88,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,01. 3D Modelling,,"(216),(190),(208),(169),(234),(221)",########,########,,0,,########
+5394,PRO-131-WWJP-00_FAM,STR-MOD-NEWM-01,Structure,Modelling,New Model,01.Arch Modeling,,"(209),(226),(169)",########,########,########,0,,########
+5395,PRO-131-WWJP-00_FAM,STR-MOD-NEWM-02,Structure,Modelling,New Model,02.MEP Modeling,,"(205),(223),(218),(196),(219),(229),(220)",########,########,########,0,,########
+5396,PRO-131-WWJP-00,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,01. Storefront Modeling,,"(216),(208),(231),(234),(221),(169),(190)",########,########,,0,,########
+5397,PRO-131-WWJP-00,ARC-MOD-STDM-02,Architecture,Modelling,Standardize Model,07. Setup & QC,,"(216),(190),(208),(169),(234),(221),(231)",########,########,,0,,########
+5398,PRO-131-WWJP-00,ARC-MOD-STDM-03,Architecture,Modelling,Standardize Model,02. Appliances,,"(216),(208),(231),(234),(221),(169),(190)",########,########,,0,,########
+5399,PRO-131-WWJP-00,ARC-MOD-STDM-04,Architecture,Modelling,Standardize Model,03. Millwork Modeling,,"(216),(190),(208),(169),(234),(221),(231)",########,########,,0,,########
+5400,PRO-131-WWJP-00,ARC-MOD-STDM-05,Architecture,Modelling,Standardize Model,04. Electrical Equipments,,"(216),(190),(208),(169),(234),(221),(231)",########,########,,0,,########
+5401,PRO-131-WWJP-00,ARC-MOD-STDM-06,Architecture,Modelling,Standardize Model,05. Update Template,,"(216),(190),(208),(169),(234),(221),(231)",########,########,,0,,########
+5402,PRO-131-WWJP-00,ARC-MOD-STDM-07,Architecture,Modelling,Standardize Model,06. Purge Materials,,"(216),(190),(208),(169),(234),(221),(231)",########,########,,0,,########
+5403,PRO-109-WOAA-01_REV1,ARC-MOD-STDM-01,Architecture,Modelling,Standardize Model,01. 3d Modelling,,"(208),(234),(169),(176),(183),(210),(190),(151),(228),(223),(196),(219),(207)",########,########,,0,,########
+5404,PRO-109-WOAA-01_REV1,ARC-MOD-STDM-02,Architecture,Modelling,Standardize Model,0.2 QC,,"(208),(231),(183)",########,########,,0,,########
+5405,PRO-109-WOAA-01_REV1,ARC-2DD-STDM-01,Architecture,2D Documentation,Standardize Model,03. WC Detail Documentation,,"(151),(196),(223),(228),(219),(229),(220)",########,########,,0,,########
+5406,PRO-109-WOAA-01_REV1,ARC-2DD-STDM-02,Architecture,2D Documentation,Standardize Model,04. Set Out Plans,,"(151),(196),(223),(228),(219),(229),(220),(242),(247),(231)",2022-01-03,########,,0,,########
+5407,PRO-109-WOAA-01_REV1,ARC-2DD-STDM-03,Architecture,2D Documentation,Standardize Model,05.Ceiling Plans,,"(151),(196),(223),(228),(219),(229),(220),(242),(247),(231)",2022-01-03,########,,0,,########
+5408,PRO-109-WOAA-01_A,ARC-OTH-NEWM-02,Architecture,Others,New Model,01-TBF Familes,,"(169),(183),(191),(109),(205),(218)",2021-04-03,3/7/2021,,0,,########
+5409,PRO-109-WOAA-01_A,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,02-TBF 3D Modeling,,"(215),(208),(216),(169),(183),(176),(109)",3/8/2021,########,,0,,########
+5410,PRO-109-WOAA-01_A,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,STR SIMULATTION FOR COORDINATION - LOD200,,,########,########,,0,,########
+5411,PRO-109-WOAA-01_A,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,02-TBF 3D Facade Modeling,,"(215),(208),(216),(169),(183),(176)",########,########,,0,,########
+5412,PRO-109-WOAA-01_A,ARC-MTN-MTGS-01,Architecture,Meeting - Non Billable,Meetings,00-Internal meeting,,"(224),(215)",2021-08-03,########,,0,,########
+5413,PRO-109-WOAA-01_A,ARC-PJM-MTGS-01,Architecture,Project Management,Meetings,00-Official Meeting,,"(224),(198),(215),(183)",3/8/2021,########,,0,,########
+5414,PRO-109-WOAA-01_A,ARC-PJM-MGMT-01,Architecture,Project Management,Project Management,00-Check Resoure/Worload/Management/Training for Leader/Review model,,-224,########,########,,0,,########
+5415,PRO-109-WOAA-01_A,ARC-PJM-MGMT-02,Architecture,Project Management,Project Management,00-TBF BEP,,-224,########,########,,0,,########
+5416,PRO-109-WOAA-01_A,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,00-TFB QC/Planning,,"(183),(215)",########,########,,0,,########
+5417,PRO-109-WOAA-01_A,ARC-CRD-MGMT-01,Architecture,Coordination,Project Management,Check Resource/Worload/Program/Management,,,3/8/2021,########,,0,,########
+5418,PRO-109-WOAA-01_A,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,03-TBF GA,,"(215),(208),(216),(169),(183),(191),(109)",########,########,,0,,########
+5419,PRO-109-WOAA-01_A,ARC-2DD-NEWM-02,Architecture,2D Documentation,New Model,03-TBF WSO Plan,,"(215),(208),(216),(169),(183),(191),(109)",########,########,,0,,########
+5420,PRO-109-WOAA-01_A,ARC-2DD-NEWM-03,Architecture,2D Documentation,New Model,03-TBF Elevation,,"(215),(208),(216),(169),(183),(191),(109)",########,########,,0,,########
+5421,PRO-109-WOAA-01_A,ARC-2DD-NEWM-04,Architecture,2D Documentation,New Model,03-TBF Section,,"(215),(208),(216),(169),(183),(191),(109)",########,########,,0,,########
+5422,PRO-109-WOAA-01_A,ARC-2DD-NEWM-05,Architecture,2D Documentation,New Model,03-TBF Core/Lift/Stair,,"(215),(208),(216),(169),(183),(191)",########,########,,0,,########
+5423,PRO-109-WOAA-01_A,ARC-2DD-NEWM-06,Architecture,2D Documentation,New Model,03-TBF Strip Sections,,"(215),(208),(216),(169),(183),(191),(109)",########,########,,0,,########
+5424,PRO-109-WOAA-01_A,ARC-2DD-NEWM-07,Architecture,2D Documentation,New Model,03-TBF Door/Curtain wall,,"(215),(208),(216),(169),(183),(191),(109)",########,########,,0,,########
+5425,PRO-109-WOAA-01_A,ARC-2DD-NEWM-08,Architecture,2D Documentation,New Model,03-TBF Typicals Rooms,,"(215),(208),(216),(169),(183),(191),(109)",########,########,,0,,########
+5426,PRO-109-WOAA-01_A,ARC-2DD-NEWM-09,Architecture,2D Documentation,New Model,03-TBF ID Rooms,,"(215),(208),(216),(169),(183),(191),(109)",########,########,,0,,########
+5427,PRO-109-WOAA-01_A,ARC-2DD-NEWM-10,Architecture,2D Documentation,New Model,03-TBF Line of Height,,-191,########,########,,0,,########
+5428,PRO-109-WOAA-01_A,ARC-2DD-NEWM-11,Architecture,2D Documentation,New Model,03-TBF Site Information,,"(215),(183),(109),(208),(216)",########,########,,0,,########
+5429,PRO-109-WOAA-01_S,STR-MOD-NEWM-02,Structure,Modelling,New Model,Create structure model,Create structure model,"(200),(203),(112),(206),(188)",########,########,########,48,,########
+5430,PRO-109-WOAA-01_S,STR-MOD-MDLU-01,Structure,Modelling,Model Upgrade,01. Update STR model follow latest SD drawing,,-188,########,########,########,0,,########
+5431,PRO-109-WOAA-01_S,STR-OTH-MGMT-01,Structure,Others,Project Management,Create BEP and timeline,Create BEP and timeline for Whisky Poject,-188,########,########,########,40,,########
+5432,PRO-109-WOAA-01_S,STR-PJM-MGMT-01,Structure,Project Management,Project Management,Quality control of model,Quality control of model,"(188),(214)",########,########,########,48,,########
+5433,PRO-117-WORKPATH-02,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,Create family - Chairs,,"(209),(227),(226),(188),(112),(139),(185),(206)",########,########,########,0,,########
+5434,PRO-117-WORKPATH-02,ARC-MOD-NEWM-02,Architecture,Modelling,New Model,Create family - Lightings,,"(209),(220)",########,########,########,0,,########
+5435,PRO-117-WORKPATH-02,ARC-MOD-NEWM-03,Architecture,Modelling,New Model,Create family - Sofa,,"(209),(227),(226),(188),(112),(139),(185),(206)",########,########,########,0,,########
+5436,PRO-117-WORKPATH-02,ARC-MOD-NEWM-04,Architecture,Modelling,New Model,Create family - Tables,,"(209),(227),(226),(188),(112),(139),(185),(206)",########,########,########,0,,########
+5437,PRO-117-WORKPATH-02,ARC-MOD-NEWM-05,Architecture,Modelling,New Model,Create family - Booth,,"(209),(227),(226),(188),(112),(139),(185),(206)",########,########,########,0,,########
+5438,PRO-117-WORKPATH-02,ARC-MOD-NEWM-06,Architecture,Modelling,New Model,Create family - Others,,"(209),(227),(226),(188),(112),(139),(185),(206)",########,########,########,0,,########
+5439,PRO-117-WORKPATH-02,ARC-MOD-NEWM-07,Architecture,Modelling,New Model,QC family - Alls,Chairs + Sofas + Tables + Booths + Lightings + Others,"(209),(206),(188),(185),(73)",########,########,########,0,,########
+5440,PRO-117-WORKPATH-02,ARC-MOD-NEWM-08,Architecture,Modelling,New Model,Project managements,,"(209),(73)",########,########,########,0,,########
+5441,PRO-114-CL-01_M,MEC-CRD-MDLU-01,MEP,Coordination,Model Upgrade,COORDINATION THRU NAVISWORKS MEPvsARCvs STR,,"(202),(149)",########,########,########,24,,########
+5442,PRO-114-CL-01_M,MEP-CRD-CMTU-01,MEP,Coordination,Comments Update,MEP Modelling and Coordination,MEP Model + Coordination based on the latest result of BIM Coordination meeting and Design changes,"(187),(157)",########,########,########,32,,########
+5443,PRO-114-CL-01_M,MEP-MOD-NEWM-01,MEP,Modelling,New Model,MEP Modelling and Coordination,,"(151),(166),(170),(207),(157),(155),(198),(219),(196),(197),(202),(199),(112)",########,########,########,0,,########
+5444,PRO-114-CL-01_AS,OTH-CRD-NEWM-01,Others,Coordination,New Model,New design ASMEPF coordination,,-188,########,########,########,0,,########
+5445,PRO-114-CL-01_AS,ARC-MOD-MDLU-01,Architecture,Modelling,Model Upgrade,Update Ceiling 2F&23F,,-109,########,########,########,0,,########
+5446,PRO-114-CL-01_AS,STR-MOD-MDLU-01,Structure,Modelling,Model Upgrade,Update Swimming Pool Unit,,-206,########,########,########,0,,########
+5447,PRO-114-CL-01_AS,STR-MOD-MDLU-02,Structure,Modelling,Model Upgrade,Update Swimming Pool Unit,,-200,########,########,2/5/2021,0,,########
+5448,PRO-114-CL-01_AS,ARC-MOD-MDLU-02,Architecture,Modelling,Model Upgrade,Update Architecture,,-206,########,########,########,0,,########
+5449,PRO-114-CL-01_AS,ARC-MOD-MDLU-03,Architecture,Modelling,Model Upgrade,Update Architecture,,-200,########,########,########,0,,########
+5450,PRO-114-CL-01_AS,STR-QTO-NEWM-01,Structure,Quantity Take Off,New Model,Structure Material Takeoff,Create Material Takeoff Schedule for Structure Model on Typical 2,-206,########,########,########,0,,########
+5451,PRO-114-CL-01_AS,ARC-QTO-NEWM-01,Architecture,Quantity Take Off,New Model,Architecture Material Takeoff,Create Material Takeoff Schedule for Architecture Model on Typical 2,-109,########,########,########,0,,########
+5452,PRO-114-CL-01_AS,ARC-QTO-NEWM-02,Architecture,Quantity Take Off,New Model,Architecture Material Takeoff,Help Hang to create Material Takeoff Schedule for Architecture Model on Typical 2,-200,########,########,########,0,,########
+5453,PRO-113-VNC-69,STR-MOD-STDM,Structure,Modelling,Standardize Model,02. Traning model & 2D,,"(209),(272)",6/7/2022,########,########,0,,########
+5455,PRO-136-PDM-10-UPM_AS,STR-MOD-NEWM,Structure/Civil,Modelling,New Model,01. 3D Model,,,########,########,########,0,,########
+5456,PRO-136-PDM-10-UPM_AS,STR-2DD-NEWM,Structure/Civil,2D Documentation,New Model,02. 2D Documentation,,,########,########,########,0,,########
+5457,PRO-136-PDM-10-UPM_AS,STR-PJM-NEWM,Structure/Civil,Project Management,New Model,03. Project Management & QA,,,########,########,########,0,,########
+5458,PRO-141-RESI,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,Update model follow client markups,,"(182),(112),(139)",########,########,########,0,,########
+5459,PRO-113-VNC-71,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,01. Create CD drawings,,"(182),(139),(112),(163),(272)",########,########,########,0,,########
+5460,PRO-144-VR3D,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. Create model from Point Cloud,,"(206),(259),(260)",########,########,########,0,,########
+5461,PRO-138-KAP-05,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. Create 3D model & 2D documentation from Point Cloud,,"(227),(260),(273)",########,########,########,0,,########
+5462,PRO-136-PDM-13-MCLV_AS,ALL-MOD-NEWM,All,Modelling,New Model,01. Create 3D model and 2D document for Bathroom and Kitchen,,"(206),(259),(272),(276),(188),(226),(139)",########,########,########,0,,########
+5463,PRO-136-PDM-12-KAL_AS,ALL-MOD-NEWM,All,Modelling,New Model,01. Create 3D model and 2D doucmentation for Bathroom,,"(209),(139),(226),(188)",########,########,########,0,,########
+5464,PRO-000-TBF_TRAINING,STR-MOD-OTH,Structure,Modelling,Others,PDM Project training,,-276,########,########,,0,,########
+5467,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,"Draw slab foundation, expansion joint, sealent","DODMVP-374
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-374",-194,########,########,########,10,,########
+5468,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,Rebar in slab (without pilasters),"DODMVP-368
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-368",-194,########,########,########,10,,########
+5469,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,Control joints,"DODMVP-387
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-368",-194,########,########,########,10,,########
+5470,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,"Create copy family from FamilyLibrary.rvt into the opened Revit document, instead of using loading","DODMVP-355
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-355",-194,########,########,########,10,,########
+5471,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,Sealer rendering incorrectly in ADMIN,"DODMVP-399
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-399",-194,########,########,########,10,,########
+5472,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,Rebar without pilasters and columns (revisited),"DODMVP-405
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-405",-194,########,########,########,10,,########
+5473,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,THICKENING SLAB ETC group (add-in),"DODMVP-403
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-403",-194,########,########,########,10,,########
+5474,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,Rebar without pilasters and columns (revisited),"Update with new document
+ 
+ DODMVP-405
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-405",-194,########,########,########,10,,########
+5475,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,Rebar with pilasters and columns (revisted),"DODMVP-408
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-408",-194,########,########,########,10,,########
+5476,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,Updated LOOP element schema,"DODMVP-421
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-421",-194,2022-02-06,2022-02-06,2022-02-06,10,,########
+5477,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,columns beam generator,"Draw columns
+ 
+ DODMVP-431
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-431",-194,2022-07-06,2022-07-06,2022-07-06,10,,########
+5478,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,columns beam generator,"Draw beams
+ 
+ DODMVP-432
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-432",-194,6/9/2022,6/9/2022,6/9/2022,10,,########
+5479,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,columns beam generator,"Draw beam beam connector
+ 
+ DODMVP-433
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-433",-194,########,########,########,10,,########
+5480,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,columns beam generator,"Draw column footing connector
+ 
+ DODMVP-433
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-433",-194,########,########,########,10,,########
+5481,PRO-136-PDM-13-MCLV_M,MEP-OTH-NEWM,MEP,Others,New Model,01. 3D Modelling and 2D Documentation,,"(159),(270),(271),(277),(278),(282),(170),(228)",########,########,,0,,########
+5482,PRO-136-PDM-RND,RND-TRV-NEWT,RnD,Tools For Revit,New Tool,RnD - CNC software & workflow study,RnD - CNC software & workflow study,"(194),(213),(212)",########,########,,0,,########
+5484,PRO-136-PDM-13-MCLV_M,MEP-CRD-NEWM,MEP,Coordination,New Model,02. Coordination and QA/QC,,"(151),(225)",########,########,,0,,########
+5485,PRO-136-PDM-13-MCLV_M,MEP-PJM-NEWM-01,MEP,Project Management,New Model,03. Project Management and QA/QC,,-187,########,########,,0,,########
+5486,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,"CMU panels, grout columns and beams","DODMVP-455
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-455
+ 
+ Generate external wall with CMUHaft, CmuFull
+ 
+ Draw rebar",-194,########,########,########,10,,########
+5487,PRO-136-PDM-12-KAL_m,MEP-OTH-NEWM,MEP,Others,New Model,01. 3D Modelling and 2D Documentation,,"(271),(270),(170),(277),(228),(282),(278)",########,########,,0,,########
+5488,PRO-136-PDM-12-KAL_m,MEP-CRD-NEWM,MEP,Coordination,New Model,02. Coordination and QA/QC,,"(151),(225)",########,########,,0,,########
+5489,PRO-136-PDM-12-KAL_m,MEP-PJM-NEWM-01,MEP,Project Management,New Model,03. Project Management and QA/QC,,-187,########,########,,0,,########
+5490,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,External Wall Rebar,https://aditazz.atlassian.net/browse/DODMVP-467,-194,########,7/5/2022,2022-04-07,10,,########
+5491,PRO-000-RND,RND-SDV-NEWT,RnD,Software Development,New Tool,Fab Factory Tools,"â€¢ Wall subdivider - Tool which cuts a wall into standard cuts with the following functionalities:
+ 
+  â—‹ Create interface where it will list all parameters that the users need to input: (offset, balance, standard cut)
+ 
+  â—‹ this will create IDs for each wall cut this way
+ 
+  â—‹ Interface will also show in a window the output before it is applied
+ 
+  â—‹ 2 approaches can be done here:
+ 
+  Â§ 1st is by doing it in Parts & Divide parts
+ 
+  Â§ 2nd way will be via cutting wall elements
+ 
+  Â§ (will need to get advise with team what is the best workflow for them)
+ 
+  â€¢ If there is still time for the development of the tool, we can proceed with the 
+ 
+  â—‹ Stud framework Creator tool
+ 
+  Â§ This tool will allow the auto placement of stud framework on the selected wall based on a set parameters
+ 
+  Â§ It is not estimated to do all the intended auto calculation and stuff but the tool will produce a Minimum Value Product (MVP)
+ 
+  â—‹ Fabrication sheet creator tool
+ 
+  Â§ This tool will produce a fabrication sheet from the selected wall with all of its related components: Sheathing, studs, insulation etc.
+ 
+ Fabrication sheet will include a schedule and a front & top view of the wall complete with dimensions and tags.","(194),(212),(213)",########,########,,0,,########
+5492,PRO-144-VR3D-02,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,01. Create model from Point Cloud,,"(227),(260),(273),(112),(191)",########,2022-06-07,########,0,,########
+5493,PRO-144-VR3D-03,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,01. Create model from Point Cloud,,"(227),(260),(273),(112),(191)",########,2022-06-07,########,0,,########
+5494,PRO-144-VR3D-04,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. Create model from Point Cloud,,"(182),(260),(273),(139),(191),(112),(227),(151),(170)",########,2022-06-07,########,0,,########
+5495,PRO-136-PDM-15-STF_AS,ALL-MOD-NEWM,All,Modelling,New Model,01. Create 3D model and 2D document for Bathroom and Kitchen,,"(188),(273),(260),(139),(191),(269),(226),(209)",########,2022-06-07,########,0,,########
+5496,PRO-136-PDM-14-BH3_AS,ALL-MOD-NEWM,All,Modelling,New Model,01. Create 3D model and 2D doucmentation for Bathroom,,"(206),(272),(259),(276)",########,7/6/2022,########,0,,########
+5497,PRO-136-PDM-14-BH3_M,MEP-OTH-NEWM,MEP,Others,New Model,01. 3D Modelling and 2D Documentaion,,"(170),(277),(271),(278),(228),(282),(270)",########,########,,1000,,########
+5498,PRO-136-PDM-14-BH3_M,MEP-CRD-NEWM,MEP,Coordination,New Model,02. Coordination and QA/QC,,"(151),(225)",########,########,,500,,########
+5499,PRO-136-PDM-14-BH3_M,MEP-PJM-MGMT,MEP,Project Management,Project Management,03. Project Management and QA/QC,,-187,########,########,,200,,########
+5500,PRO-136-PDM-15-STF_M,MEP-OTH-NEWM,MEP,Others,New Model,01. 3D Modelling and 2D Documentation,,"(271),(270),(170),(278),(277),(228),(282)",########,########,,1000,,########
+5501,PRO-136-PDM-15-STF_M,MEP-CRD-NEWM,MEP,Coordination,New Model,02. Coordination and QA/QC,,"(151),(225)",########,########,,500,,########
+5502,PRO-136-PDM-15-STF_M,MEP-PJM-MGMT,MEP,Project Management,Project Management,03. Project Management and QA/QC,,-187,########,########,,200,,########
+5505,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,External Wall Rebar Create sealant,https://aditazz.atlassian.net/browse/DODMVP-484,-194,2022-04-07,########,2022-05-07,10,,########
+5506,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,External Wall Pilaster,https://aditazz.atlassian.net/browse/DODMVP-483,-194,2022-06-07,########,2022-05-07,10,,########
+5507,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,External Wall update json use startsWith parameter,v,-194,2022-06-07,########,2022-06-07,10,,########
+5508,PRO-000-RND,RND-TRV-NEWT,RnD,Tools For Revit,New Tool,Print Alarm,Create/ modify existing print PDF tool to have alarm functions for printing,"(194),(212),(213)",2022-04-07,########,,50,,########
+5509,PRO-000-RND,RND-TRV-NEWT,RnD,Tools For Revit,New Tool,Auto Dimension,Create Tool for creating dimensions automatically,"(194),(212),(213)",2022-04-07,########,,50,,########
+5510,PRO-000-RND,RND-TRV-NEWT,RnD,Tools For Revit,New Tool,Filled Region to Massing - Dynamo,Create Dynamo Script to turn Filled regions into massing / Revit Building Elements,"(194),(212),(213)",7/1/2022,########,,50,,########
+5511,PRO-144-VR3D-05,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. Create model from Point Cloud,,"(182),(260),(273),(139),(191),(112),(227),(272),(259)",########,########,########,0,,########
+5512,PRO-144-VR3D-06,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. Create model from Point Cloud,,"(182),(151),(259),(272),(278),(170)",########,########,########,0,,########
+5513,PRO-121-LW-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,22. Vida 3_Z11,,"(190),(231),(232),(191),(210),(109),(182),(216),(221),(169),(234),(183),(176),(217),(208),(205),(225),(170),(247),(240),(275),(280),(242)",########,########,,0,,########
+5514,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,Revisted the rebar column in stem wall with new json property,https://aditazz.atlassian.net/browse/DODMVP-472,-194,########,########,########,10,,########
+5515,PRO-136-PDM-RND,RND-TRV-TOLU,RnD,Tools For Revit,Tool Upgrade,Update PDM Tools 20220712,"-loading time for check each file? (leastpriority)
+ 
+ -Loading time to read revit (test ahs) (leastpriority)
+ 
+ -check all schedule for all revit files
+ 
+ -library for changing names (eg DOMESTIC COLD = DCW)
+ 
+ - either built in or loading text document
+ 
+ - remove vowels for all (Check box) [including <31 chars for consistency)
+ 
+ - FIM Exporter provided by PDM","(212),(194),(213)",########,########,########,50,,########
+5516,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,RevitX: generator: footingFormwork json format changed,https://aditazz.atlassian.net/browse/DODMVP-500,-194,########,########,########,10,,########
+5517,PRO-136-PDM-10-UPM_AS,STR-2DD-NEWM,Structure/Civil,2D Documentation,New Model,04. Visualization,,"(188),(209),(226),(269)",########,########,,0,,########
+5518,PRO-109-WOAA-01_REV1,ARC-2DD-STDM,Architecture,2D Documentation,Standardize Model,06.Elevations & Sections,,"(151),(196),(223),(228),(219),(229),(220),(242),(247),(231),(262),(274),(279),(176),(283)",########,########,,0,,########
+5519,PRO-109-WOAA-01_REV1,ARC-2DD-STDM,Architecture,2D Documentation,Standardize Model,07.Stair & Door Details,,"(151),(196),(223),(228),(219),(229),(220),(242),(247),(231),(262),(274),(279),(176),(283)",########,########,,0,,########
+5520,PRO-136-PDM-RND,RND-TRV-TOLU,RnD,Tools For Revit,Tool Upgrade,check Exporter framecad code,understand what parameters the add in checks for the export,"(212),(194),(213),(285)",########,########,,32,,########
+5521,PRO-145-RESTAFF OFFICE,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. 3D Model,,"(231),(208),(254),(234),(221),(258)",########,########,,0,,########
+5522,PRO-145-RESTAFF OFFICE,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,02. 2D Documentation,,"(231),(208),(254),(234),(221),(258)",########,########,,0,,########
+5523,PRO-145-RESTAFF OFFICE,ARC-PJM-NEWM,Architecture,Project Management,New Model,03. Project Management & QA,,-231,########,########,,0,,########
+5525,PRO-000-TBF_TRAINING,ARC-MOD-OTH,Architecture,Modelling,Others,17-TBF Software Training for VR3D,,"(182),(139),(191),(112)",########,########,,0,,########
+5526,PRO-000-TBF_TRAINING,STR-OTH-OTH,Structure,Others,Others,17-TBF Training/Template for PDM,,"(188),(209),(226),(269)",########,########,,0,,########
+5527,PRO-121-LW-09,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. 3D Model,,"(231),(109),(245),(169),(274),(176),(283),(208),(275),(254),(258),(221),(280),(234),(242),(267),(248),(249),(112),(269)",########,########,,0,,########
+5528,PRO-121-LW-09,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,02. 2D Documentation,,"(231),(169),(274),(245),(109),(176),(283),(208),(275),(254),(280),(258),(221),(234),(242)",########,########,,0,,########
+5529,PRO-121-LW-09,ARC-PJM-NEWM,Architecture,Project Management,New Model,03. Project Management & QA,,"(245),(231)",########,########,,0,,########
+5531,PRO-121-LW-09,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,04. Review & Setup Project,,"(231),(169),(274),(245),(109),(176),(283),(208)",########,########,,0,,########
+5532,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,footing CA shortened rebar has the incorrect overlap,https://aditazz.atlassian.net/browse/DODMVP-526,-194,########,########,########,10,,########
+5533,PRO-000-RND,RND-3DV-NEWM,RnD,3D Visualization,New Model,Create LOD Views for Modular,Create LOD Views for Modular model as per criteria made,"(212),(269),(188)",########,########,,40,,########
+5534,PRO-121-LW-10,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. 3D Model,,"(242),(208),(109),(176),(254),(231),(221),(258)",########,########,,0,,########
+5535,PRO-121-LW-10,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,02. 2D Documentation,,,########,########,,0,,########
+5536,PRO-121-LW-10,ARC-PJM-NEWM,Architecture,Project Management,New Model,03. Project Management & QA,,,########,########,,0,,########
+5537,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,"footing,slab, exterior wall, interior wall, columns and beams CA fix json change","https://aditazz.atlassian.net/browse/DODMVP-528
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-529
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-530
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-531
+ 
+ https://aditazz.atlassian.net/browse/DODMVP-532",-194,########,8/1/2022,########,10,,########
+5538,PRO-000-RND,RND-TRV-NEWT,RnD,Tools For Revit,New Tool,Tool Test - Easy Dim,User test for suggestions and additional functions for the tool,"(194),(212),(213),(227),(270),(109),(170)",########,########,,50,,########
+5539,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,stem wall RH single-hook rebar is not showing the B parameter,https://aditazz.atlassian.net/browse/DODMVP-542,-194,########,8/3/2022,########,10,,########
+5540,PRO-144-VR3D-07,ALL-MOD-NEWM,Structure/Civil,Modelling,New Model,01. 3D Model,,"(182),(112),(191),(260),(259),(139)",########,8/4/2022,,0,,########
+5542,PRO-144-VR3D-07,ALL-PJM-NEWM,Structure/Civil,Project Management,New Model,03. Project Management & QA,,"(73),(182)",########,8/4/2022,,0,,########
+5543,PRO-144-VR3D-08,ALL-MOD-NEWM,Structure/Civil,Modelling,New Model,01. 3D Model,,"(182),(112),(191),(260),(259),(139)",########,8/4/2022,,0,,########
+5544,PRO-144-VR3D-08,ALL-PJM-NEWM,Structure/Civil,Project Management,New Model,03. Project Management & QA,,"(73),(182)",########,8/4/2022,,0,,########
+5545,PRO-136-PDM-11,ALL-PJM-NEWM,Structure/Civil,Project Management,New Model,03. Project Management & QA,,-73,########,8/4/2022,,0,,########
