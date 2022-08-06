@@ -182,8 +182,8 @@ with col2:
 #        st.plotly_chart(chart1_1)
 #        st.session_state[myKey] = True
 
-st.plotly_chart(chart1)                 
-st.plotly_chart(chart2)
+st.plotly_chart(chart1, use_container_width=True)                 
+st.plotly_chart(chart2, use_container_width=True)
 st.subheader('Details')
 st.dataframe(df_time_task2)
 st.write('OKe')
