@@ -107,7 +107,7 @@ chart1 = px.bar(group_tsHour,
 chart1.update_layout(legend=dict(
             orientation="h",
             yanchor="bottom",
-            y=-0.7,
+            y=-0.3,
             xanchor="left",
             x=0.01
             ))
@@ -157,9 +157,9 @@ chart2 .update_layout(yaxis2 = dict(range = [0,1000]),
 chart2.update_layout(legend=dict(
             orientation="h",
             yanchor="bottom",
-            y=-0.7,
+            y=-0.3,
             xanchor="left",
-            x=0.01
+            x=0.05
             ))
 
 
