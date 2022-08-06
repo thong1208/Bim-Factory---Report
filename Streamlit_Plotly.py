@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 from  plotly.subplots  import  make_subplots 
 
 #------------------------------------------------------------------------------------PHẦN TIÊU ĐỀ WEB-------------------------------------------------------------------------------------
-st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='Bim Factory - Report')
+st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='Bim Factory - Report', layout='wide')
 st.title('BIM Fee for Raffles MUR TD & SD')
 
 #-------------------------------------------------------------------------------------PHẦN ĐỌC DATA----------------------------------------------------------------------------------------
@@ -146,7 +146,7 @@ chart2 .add_trace(
 
 chart2 .update_layout(yaxis2 = dict(range = [0,1000]),
                       yaxis1 = dict (range = [0,14]),
-                      width = WIDTH)
+                      )
 
 
 
@@ -161,15 +161,15 @@ with col1:
 with col2:
     st.write('Total Hours',total_hour)
 
-container = st.empty()
-button_A = container.button('Btn A')
+#container = st.empty()
+#button_A = container.button('Btn A')
 
-if button_A is True:
-        container.empty()
-        st.plotly_chart(chart1)
-        button_B = container.button('Btn B')
-else:
-        st.plotly_chart(chart1_1)
+#if button_A is True:
+#        container.empty()
+#        st.plotly_chart(chart1)
+#        button_B = container.button('Btn B')
+#else:
+#        st.plotly_chart(chart1_1)
 #myKey = 'my_key'
 #if myKey not in st.session_state:
 #        st.session_state[myKey] = False
@@ -181,7 +181,13 @@ else:
 #        myBtn = st.button('Button 2')
 #        st.plotly_chart(chart1_1)
 #        st.session_state[myKey] = True
-                  
+col11, col22 = st.columns(2)
+with col1:
+    st.plotly_chart(chart1)    
+    
+with col2:
+    st.plotly_chart(chart2)
+st.plotly_chart(chart1)                 
 st.plotly_chart(chart2)
 st.subheader('Details')
 st.dataframe(df_time_task2)
