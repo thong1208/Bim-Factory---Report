@@ -1,3 +1,4 @@
+
 import pandas as pd
 import streamlit as st
 import plotly.express as px
@@ -89,9 +90,21 @@ people = df_time_task2['UserId'].nunique() #nunique(): tính sự khác biệt
 
 
 #---------------------------------------------------------------------------------------------BIỂU DIỄN ĐỒ THỊ------------------------------------------------------------------------------
-HEIGHT = 200
+HEIGHT = 250
 WIDTH = 400
 chart1 = px.bar(group_tsHour,
+                x='TSHour', y='TaskType' ,
+                orientation='h',
+                color='ProjectRule',
+                text_auto=True,
+                color_discrete_sequence=['#333333','#AAAAAA'],
+                labels={
+                        "TaskType" : "",
+                        "TSHour" : "Hours",
+                        "ProjectRule" : ""
+                })
+
+chart1_1 = px.bar(group_tsHour,
                 x='TSHour', y='TaskType' ,
                 orientation='h',
                 color='ProjectRule',
@@ -148,9 +161,27 @@ with col1:
 with col2:
     st.write('Total Hours',total_hour)
 
+container = st.empty()
+button_A = container.button('Btn A')
 
-
-st.plotly_chart(chart1)
+if button_A is True:
+        container.empty()
+        st.plotly_chart(chart1)
+        button_B = container.button('Btn B')
+else:
+        st.plotly_chart(chart1_1)
+#myKey = 'my_key'
+#if myKey not in st.session_state:
+#        st.session_state[myKey] = False
+#if st.session_state[myKey]:
+#       myBtn = st.button('Button 1')
+#        st.plotly_chart(chart1)
+#        st.session_state[myKey] = False
+#else:
+#        myBtn = st.button('Button 2')
+#        st.plotly_chart(chart1_1)
+#        st.session_state[myKey] = True
+                  
 st.plotly_chart(chart2)
 st.subheader('Details')
 st.dataframe(df_time_task2)
