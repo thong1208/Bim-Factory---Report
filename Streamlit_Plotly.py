@@ -98,12 +98,19 @@ chart1 = px.bar(group_tsHour,
                 color='ProjectRule',
                 text_auto=True,
                 color_discrete_sequence=['#333333','#AAAAAA'],
+                
                 labels={
                         "TaskType" : "",
                         "TSHour" : "Hours",
                         "ProjectRule" : ""
                 })
-
+chart1.update_layout(legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=-0.7,
+            xanchor="left",
+            x=0.01
+            ))
 chart1_1 = px.bar(group_tsHour,
                 x='TSHour', y='TaskType' ,
                 orientation='h',
@@ -186,4 +193,3 @@ st.plotly_chart(chart1, use_container_width=True)
 st.plotly_chart(chart2, use_container_width=True)
 st.subheader('Details')
 st.dataframe(df_time_task2)
-st.write('OKe')
