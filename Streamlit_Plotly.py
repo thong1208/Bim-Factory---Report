@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from  plotly.subplots  import  make_subplots 
 
 #------------------------------------------------------------------------------------PHẦN TIÊU ĐỀ WEB-------------------------------------------------------------------------------------
-st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='Bim Factory - Report', layout="wide")
+st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='Bim Factory - Report')
 st.title('BIM Fee for Raffles MUR TD & SD')
 
 #-------------------------------------------------------------------------------------PHẦN ĐỌC DATA----------------------------------------------------------------------------------------
@@ -89,17 +89,21 @@ people = df_time_task2['UserId'].nunique() #nunique(): tính sự khác biệt
 
 
 #---------------------------------------------------------------------------------------------BIỂU DIỄN ĐỒ THỊ------------------------------------------------------------------------------
+HEIGHT = 300
+WIDTH = 500
 chart1 = px.bar(group_tsHour,
                 x='TSHour', y='TaskType' ,
                 orientation='h',
                 color='ProjectRule',
                 text_auto=True,
+                height=HEIGHT,
+                width= WIDTH,
                 color_discrete_sequence=['#333333','#AAAAAA'],
-                   labels={
-                            "TaskType" : "",
-                            "TSHour" : "Hours",
-                            "ProjectRule" : ""
-                   })
+                labels={
+                        "TaskType" : "",
+                        "TSHour" : "Hours",
+                        "ProjectRule" : ""
+                })
 
 chart2   =  make_subplots ( specs = [[{ "secondary_y" :  True}]]) 
 chart2 .add_trace(
@@ -128,7 +132,8 @@ chart2 .add_trace(
                    secondary_y=True, )
 
 chart2 .update_layout(yaxis2 = dict(range = [0,1000]),
-                      yaxis1 = dict (range = [0,14]))
+                      yaxis1 = dict (range = [0,14]),
+                      width = WIDTH)
 
 
 
