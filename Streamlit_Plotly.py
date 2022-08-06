@@ -90,7 +90,7 @@ people = df_time_task2['UserId'].nunique() #nunique(): tính sự khác biệt
 
 #---------------------------------------------------------------------------------------------BIỂU DIỄN ĐỒ THỊ------------------------------------------------------------------------------
 HEIGHT = 300
-WIDTH = 500
+WIDTH = 400
 chart1 = px.bar(group_tsHour,
                 x='TSHour', y='TaskType' ,
                 orientation='h',
