@@ -154,7 +154,13 @@ chart2 .add_trace(
 chart2 .update_layout(yaxis2 = dict(range = [0,1000]),
                       yaxis1 = dict (range = [0,14]),
                       )
-
+chart2.update_layout(legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=-0.7,
+            xanchor="left",
+            x=0.01
+            ))
 
 
 
