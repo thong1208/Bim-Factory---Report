@@ -149,4 +149,4 @@ st.plotly_chart(chart1)
 st.plotly_chart(chart2)
 st.subheader('Details')
 st.dataframe(df_time_task2)
-
+st.write('OKe')
