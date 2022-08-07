@@ -4,10 +4,18 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 from  plotly.subplots  import  make_subplots 
+from user_agents import parse
+import user_agents
+
 # layout='wide'
+#import rotatescreen
+#screen = rotatescreen.get_primary_display()
+
+#screen.rotate_to(i*90 % 180)
 #------------------------------------------------------------------------------------PHẦN TIÊU ĐỀ WEB-------------------------------------------------------------------------------------
 st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='Bim Factory - Report',)
 st.title('BIM Fee for Raffles MUR TD & SD')
+st.write(str(user_agents))
 
 #-------------------------------------------------------------------------------------PHẦN ĐỌC DATA----------------------------------------------------------------------------------------
 df_time_sheet = pd.DataFrame(pd.read_csv("Logs-DB.csv"))
