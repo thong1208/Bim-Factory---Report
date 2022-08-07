@@ -1,10 +1,9 @@
-
+from user_agents import parse
 import pandas as pd
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 from  plotly.subplots  import  make_subplots 
-import user_agents
 
 # layout='wide'
 #import rotatescreen
@@ -14,7 +13,13 @@ import user_agents
 #------------------------------------------------------------------------------------PHẦN TIÊU ĐỀ WEB-------------------------------------------------------------------------------------
 st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='Bim Factory - Report',)
 st.title('BIM Fee for Raffles MUR TD & SD')
-st.write(str(user_agents))
+user = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+user_agent = parse(user)
+st.write('Mobile',user_agent.is_mobile)
+st.write('Tablet',user_agent.is_tablet)
+st.write('Touch',user_agent.is_touch_capable)
+st.write('PC',user_agent.is_pc)
+st.write(str(user_agent))
 
 #-------------------------------------------------------------------------------------PHẦN ĐỌC DATA----------------------------------------------------------------------------------------
 df_time_sheet = pd.DataFrame(pd.read_csv("Logs-DB.csv"))
