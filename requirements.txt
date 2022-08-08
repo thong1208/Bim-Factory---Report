@@ -1,4 +1,4 @@
 pandas==1.4.3
 plotly==5.9.0
+pyodbc==4.0.34
 streamlit==1.11.1
-user_agents==2.2.0
