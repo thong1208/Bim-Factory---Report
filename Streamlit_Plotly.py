@@ -218,6 +218,15 @@ with col1:
 with col2:
     st.markdown ( html_hours, unsafe_allow_html=True )
 
+
+col11, col22 = st.columns(2)
+
+with col11:
+    st.plotly_chart(chart1, config=config, use_container_width=True)  
+    
+with col22:
+    st.plotly_chart(chart2, config=config, use_column_width=True)  
+    
 st.plotly_chart(chart1, config=config, use_container_width=True)                 
 st.plotly_chart(chart2, config=config, use_container_width=True)
 st.subheader('Details')
