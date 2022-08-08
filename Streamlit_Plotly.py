@@ -82,7 +82,6 @@ total_hour = df_time_task2['TSHour'].sum()
 #projects = df_time_task['ProjectId'].nunique() 
 people = df_time_task2['UserId'].nunique() #nunique(): tính sự khác biệt
 
-
 #-------------------
 #chart_hours = px.histogram(df_time_task, x='TaskType', y='TSHour', color='ProjectRule', text_auto= True,
 #                           labels={
@@ -221,5 +220,15 @@ with col2:
     
 st.plotly_chart(chart1, config=config, use_container_width=True)                 
 st.plotly_chart(chart2, config=config, use_container_width=True)
+
 st.subheader('Details')
-st.dataframe(df_time_task2)
+df_details = df_time_task2[['ProjectName', 'TaskType' , 'ProjectRule' , 'TSDate', 'TSHour']]
+df_details = df_details.rename ({'ProjectRule': 'Project Role',
+                                 'TSDate': 'TS Date',
+                                 'TSHour': 'TS Hour',
+                                 'TaskType' : 'Task Type',
+                                 'ProjectName' : 'Project Name'}, axis=1)
+
+blankIndex=[''] * len(df_details)
+df_details.index=blankIndex
+st.dataframe(df_details)
