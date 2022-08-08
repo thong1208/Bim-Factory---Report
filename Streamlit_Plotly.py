@@ -15,7 +15,7 @@ st.title('BIM Fee for Raffles MUR TD & SD')
 #df_project = pd.DataFrame(pd.read_csv("tbProject.csv"))
 
 #--------------Connect SQL Server---------------
-conn_sqlServer = pyodbc.connect('Driver={SQL Server Native Client 11.0};'
+conn_sqlServer = pyodbc.connect('Driver={SQL Server};'
                                 'Server=192.168.67.252;'
                                 'Database=Polaris;'
                                 'UID=client;'
