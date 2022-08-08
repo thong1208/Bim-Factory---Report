@@ -225,7 +225,7 @@ with col11:
     st.plotly_chart(chart1, config=config, use_container_width=True)  
     
 with col22:
-    st.plotly_chart(chart2, config=config, use_column_width=True)  
+    st.plotly_chart(chart2, config=config, use_container_width=True)  
     
 st.plotly_chart(chart1, config=config, use_container_width=True)                 
 st.plotly_chart(chart2, config=config, use_container_width=True)
