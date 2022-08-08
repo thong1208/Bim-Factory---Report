@@ -1,28 +1,31 @@
-from cgitb import html
-from user_agents import parse
 import pandas as pd
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
-from  plotly.subplots  import  make_subplots 
+from  plotly.subplots  import  make_subplots
+import pyodbc 
 
-
-
-from urllib import request
-from bs4 import BeautifulSoup
-# layout='wide'
-#import rotatescreen
-#screen = rotatescreen.get_primary_display()
-
-#screen.rotate_to(i*90 % 180)
 #------------------------------------------------------------------------------------PHẦN TIÊU ĐỀ WEB-------------------------------------------------------------------------------------
 st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='Bim Factory - Report', layout='wide')
 st.title('BIM Fee for Raffles MUR TD & SD')
 
 #-------------------------------------------------------------------------------------PHẦN ĐỌC DATA----------------------------------------------------------------------------------------
-df_time_sheet = pd.DataFrame(pd.read_csv("Logs-DB.csv"))
-df_task = pd.DataFrame(pd.read_csv("tbTask.csv"))
-df_project = pd.DataFrame(pd.read_csv("tbProject.csv"))
+#df_time_sheet = pd.DataFrame(pd.read_csv("Logs-DB.csv"))
+#df_task = pd.DataFrame(pd.read_csv("tbTask.csv"))
+#df_project = pd.DataFrame(pd.read_csv("tbProject.csv"))
+
+#--------------Connect SQL Server---------------
+conn_sqlServer = pyodbc.connect('Driver={SQL Server};'
+                                'Server=192.168.67.252;'
+                                'Database=Polaris;'
+                                'UID=client;'
+                                'PWD=PolarisTBF2020;')
+sql_query1 = 'Select * From tbTimeSheet'
+sql_query2 = 'Select * From tbTask'
+sql_query3 = 'Select * From tbProject'
+df_time_sheet = pd.DataFrame(pd.read_sql(sql_query1, conn_sqlServer))
+df_task = pd.DataFrame(pd.read_sql(sql_query2, conn_sqlServer))
+df_project = pd.DataFrame(pd.read_sql(sql_query3, conn_sqlServer))
 
 df_time_sheet = df_time_sheet[['ProjectId', 'TaskId', 'UserId', 'ProjectRule', 'TSDate', 'TSHour' ]]
 df_task = df_task[['ProjectId', 'TaskId', 'TaskType']]
@@ -50,15 +53,17 @@ st.sidebar.header("Options filter")
 
 df_time_task2 = df_time_task
 project_name = df_time_task2['ProjectName'].unique().tolist()
+
+
 project_selection = st.sidebar.multiselect("Project: ",
                                     project_name,
                                     default=project_name,
                                     )
 
+
 project_role = df_time_task2['ProjectRule'].unique().tolist()
-project_role2 = project_role
 role_selection = st.sidebar.multiselect("Project Role: ",
-                                project_role2,
+                                project_role,
                                 default=project_role[0:2])
 
 
@@ -101,8 +106,7 @@ people = df_time_task2['UserId'].nunique() #nunique(): tính sự khác biệt
 
 
 #---------------------------------------------------------------------------------------------BIỂU DIỄN ĐỒ THỊ------------------------------------------------------------------------------
-HEIGHT = 250
-WIDTH = 400
+
 config = dict({'staticPlot': True})
 chart1 = px.bar(group_tsHour,
                 x='TSHour', y='TaskType' ,
@@ -123,19 +127,7 @@ chart1.update_layout(legend=dict(
             x=0.01
             )
             )
-chart1_1 = px.bar(group_tsHour,
-                x='TSHour', y='TaskType' ,
-                orientation='h',
-                color='ProjectRule',
-                text_auto=True,
-                height=HEIGHT,
-                width= WIDTH,
-                color_discrete_sequence=['#333333','#AAAAAA'],
-                labels={
-                        "TaskType" : "",
-                        "TSHour" : "Hours",
-                        "ProjectRule" : ""
-                })
+
 
 chart2   =  make_subplots ( specs = [[{ "secondary_y" :  True}]]) 
 chart2 .add_trace(
@@ -163,8 +155,8 @@ chart2 .add_trace(
                    text=group['TSHour'].cumsum()),
                    secondary_y=True, )
 
-chart2 .update_layout(yaxis2 = dict(range = [0,1000]),
-                      yaxis1 = dict (range = [0,25]),
+chart2 .update_layout(yaxis2 = dict(range = [0,1200]),
+                      yaxis1 = dict (range = [0,15]),
                       )
 chart2.update_layout(legend=dict(
             orientation="h",
@@ -228,7 +220,8 @@ df_details = df_details.rename ({'ProjectRule': 'Project Role',
                                  'TSHour': 'TS Hour',
                                  'TaskType' : 'Task Type',
                                  'ProjectName' : 'Project Name'}, axis=1)
-
+#Ẩn cột chỉ mục 
 blankIndex=[''] * len(df_details)
 df_details.index=blankIndex
+
 st.dataframe(df_details)
