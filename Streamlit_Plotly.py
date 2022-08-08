@@ -209,7 +209,7 @@ html_hours =   f'''
                 <h1 style= "color: White; text-align: center; font-size: 20px;">Total Hours: {total_hour}</h1>
                 </div>
                 '''
-col1, col2, col3, col4 = st.columns(4)
+col1, col2 = st.columns(2)
 
 with col1:
     st.markdown ( html_people, unsafe_allow_html=True )
