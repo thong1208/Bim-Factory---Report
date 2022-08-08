@@ -104,13 +104,13 @@ people = df_time_task2['UserId'].nunique() #nunique(): tính sự khác biệt
 #---------------------------------------------------------------------------------------------BIỂU DIỄN ĐỒ THỊ------------------------------------------------------------------------------
 HEIGHT = 250
 WIDTH = 400
+config = dict({'staticPlot': True})
 chart1 = px.bar(group_tsHour,
                 x='TSHour', y='TaskType' ,
                 orientation='h',
                 color='ProjectRule',
                 text_auto=True,
                 color_discrete_sequence=['#333333','#AAAAAA'],
-                
                 labels={
                         "TaskType" : "",
                         "TSHour" : "Hours",
@@ -122,7 +122,8 @@ chart1.update_layout(legend=dict(
             y=-0.4,
             xanchor="left",
             x=0.01
-            ))
+            )
+            )
 chart1_1 = px.bar(group_tsHour,
                 x='TSHour', y='TaskType' ,
                 orientation='h',
@@ -217,7 +218,7 @@ with col1:
 with col2:
     st.markdown ( html_hours, unsafe_allow_html=True )
 
-st.plotly_chart(chart1, use_container_width=True, use_container_height = True)                 
-st.plotly_chart(chart2, use_container_width=True)
+st.plotly_chart(chart1, config=config, use_container_width=True)                 
+st.plotly_chart(chart2, config=config, use_container_width=True)
 st.subheader('Details')
 st.dataframe(df_time_task2)
