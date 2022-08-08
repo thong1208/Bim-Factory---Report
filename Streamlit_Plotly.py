@@ -1,3 +1,4 @@
+from cgitb import html
 from user_agents import parse
 import pandas as pd
 import streamlit as st
@@ -5,21 +6,18 @@ import plotly.express as px
 import plotly.graph_objects as go
 from  plotly.subplots  import  make_subplots 
 
+
+
+from urllib import request
+from bs4 import BeautifulSoup
 # layout='wide'
 #import rotatescreen
 #screen = rotatescreen.get_primary_display()
 
 #screen.rotate_to(i*90 % 180)
 #------------------------------------------------------------------------------------PHẦN TIÊU ĐỀ WEB-------------------------------------------------------------------------------------
-st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='Bim Factory - Report',)
+st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='Bim Factory - Report', layout='wide')
 st.title('BIM Fee for Raffles MUR TD & SD')
-user = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
-user_agent = parse(user)
-st.write('Mobile',user_agent.is_mobile)
-st.write('Tablet',user_agent.is_tablet)
-st.write('Touch',user_agent.is_touch_capable)
-st.write('PC',user_agent.is_pc)
-st.write(str(user_agent))
 
 #-------------------------------------------------------------------------------------PHẦN ĐỌC DATA----------------------------------------------------------------------------------------
 df_time_sheet = pd.DataFrame(pd.read_csv("Logs-DB.csv"))
@@ -48,16 +46,18 @@ df_time_task = df_time_task.join(df_project.set_index(['ProjectId']),
 
 
 #------------------------------------------------------------------------------------Filter Dataframe--------------------------------------------------------------------------------------
+st.sidebar.header("Options filter")
+
 df_time_task2 = df_time_task
 project_name = df_time_task2['ProjectName'].unique().tolist()
-project_selection = st.multiselect("Project: ",
+project_selection = st.sidebar.multiselect("Project: ",
                                     project_name,
                                     default=project_name,
                                     )
 
 project_role = df_time_task2['ProjectRule'].unique().tolist()
 project_role2 = project_role
-role_selection = st.multiselect("Project Role: ",
+role_selection = st.sidebar.multiselect("Project Role: ",
                                 project_role2,
                                 default=project_role[0:2])
 
@@ -119,7 +119,7 @@ chart1 = px.bar(group_tsHour,
 chart1.update_layout(legend=dict(
             orientation="h",
             yanchor="bottom",
-            y=-0.3,
+            y=-0.4,
             xanchor="left",
             x=0.01
             ))
@@ -164,7 +164,7 @@ chart2 .add_trace(
                    secondary_y=True, )
 
 chart2 .update_layout(yaxis2 = dict(range = [0,1000]),
-                      yaxis1 = dict (range = [0,14]),
+                      yaxis1 = dict (range = [0,25]),
                       )
 chart2.update_layout(legend=dict(
             orientation="h",
@@ -177,15 +177,6 @@ chart2.update_layout(legend=dict(
 
 
 #------------------------------------------------------------------------------HIỂN THỊ DATA LÊN STREAMLIT------------------------------------------------------------------------------
-
-col1, col2 = st.columns(2)
-
-with col1:
-    st.write('People',people)
-    
-with col2:
-    st.write('Total Hours',total_hour)
-
 #container = st.empty()
 #button_A = container.button('Btn A')
 
@@ -207,7 +198,26 @@ with col2:
 #        st.plotly_chart(chart1_1)
 #        st.session_state[myKey] = True
 
-st.plotly_chart(chart1, use_container_width=True)                 
+html_people =   f'''
+                <div style="background-color: Black; padding: 5px">
+                <h1 style= "color: White; text-align: center; font-size: 20px;">People: {people}</h1>
+                </div>
+                '''
+                
+html_hours =   f'''
+                <div style="background-color: Black; padding: 5px; ">
+                <h1 style= "color: White; text-align: center; font-size: 20px;">Total Hours: {total_hour}</h1>
+                </div>
+                '''
+col1, col2, col3, col4 = st.columns(4)
+
+with col1:
+    st.markdown ( html_people, unsafe_allow_html=True )
+    
+with col2:
+    st.markdown ( html_hours, unsafe_allow_html=True )
+
+st.plotly_chart(chart1, use_container_width=True, use_container_height = True)                 
 st.plotly_chart(chart2, use_container_width=True)
 st.subheader('Details')
 st.dataframe(df_time_task2)
