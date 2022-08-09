@@ -10,22 +10,22 @@ st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78
 st.title('BIM Fee for Raffles MUR TD & SD')
 
 #-------------------------------------------------------------------------------------PHẦN ĐỌC DATA----------------------------------------------------------------------------------------
-#df_time_sheet = pd.DataFrame(pd.read_csv("Logs-DB.csv"))
-#df_task = pd.DataFrame(pd.read_csv("tbTask.csv"))
-#df_project = pd.DataFrame(pd.read_csv("tbProject.csv"))
+df_time_sheet = pd.DataFrame(pd.read_csv("Logs-DB.csv"))
+df_task = pd.DataFrame(pd.read_csv("tbTask.csv"))
+df_project = pd.DataFrame(pd.read_csv("tbProject.csv"))
 
 #--------------Connect SQL Server---------------
-conn_sqlServer = pyodbc.connect('Driver={ODBC Driver 17 for SQL Server};'
-                                'Server=192.168.67.252;'
-                                'Database=Polaris;'
-                                'UID=client;'
-                                'PWD=PolarisTBF2020;')
-sql_query1 = 'Select * From tbTimeSheet'
-sql_query2 = 'Select * From tbTask'
-sql_query3 = 'Select * From tbProject'
-df_time_sheet = pd.DataFrame(pd.read_sql(sql_query1, conn_sqlServer))
-df_task = pd.DataFrame(pd.read_sql(sql_query2, conn_sqlServer))
-df_project = pd.DataFrame(pd.read_sql(sql_query3, conn_sqlServer))
+#conn_sqlServer = pyodbc.connect('Driver={ODBC Driver 17 for SQL Server};'
+#                                'Server=192.168.67.252;'
+#                                'Database=Polaris;'
+#                                'UID=client;'
+#                                'PWD=PolarisTBF2020;')
+#sql_query1 = 'Select * From tbTimeSheet'
+#sql_query2 = 'Select * From tbTask'
+#sql_query3 = 'Select * From tbProject'
+#df_time_sheet = pd.DataFrame(pd.read_sql(sql_query1, conn_sqlServer))
+#df_task = pd.DataFrame(pd.read_sql(sql_query2, conn_sqlServer))
+#df_project = pd.DataFrame(pd.read_sql(sql_query3, conn_sqlServer))
 
 df_time_sheet = df_time_sheet[['ProjectId', 'TaskId', 'UserId', 'ProjectRule', 'TSDate', 'TSHour' ]]
 df_task = df_task[['ProjectId', 'TaskId', 'TaskType']]
