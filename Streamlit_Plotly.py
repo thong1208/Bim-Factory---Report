@@ -6,7 +6,7 @@ from  plotly.subplots  import  make_subplots
 import pyodbc 
 
 #------------------------------------------------------------------------------------PHẦN TIÊU ĐỀ WEB-------------------------------------------------------------------------------------
-st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='Bim Factory - Report', layout='wide')
+st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='THE BIM FACTORY', layout='wide')
 st.title('BIM Fee for Raffles MUR TD & SD')
 
 #-------------------------------------------------------------------------------------PHẦN ĐỌC DATA----------------------------------------------------------------------------------------
@@ -128,6 +128,8 @@ chart1.update_layout(legend=dict(
             )
             )
 
+#format ngày thành kiểu theo mong muốn
+#group['TSDate'] = group['TSDate'].dt.strftime('%d - %b') 
 
 chart2   =  make_subplots ( specs = [[{ "secondary_y" :  True}]]) 
 chart2 .add_trace(
@@ -155,9 +157,22 @@ chart2 .add_trace(
                    text=group['TSHour'].cumsum()),
                    secondary_y=True, )
 
-chart2 .update_layout(yaxis2 = dict(range = [0,1200]),
-                      yaxis1 = dict (range = [0,15]),
-                      )
+maxHour = float(str(group['TSHour'].cumsum().max()))
+maxUser = int(str(group['UserId'].max())) + 1
+rangeHour = 0
+for n in [10, 20, 50, 100, 200]:
+        check = maxUser * n
+        if check >= maxHour:
+                rangeHour = check
+                break
+       
+chart2 .update_layout(yaxis2 = dict(range = [0,rangeHour]),
+                      yaxis1 = dict (range = [0,maxUser]),
+                      xaxis = dict(type='date',
+                                nticks=40,
+                                tickformat="%d\n%b - %Y",
+                                tickangle=0,)
+                        )
 chart2.update_layout(legend=dict(
             orientation="h",
             yanchor="bottom",
@@ -165,6 +180,7 @@ chart2.update_layout(legend=dict(
             xanchor="left",
             x=0.05
             ))
+
 
 
 
