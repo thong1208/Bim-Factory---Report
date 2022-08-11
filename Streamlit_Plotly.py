@@ -85,7 +85,7 @@ df_time_sheet = df_time_sheet.convert_dtypes()
 #------TÍNH TOÁN CÁC SỐ---------------------------------
 total_hour = df_time_task2['TSHour'].sum() 
 #projects = df_time_task['ProjectId'].nunique() 
-people = df_time_task2['UserId'].nunique() #nunique(): tính sự khác biệt
+people = group['UserId'].max() #nunique(): tính sự khác biệt
 
 #-------------------
 #chart_hours = px.histogram(df_time_task, x='TaskType', y='TSHour', color='ProjectRule', text_auto= True,
